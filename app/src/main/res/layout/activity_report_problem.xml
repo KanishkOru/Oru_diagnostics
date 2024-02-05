@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/terms_conditions_toolbar"
+        layout="@layout/custom_toolbar" />
+    <!--Body -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                     <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/main_bg_gray"
+                        android:fontFamily="@font/roboto_bold"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/padding_m"
+                        android:paddingBottom="4dp"
+                        android:text="@string/rap_h"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_m"
+                        />
+
+                    <TextView
+                        android:id="@+id/required"
+                        style="@style/rap_title.sub"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/required"
+                        android:textColor="@color/red"
+                        android:padding="0dp"
+                        android:textSize="12sp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rapDesHeading"
+                        style="@style/rap_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/rap_description_h" />
+
+                    <EditText
+                        android:id="@+id/rapDes"
+                        style="@style/rap_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:hint="@string/rap_description_hint"
+                        android:inputType="textMultiLine"
+                        android:gravity="center_horizontal|top"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/rap_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/device_info_imei" />
+
+                    <TextView
+                        android:id="@+id/rapIMEI"
+                        style="@style/rap_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:background="@color/gray"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rapNameHeading"
+                        style="@style/rap_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/rap_name_h" />
+
+                    <EditText
+                        android:id="@+id/rapName"
+                        style="@style/rap_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/rap_name_hint" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/rapPhoneHeading"
+                        style="@style/rap_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/rap_phone_h" />
+
+                    <EditText
+                        android:id="@+id/rapPhone"
+                        style="@style/rap_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/rap_phone_hint"
+                        android:inputType="phone"
+                        android:maxLength="14"
+                        />
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/rapPolicy"
+                    style="@style/rap_title.sub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/rap_info_text"
+                    android:padding="32dp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <com.oruphones.nativediagnostic.common.CustomButton
+            android:id="@+id/rapSend"
+            style="@style/textStyle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_selector"
+            android:minWidth="160dp"
+            android:padding="@dimen/button_padding"
+            android:text="@string/rap_send" />
+
+    </LinearLayout>
+
+</LinearLayout>

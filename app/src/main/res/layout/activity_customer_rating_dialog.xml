@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cust_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/rate_your_customer"
+            style="@style/rap_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="@string/rate_your_experience"
+            android:textColor="@color/backgroundColor"
+            android:visibility="visible"
+            android:textSize="24sp"
+            android:fontFamily="@font/roboto_bold"
+            />
+
+        <TextView
+            android:id="@+id/cust_rate_head"
+            style="@style/rap_title.bg_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="@string/cust_satisfy_title"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/cust_rate_msg"
+            style="@style/rap_title.bg_white"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_rate_head"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="@string/cust_satisfy_msg"
+            android:visibility="visible" />
+
+        <RadioGroup
+            android:id="@+id/rating_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cust_rate_msg"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="36dp"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:id="@+id/excellent_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:button="@drawable/excellent_rating_radio_btn"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="36dp"
+                android:layout_weight=".5" />
+
+            <RadioButton
+                android:id="@+id/good_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:button="@drawable/good_rating_radio_btn" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="36dp"
+                android:layout_weight=".5" />
+
+            <RadioButton
+                android:id="@+id/bad_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/bad_rating_radio_btn" />
+
+            <View
+                android:layout_width="0dip"
+                android:layout_height="36dp"
+                android:layout_weight="1" />
+        </RadioGroup>
+        <!--    <android.support.v7.widget.AppCompatSpinner android:id="@+id/reason_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rating_layout"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone"
+                />-->
+        <RelativeLayout
+            android:id="@+id/spinner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/rating_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="24dp"
+            android:background="@color/gray"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="4dp"
+            >
+
+            <FrameLayout
+                android:id="@+id/spinner_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+
+                android:visibility="visible">
+
+                <TextView
+                    android:padding="4dp"
+                    android:id="@+id/txtSelectedItem"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center_vertical"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:hint="@string/reason_for_rating"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="16sp"
+                    android:singleLine="true" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imgdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/spinner_frame"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_dropdown" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner_layout"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/customer_rating_button_padding_left"
+            android:paddingTop="@dimen/customer_rating_button_padding_top"
+            android:paddingRight="@dimen/customer_rating_button_padding_right"
+            android:paddingBottom="@dimen/customer_rating_button_padding_bottom"
+            android:text="@string/submit"
+            style="?buttonsTestPositiveStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "510935460380",
+    "project_id": "oru-phones",
+    "storage_bucket": "oru-phones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510935460380:android:b2758b5691f544cd56cdd9",
+        "android_client_info": {
+          "package_name": "com.oruphones.oru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510935460380-qf3fjqn7qi9occnta7snkbral1sthrep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRmV1XdLsUdNCXYZBvqls7MkkW7SqgF4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510935460380-qf3fjqn7qi9occnta7snkbral1sthrep.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "510935460380-holujqf34ro8s9bhe5v0etkj8kj313ug.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oruphones.fluttertest"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510935460380:android:0cc5ae9f60981ad456cdd9",
+        "android_client_info": {
+          "package_name": "com.oruphones.oruindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510935460380-qf3fjqn7qi9occnta7snkbral1sthrep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRmV1XdLsUdNCXYZBvqls7MkkW7SqgF4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510935460380-qf3fjqn7qi9occnta7snkbral1sthrep.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "510935460380-holujqf34ro8s9bhe5v0etkj8kj313ug.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oruphones.fluttertest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

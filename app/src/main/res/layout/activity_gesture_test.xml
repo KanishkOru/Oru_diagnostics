@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_manual_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/custom_toolbar"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/gestureGifViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+            <include
+                layout="@layout/manual_test_layout" />
+            <!--<pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:background="@color/main_bg_gray"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="@dimen/manualtest_padding">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/gesture_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/bottomLayout"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/btnUp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/ic_checkblank" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:text="@string/str_gesture_up"
+                                android:textColor="@color/thick_grey"
+                                android:textSize="@dimen/manualtest_message" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/btnDown"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/ic_checkblank" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:text="@string/str_gesture_down"
+                                android:textColor="@color/thick_grey"
+                                android:textSize="@dimen/manualtest_message" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:id="@+id/btnLeft"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/ic_checkblank" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:text="@string/str_gesture_left"
+                                android:textColor="@color/thick_grey"
+                                android:textSize="@dimen/manualtest_message" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/btnRight"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@drawable/ic_checkblank" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10dp"
+                                android:text="@string/str_gesture_right"
+                                android:textColor="@color/thick_grey"
+                                android:textSize="@dimen/manualtest_message" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bottomLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/main_bg_gray"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+
+                    <com.oruphones.nativediagnostic.common.CustomButton
+                        android:id="@+id/failtest_btn"
+                        android:layout_width="@dimen/custom_center_btn_width"
+                        android:layout_height="@dimen/custom_btn_height"
+                        android:minWidth="64dp"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/button_padding"
+                        android:text="@string/result_fail"
+                        style="?buttonsTestPositiveStyle" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

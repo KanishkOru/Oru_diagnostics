@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomescreen"
+    android:fitsSystemWindows="true">
+
+
+    <ImageView
+        android:id="@+id/endingSessionIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/ending_session_icon_margin_top"
+        android:src="@drawable/endingsession"
+        android:visibility="gone" />
+
+    <com.oruphones.nativediagnostic.common.DiagnosticsTextView
+        android:id="@+id/endingSessionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/endingSessionIcon"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@string/Aileron_Light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/endsession_message"
+        android:textColor="@color/light_black"
+        android:textSize="@dimen/ending_session_text_size" />
+
+    <com.oruphones.nativediagnostic.common.DiagnosticsTextView
+        android:id="@+id/diagnosticsview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/endingSessionText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@string/Aileron_Light"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/endsession_name"
+        android:textColor="@color/backgroundColor"
+        android:textSize="35sp"
+        android:visibility="visible" />
+
+    <com.oruphones.nativediagnostic.common.DiagnosticsTextView
+        android:id="@+id/endsession_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/EndingSessionFinishButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@string/Aileron_Light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/endsession_suggestion"
+        android:textColor="@color/light_black"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+        android:id="@+id/EndingSessionFinishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/ending_session_button_margin_bottom"
+        android:onClick="onEndingButtonClick"
+        android:paddingBottom="@dimen/terms_codition_button_padding_bottom"
+        android:paddingLeft="@dimen/terms_codition_button_padding_left"
+        android:paddingRight="@dimen/terms_codition_button_padding_right"
+        android:paddingTop="@dimen/terms_codition_button_padding_top"
+        android:text="@string/end_session"
+
+        android:textSize="@dimen/button_textsize"
+        style="?buttonsTestPositiveStyle"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/list_item_bg_rounded_corner"
+    android:padding="@dimen/elevation_padding"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/images_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/menu_battery" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.85"
+        android:layout_marginLeft="@dimen/elevation_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/test_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/category_text_padding"
+            android:paddingTop="@dimen/category_text_padding"
+            android:text="@string/accept"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:id="@+id/test_subname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/accept"
+            android:textColor="@color/serveice_desc_color"
+            android:textSize="@dimen/category_sub_text_size" />
+    </LinearLayout>
+</LinearLayout>

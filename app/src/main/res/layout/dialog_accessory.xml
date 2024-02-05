@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cust_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/dialogAccessoryTitle"
+            style="@style/textStyleH_black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/accessory_dialog_title"
+            android:visibility="visible"
+            android:fontFamily="@font/aileron_semibold"
+            />
+
+
+
+        <TextView
+            android:id="@+id/dialogAccessoryMessage"
+            style="@style/textStyleT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/accessory_dialog_message"
+            android:visibility="visible"
+            android:padding="8dp"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/text_sizeM"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/dialogAccessoryRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            >
+
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <com.oruphones.nativediagnostic.common.CustomButton
+            android:id="@+id/accessoryOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/str_ok"
+            style="?buttonsTestPositiveStyle" />
+    </LinearLayout>
+</LinearLayout>

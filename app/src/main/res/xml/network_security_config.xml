@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+<!--    put subdomains here to allow clear traffic sources-->
+<!--    <domain-config cleartextTrafficPermitted="true">-->
+<!--        <domain includeSubdomains="true">example.com</domain>-->
+<!--        &lt;!&ndash; Add more domains as needed &ndash;&gt;-->
+<!--    </domain-config>-->
+</network-security-config>

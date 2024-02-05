@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_manual_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".manualtests.ManualTestsActivity">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_shadow_toolbar" />
+
+
+    <LinearLayout
+        android:id="@+id/choose_tests"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@+id/custom_toolbar"
+        android:background="@color/main_bg_gray"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <TextView
+            android:id="@+id/select_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/diagnostics_infotext"
+            android:textAppearance="@style/textStyle_heading" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_alltest_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_tests"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <CheckBox
+            android:id="@+id/checkall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/select_alltests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/select_all"
+            android:textAppearance="@style/textStyle_subheading" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dummyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@id/select_alltest_layout"
+        android:background="@color/main_bg_gray" />
+    <!-- <View
+         android:id="@+id/listvie"
+         android:layout_width="match_parent"
+         android:layout_height="52dp"
+         android:layout_above="@id/listview"
+         android:layout_below="@id/select_alltest_layout"
+         android:background="@color/main_bg_gray"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/manualTestRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="5dp"
+        android:layout_above="@+id/btn_layout"
+        android:layout_below="@+id/dummyLayout"
+        android:dividerHeight="0dp"/>
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@color/main_bg_gray"
+        android:layout_alignParentBottom="true">
+
+        <include layout="@layout/continue_layout" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_record_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/custom_toolbar"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:id="@+id/microphone_test_tips_for_global_access"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/tip_to_off_global_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/test_desc_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:orientation="vertical">
+            <include
+                layout="@layout/manual_test_layout" />
+
+            <androidx.cardview.widget.CardView
+                android:visibility="gone"
+                android:id="@+id/Timer_view"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/dialog_text_color"
+                app:cardCornerRadius="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="160dp"
+                android:layout_height="50dp">
+
+
+                <TextView
+                    android:id="@+id/timeLeftTextView"
+                    android:fontFamily="@font/opensans_light"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:text="Time Left"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/custom_toolbar"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/sensor_pngViewLayout_new"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:orientation="vertical">
+            &lt;!&ndash;<ImageView
+                android:id="@+id/png_image"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_microphone"/>&ndash;&gt;
+
+        </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="left"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timer_microphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_00_00"
+            android:textAlignment="center"
+            android:textColor="@color/red" />
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--<TextView
+                    android:id="@+id/test_name"
+                    style="@style/Manualtest_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/backgroundColor"
+                    android:text="Test Name"
+                    android:textSize="30sp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/test_description"
+                    style="@style/Manualtest_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/test_name"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="Test Description"
+                    android:textSize="15sp"/>-->
+
+                <Button
+                    android:id="@+id/camera_record_btn_new"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:visibility="visible"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="@drawable/button_camera_selector"
+                    />
+                <Button
+                    android:id="@+id/camera_play_btn_new"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="@drawable/ic_play"
+                    android:visibility="gone"
+                    />
+                <ProgressBar
+                    android:id="@+id/manual_Progressbar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:visibility="gone"
+                    android:indeterminateDrawable="@drawable/new_progressbar_style"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/result_btn_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone"
+                    tools:visibility="gone">
+
+                    <include layout="@layout/continue_three_button_layout" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

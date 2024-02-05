@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tips_container_section"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/black"
+    android:backgroundTint="@color/black"
+    android:orientation="vertical">
+
+    <!-- Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_item_bg_rounded_corner"
+        android:backgroundTint="@color/manual_test_name"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="Tip"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:id="@+id/subtitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:paddingBottom="16dp"
+            android:text="@string/instructionsforGlobalAccessOnlineSubline"
+            android:textColor="@color/white" />
+
+        <!-- Step 1 -->
+        <TextView
+            android:id="@+id/step1TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="@string/instructionsforGlobalAccessOnline1"
+            android:textColor="@color/white" />
+
+        <!-- Step 2 -->
+        <TextView
+            android:id="@+id/step2TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp"
+            android:text="@string/instructionsforGlobalAccessOnline2"
+            android:textColor="@color/white" />
+
+        <!-- Step 3 -->
+        <TextView
+            android:id="@+id/step3TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/instructionsforGlobalAccessOnline3"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

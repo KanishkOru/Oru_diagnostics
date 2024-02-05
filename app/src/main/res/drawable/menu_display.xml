@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+
+    <group
+        android:translateX="7.000000"
+        android:translateY="1.000000">
+        <path
+            android:fillType="evenOdd"
+            android:strokeColor="?backgroundColor"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="M26,24 L26,3 C26,1.34314575 24.6568542,0 23,0 L3,0 C1.34314575,0 0,1.34314575 0,3 L0,23.79" />
+        <path
+            android:fillType="evenOdd"
+            android:strokeColor="?backgroundColor"
+            android:strokeWidth="1.5"
+            android:pathData="M15.62,21.39 C18.1778985,20.1426374 19.5076734,17.2699923 18.8035997,14.5126315 C18.099526,11.7552708 15.5553142,9.8718224 12.71253,10.0034882 C9.86974576,10.135154 7.51051942,12.245709 7.06433187,15.056345 C6.61814432,17.866981 8.20775437,20.6044125 10.87,21.61" />
+        <path
+            android:fillType="evenOdd"
+            android:strokeColor="?backgroundColor"
+            android:strokeWidth="1.5"
+            android:pathData="M10.87,21.61 L10.87,30.72 C10.8669223,30.7754442 10.8313664,30.8238289 10.7793725,30.8433266 C10.7273785,30.8628243 10.6687753,30.8497493 10.63,30.81 L7.75,27.44 C7.12018095,26.5747254 5.95723814,26.2913903 5,26.77 C4.59394345,27.0278889 4.30954911,27.4391421 4.21159173,27.9100911 C4.11363434,28.3810401 4.21045447,28.8715859 4.48,29.27 L10.84,38.27 L22.38,38.27 L23.79,28.68 C23.8755065,28.0513969 23.5017515,27.4508691 22.9,27.25 L15.62,24.63 L15.62,16.18 C15.5913353,15.6224083 15.3308981,15.1021822 14.9016675,14.7451231 C14.4724369,14.388064 13.913493,14.2266811 13.36,14.3 C10.86,14.3 10.87,16.24 10.87,16.24 L10.87,21.61 Z" />
+        <path
+            android:fillType="evenOdd"
+            android:strokeColor="?backgroundColor"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="M 0 6 L 26 6" />
+    </group>
+</vector>

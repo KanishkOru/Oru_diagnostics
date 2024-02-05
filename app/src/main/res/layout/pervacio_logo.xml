@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sprint_logo_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    >
+
+    <ImageView
+        android:id="@+id/sprint_logo_img"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_square"/>
+
+    <!--<ImageView
+        android:id="@+id/splashAppIcon"
+        android:layout_width="76dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        android:layout_margin="34dp"
+
+        />
+
+    <TextView
+        android:id="@+id/splashAppTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/assisted"
+        android:theme="@style/appname_title"
+        android:visibility="visible"
+        android:textSize="32sp"
+        android:padding="0dp"
+        android:fontFamily="@font/aileron_regular"
+        />-->
+
+    <TextView
+        android:id="@+id/sprint_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnostics"
+        android:gravity="center"
+        android:theme="@style/appname_title"
+        android:textColor="?backgroundColor"
+        android:textSize="32sp"
+        android:padding="0dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/aileron_regular"
+        />
+</LinearLayout>

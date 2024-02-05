@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-config>
+    <product>SSD</product>
+    <store_id>mtfssdqa</store_id>
+    <company>Mobilicis</company>
+    <!--    <base_url> https://api.oruphones.com/mobiruv2/</base_url>-->
+    <base_url>https://prodbackend.oruphones.com/api/v1/</base_url>
+<!--    <base_url>https://devbackend.oruphones.com/api/v1/</base_url>-->
+<!--        <base_url> https://oruphones.herokuapp.com/api/v1/</base_url>-->
+<!--    <central_url>https://appstore.mobilicis.com</central_url>-->
+    <central_url>https://prodbackend.oruphones.com</central_url>
+
+    <transfer_mode>WDIRECT</transfer_mode>
+    <authentication_required>true</authentication_required>
+
+<!--    <server_url>https://appstore.mobilicis.com</server_url>-->
+    <server_url>https://prodbackend.oruphones.com</server_url>
+    <transaction_logging>true</transaction_logging>
+    <customer>ORUphones</customer>
+    <certification_required>false</certification_required>```````
+    <estimation_required>true</estimation_required>
+    <cloud_pairing>true</cloud_pairing>
+    <dynamic_estimation>false</dynamic_estimation>
+</product-config>
+
+
+
+
+

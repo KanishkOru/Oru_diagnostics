@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cust_dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_margin="4dp"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    >
+
+    <ImageView
+        android:id="@+id/accessoryItemIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/lastrestart" />
+
+    <TextView
+        android:id="@+id/accessoryItemText"
+        style="@style/textStyleH_black.H2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+       android:text="@string/str_ok"
+        android:textSize="@dimen/text_sizeM"
+
+        />
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_osoutdate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/resolutions_custom_toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/resolutions_custom_toolbar"
+        android:background="@color/main_bg_gray"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/recommondation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/settings_res_padding_left"
+            android:text="@string/wifi_recommondation_text"
+            android:textAppearance="@style/textStyle_subheading" />
+
+        <LinearLayout
+            android:id="@+id/toggleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recommondation_text"
+            android:layout_marginTop="75dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="@dimen/settings_res_padding_left"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/resolution_on_off_tv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:paddingLeft="@dimen/settings_res_padding_left"
+                android:text="@string/gps_on"
+                android:textAppearance="@style/textStyle_subheading" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/toggle_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:layout_weight="0.25"
+                android:checked="true"
+                android:clickable="true"
+                app:switchMinWidth="50dp"
+                android:gravity="end"
+                android:paddingRight="@dimen/settings_res_padding_left"
+                android:textOn="@string/on"
+                android:theme="@style/toggleSwitch" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/note_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toggleLayout"
+            android:layout_marginTop="@dimen/setting_res_text_margin"
+            android:paddingLeft="@dimen/settings_res_padding_left"
+            android:text="@string/note_text"
+            android:textAppearance="@style/textStyle_body"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <com.oruphones.nativediagnostic.common.CustomButton
+                android:id="@+id/cancel_tv"
+                android:layout_width="@dimen/custom_btn_width"
+                android:layout_height="@dimen/custom_btn_height"
+                android:minWidth="64dp"
+                android:padding="4dp"
+                android:text="@string/action_cancel"
+                style="?buttonTestNegativeStyle"
+                android:textStyle="bold"
+
+                />
+
+            <com.oruphones.nativediagnostic.common.CustomButton
+                android:id="@+id/accept_tv"
+                style="?buttonsTestPositiveStyle"
+                android:layout_width="@dimen/custom_btn_width"
+                android:layout_height="@dimen/custom_btn_height"
+                android:minWidth="64dp"
+                android:padding="4dp"
+                android:text="@string/done"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

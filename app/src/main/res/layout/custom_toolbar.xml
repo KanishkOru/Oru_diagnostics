@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/dp_10">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?toolbarColor"
+            android:backgroundTint="@color/colorPrimary"
+            app:popupTheme="?popupOverlayStyle">
+
+                        <ImageButton
+                            android:visibility="gone"
+                            android:id="@+id/btnBack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="?android:attr/selectableItemBackgroundBorderless"
+                            android:contentDescription="@string/back_button"
+                            android:paddingStart="16dp"
+                            android:paddingEnd="16dp"
+                            android:src="@drawable/back"
+                            app:tint="@color/black" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text="@string/diagnostics"
+                android:textAllCaps="true"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btnBack"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:foreground="?android:windowContentOverlay"
+        android:background="@drawable/background_shadow"
+        />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

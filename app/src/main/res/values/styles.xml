@@ -1,0 +1,628 @@
+<resources>
+
+
+    <style name="Theme.AppCompat.Light.Dialog" parent="Base.Theme.AppCompat.Light.Dialog"/>
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">@android:color/holo_blue_dark</item>
+        <item name="android:textColorSecondary">@android:color/holo_blue_dark</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+    </style>
+
+    <style name="Manualtest_title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="Manualtest_description" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="Manualtest_button" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/button_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@string/roboto_medium</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+
+    <style name="appname_title" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:padding">2dp</item>
+
+    </style>
+
+
+
+    <style name="textStyle_title" parent="android:Widget.TextView">
+        <item name="android:textColor">?backgroundColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="textStyle_title_middle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ssf_pro_medium</item>
+    </style>
+
+    <style name="textStyle_button" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <!--   <item name="android:fontFamily">@string/roboto_medium</item>-->
+    </style>
+    <style name="custom_btn_style" parent="android:Widget.TextView">
+      <item name="android:textColor" >@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textStyle_blue_button" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/backgroundColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <!--   <item name="android:fontFamily">@string/roboto_medium</item>-->
+    </style>
+
+    <style name="textStyle_heading" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="textStyle_subheading" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+
+    <style name="toggleSwitch" parent="Theme.AppCompat.Light">
+
+        <item name="colorControlActivated">@color/backgroundColor</item>
+        <item name="colorSwitchThumbNormal">#f1f1f1</item>
+
+        <item name="android:colorForeground">#42221f1f</item>
+    </style>
+
+    <style name="ratingBar">
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">#FFD700</item>
+    </style>
+
+    <style name="textStyle_body" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="educational_textStyle_body" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="textStyle_bodyHeading" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="textSmallStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="textStyleSmall" parent="android:Widget.TextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="ratingBarStyle" parent="android:style/Widget.Material.RatingBar">
+        <item name="colorControlNormal">@color/thick_grey</item>
+        <item name="colorControlActivated">@color/yellow</item>
+        <!--  <item name="colorControlActivated">@color/yellow</item>-->
+    </style>
+
+    <style name="textStyle_question" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="textStyle_options" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/roboto_light</item>
+    </style>
+
+    <style name="phy_dmg_body_style" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="phy_dmg_sub_heading" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/light_black</item>
+        <item name="android:fontFamily">@string/roboto_light</item>
+    </style>
+
+    <style name="DisplayandTouchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+
+    <!--RAP -->
+    <style name="rap_title" >
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:paddingTop">@dimen/padding_L</item>
+        <item name="android:paddingBottom">@dimen/padding_s</item>
+        <item name="android:paddingLeft">@dimen/padding_m</item>
+        <item name="android:paddingRight">@dimen/padding_m</item>
+        <item name="android:background">@color/main_bg_gray</item>
+    </style>
+
+    <style name="rap_title.bg_white" >
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="rap_title.sub" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+    <style name="rap_et" >
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">@dimen/padding_m</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/white_bg</item>
+    </style>
+
+    <!--Summery Screen  -->
+    <style name="summery_screen_heading" parent="textStyle_heading">
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="summery_screen_sub_heading" parent="textStyle_heading">
+    <item name="android:background">@color/main_bg_gray</item>
+    <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="summery_screen_item_name">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_sizeS</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">2dp</item>
+
+    </style>
+
+    <style name="summery_screen_item_status">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_sizeSs</item>
+        <item name="android:textColor">@color/text_summary_light</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">2dp</item>
+
+    </style>
+    <!--DEVICE INFO -->
+    <style name="deviceInfoContainer"  >
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:minHeight">84dp</item>
+    </style>
+
+    <!--Network Resolutions -->
+    <style name="networkResolutionsContainer"  >
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:minHeight">84dp</item>
+    </style>
+
+    <!--Network Info -->
+    <style name="networkInfoContainer"  >
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:minHeight">84dp</item>
+    </style>
+
+    <style name="deviceInfoValueText"  >
+        <item name="android:padding">4dp</item>
+        <item name="android:fontFamily">@font/aileron_light</item>
+        <item name="android:textColor">@color/device_info_name_color</item>
+        <item name="android:textSize">@dimen/device_info_tag_text_size</item>
+    </style>
+
+    <style name="deviceInfoTitleText"  >
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:fontFamily">@font/aileron_light</item>
+        <item name="android:textColor">@color/device_info_name_color</item>
+        <item name="android:textSize">@dimen/device_info_tag_text_size</item>
+    </style>
+
+    <!-- NEW STYLES -->
+    <style name="textStyleH_black" >
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/aileron_semibold</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+    <style name="textStyleH_black.H2" >
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textStyleH_black.H4" >
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="textStyleT" >
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/thick_grey</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+        <item name="android:layout_marginLeft">4dp</item>
+    </style>
+
+    <style name="textStyleT_T4" >
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="appBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <style name="popupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+
+    <style name="buttonTestPositive">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="buttonTestNegative">
+        <item name="android:textColor">@color/backgroundColor</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/grey_rounded_corner</item>
+        <item name="android:fontFamily">@font/aileron_regular</item>
+    </style>
+
+    <style name="tradeInSelectbutton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+
+    <style name="alertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/backgroundColor</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="alertDialog_mobiru" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/mobiru_color</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!--MEXICO STYLES-->
+
+    <style name="appBarOverlay_mexico" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+    <style name="popupOverlay_mexico" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="buttonTestPositive_mexico">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="buttonTestNegative_mexico">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+
+    <style name="alertDialog_mexico" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/backgroundColor_mexico</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <style name="device_info_prop_style" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:padding">@dimen/result_padding</item>
+        <item name="android:gravity">center_vertical|start</item>
+    </style>
+
+    <style name="device_info_value_style" parent="device_info_prop_style" >
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">@dimen/result_padding</item>
+        <item name="android:layout_marginRight">@dimen/result_padding</item>
+    </style>
+
+    <style name="networkInfoCatagory"  >
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:textColor">@color/network_info_catagory_color</item>
+        <item name="android:textSize">@dimen/network_info_catagory_font_size</item>
+    </style>
+
+    <style name="networkInfoLabelText"  >
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/network_info_label_color</item>
+        <item name="android:textSize">@dimen/network_info_value_font_size</item>
+    </style>
+
+    <style name="networkInfoColonText"  >
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/device_info_name_color</item>
+        <item name="android:textSize">@dimen/device_info_tag_text_size</item>
+    </style>
+
+
+    <style name="networkInfoValueText"  >
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/network_info_value_color</item>
+        <item name="android:textSize">@dimen/network_info_value_font_size</item>
+    </style>
+
+    <style name="networkResolutionsLabelText"  >
+        <item name="android:paddingLeft">28dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/network_info_label_color</item>
+        <item name="android:textSize">@dimen/network_info_value_font_size</item>
+    </style>
+
+    <style name="networkResolutionsColonText"  >
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/device_info_name_color</item>
+        <item name="android:textSize">@dimen/device_info_tag_text_size</item>
+    </style>
+
+    <style name="networkResolutionsValueText"  >
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">@color/network_info_value_color</item>
+        <item name="android:textSize">@dimen/network_info_value_font_size</item>
+    </style>
+
+    <style name="networkInfoSummaryElement" parent="android:Widget.TextView">
+<!--        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>-->
+<!--        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:padding">8dp</item>-->
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="networkInfoSummarySubheading" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="networkStatusBeforeAfter" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="flow_select_title" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@string/roboto_bold</item>
+    </style>
+
+    <style name="flow_select_desc" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:fontFamily">@string/roboto_bold</item>
+    </style>
+
+    <style name="manuale_test_name" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/manual_test_name</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="manuale_test_prev" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/manual_test_prev</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+
+
+    <!-- Mobiru -->
+    <style name="appBarOverlay_mobiru" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+    </style>
+
+    <style name="popupOverlay_mobiru" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="android:background">@color/mobiru_app_bar_bg</item>
+    </style>
+
+    <style name="mobiru_14_regular" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="manuale_test_desc" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+<!--        <item name="android:textColor">@color/manual_test_desc_color</item>-->
+                <item name="android:textColor">#999999</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="manuale_test_note" parent="android:Widget.TextView">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/manual_test_desc_color</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+
+    <style name="buttonTestNegative_mobiru">
+        <item name="android:textColor">@color/mobiru_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/grey_rounded_corner</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="buttonTestPositive_mobiru">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:fontFamily">@font/opensans_semibold</item>
+    </style>
+
+    <style name="dialog_title" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dialog_text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/opensans_bold</item>
+    </style>
+
+    <style name="dialog_mesage" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/dialog_text_color</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
+    </style>
+</resources>

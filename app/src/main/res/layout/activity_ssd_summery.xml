@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <ScrollView
+        android:id="@+id/summeryScreenScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomLayout"
+        android:layout_below="@id/custom_toolbar">
+
+        <LinearLayout
+            android:id="@+id/summeryScreenContentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/results_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:gravity="center"
+                android:text="Results"
+                android:textColor="@color/b_black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/internet_unavailable_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/summeryScreenScrollView"
+        android:background="@color/main_bg_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/text_internet_unavailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:background="@color/main_bg_gray"
+            android:maxLines="2"
+            android:padding="@dimen/resolution_padding"
+            android:text="@string/internet_unvailable_retry_summary"
+            android:textAppearance="@style/textStyle_subheading"
+            android:textColor="@color/red" />
+
+        <ImageButton
+            android:id="@+id/iv_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/btn_refresh" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.oruphones.nativediagnostic.common.CustomButton
+            android:id="@+id/footerDoneBt"
+            style="?buttonTestNegativeStyle"
+            android:layout_width="@dimen/custom_center_btn_width"
+            android:layout_height="@dimen/custom_btn_height"
+            android:minWidth="64dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:padding="@dimen/button_padding"
+            android:text="@string/btn_exit" />
+
+        <com.oruphones.nativediagnostic.common.CustomButton
+            android:id="@+id/send_summary"
+            style="?buttonsTestPositiveStyle"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:layout_width="@dimen/custom_center_btn_width"
+            android:layout_height="@dimen/custom_btn_height"
+            android:minWidth="64dp"
+            android:padding="4dp"
+            android:text="@string/send_summary" />
+    </LinearLayout>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/result_upload_progress"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+</RelativeLayout>

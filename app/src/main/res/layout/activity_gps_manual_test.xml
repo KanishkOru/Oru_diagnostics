@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_record_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/sensor_pngViewLayout_new"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:orientation="vertical">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/myMap"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:background="@color/main_bg_gray"
+            android:gravity="left"
+            android:padding="15dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/test_description"
+                    style="@style/Manualtest_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/test_name"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="@string/gpsmanual_result_message"
+                    android:textSize="15sp" />
+
+                <ProgressBar
+                    android:layout_below="@+id/test_description"
+                    android:id="@+id/manual_Progressbar"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:visibility="visible"
+                    android:indeterminateDrawable="@drawable/new_progressbar_style"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/result_btn_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:orientation="horizontal">
+
+                    <include layout="@layout/continue_three_button_layout" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

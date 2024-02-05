@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/continue_ll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+        android:id="@+id/accept_tv"
+        style="?buttonsTestPositiveStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:minWidth="@dimen/custom_btn_width2"
+        android:minHeight="@dimen/custom_btn_height2"
+        android:padding="@dimen/button_padding"
+        android:text="@string/agree" />
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+
+        android:id="@+id/cancel_tv"
+        style="?buttonTestNegativeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:minWidth="@dimen/dp_110"
+        android:minHeight="@dimen/dp_30"
+        android:padding="@dimen/button_padding"
+        android:text="@string/cancel" />
+
+
+</LinearLayout>

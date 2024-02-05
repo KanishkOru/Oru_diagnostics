@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_terms_and_conditions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TermsAndConditionsActivity">
+
+        <include
+            android:id="@+id/terms_conditions_toolbar"
+            layout="@layout/custom_toolbar" />
+  <!--  <LinearLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center|left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/result_text_size"
+            android:text="@string/terms_and_conditions"
+            android:autoLink="phone"
+            android:textAppearance="@style/textStyle_title" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:id="@+id/view"
+        android:foreground="?android:windowContentOverlay"
+        android:layout_below="@id/top_bar"
+        android:background="@drawable/background_shadow"
+        />-->
+
+    <LinearLayout
+        android:id="@+id/text_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_layout"
+        android:layout_below="@+id/terms_conditions_toolbar"
+        android:background="@color/white">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/terms_conditions_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginLeft="12dp"
+                android:lineSpacingExtra="3dp"
+                android:padding="@dimen/text_padding"
+                android:paddingTop="@dimen/text_padding_left"
+                android:fontFamily="@string/roboto_light"
+                android:text="@string/terms_and_conditions_text"
+                android:textSize="@dimen/text_size" />
+        </ScrollView>
+       <!-- <WebView
+            android:id="@+id/wv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+        </WebView>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:gravity="bottom">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/tc_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone"
+            android:text="@string/accept"/>
+        <include layout="@layout/continue_layout" />
+    </LinearLayout>
+
+</RelativeLayout>

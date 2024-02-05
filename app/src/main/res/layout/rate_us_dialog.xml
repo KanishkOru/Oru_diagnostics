@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:id="@+id/rate_us_dialog"
+    app:cardBackgroundColor="#ECECEC"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/rate_oruphones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:text="@string/rate_us_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D3D3D3"/>
+        <TextView
+            android:id="@+id/RateUsBtn"
+            android:textStyle="bold"
+            android:textColor="@color/rate_us_color"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:text="@string/rate_us_btn"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D3D3D3"/>
+
+        <TextView
+            android:id="@+id/RemindLaterbtn"
+            android:textColor="@color/rate_us_color"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:text="@string/rate_us_Remind"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#D3D3D3"/>
+
+        <TextView
+            android:id="@+id/NoBtn"
+            android:textColor="@color/rate_us_color"
+            android:gravity="center"
+            android:fontFamily="@font/poppins"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="17sp"
+            android:text="@string/rate_us_no"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

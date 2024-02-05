@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="thickblue">#085F96</color>
+    <color name="blue">#1576F9</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="primary_color">#2C2F44</color>
+    <color name="frgcolor">#f9f6ea</color>
+    <color name="white">#ffffff</color>
+    <color name="device_info_name_color">#415464</color>
+    <color name="black">#000</color>
+    <color name="thick_grey">#373737</color>
+    <color name="light_blue">#DDE4F5</color>
+    <color name="brand_yellow">#F6C018</color>
+    <color name="yellow">#FFD700</color>
+    <color name="b_black">#000000</color>
+    <color name="red">#ff374a</color>
+    <color name="manual_test_pass">#ff669900</color>
+    <color name="dark_green">#2AA100</color>
+    <color name="manual_test_fail">#ffcc0000</color>
+    <color name="warning">@color/manual_test_fail</color>
+    <color name="light_black_titles">#415464</color>
+    <color name="backgroundColor">#009bdf</color>
+    <color name="select_issues_list_bgcolor">#009bdf</color>
+
+
+    <color name="button_color">#1576F9</color>
+    <color name="main_bg_gray">#f1f1f1</color>
+    <color name="auto_tests_bg">#D3D3D3</color>
+    <color name="touch_color">#2c2f44</color>
+    <color name="oru_color">#2c2f44</color>
+    <color name="ratingbar_color">#1576F9</color>
+    <color name="light_black">#778692</color>
+    <color name="textColor">#ffffff</color>
+    <color name="terms_condition_dialog_header_text_color">#253746</color>
+    <color name="terms_condition_dialog_header_ack_text_color">#415464</color>
+
+    <!-- Device Info -->
+    <color name="device_info_background_color_code">#f7f7f7</color>
+
+    <color name="device_info_message_color">#778692</color>
+    <color name="blue_pre">#87CEEB</color>
+    <color name="low_light_blue">#A287CEEB</color>
+
+<!--    Rate us-->
+    <color name="rate_us_color">#007AFF</color>
+
+    <!--MEXICO COLOR-->
+    <color name="backgroundColor_mexico">#5BC500</color>
+    <color name="transparent_green">#8BFF8F</color>
+    <color name="transparent_red">#FB5B50</color>
+    <color name="green">#5cb615</color>
+    <color name="autotest_green">#00CB2F</color>
+    <color name="autotest_progress_bg">#F9F9F9</color>
+
+    <color name="network_info_title_color">#019df4</color>
+    <color name="network_info_catagory_color">#313235</color>
+    <color name="network_info_label_color">#86888c</color>
+    <color name="network_info_value_color">#000000</color>
+
+    <!-- Mobiru -->
+    <color name="mobiru_color">#ff2c2f44</color>
+    <color name="mobiru_app_bar_bg">#EFEFEF</color>
+    <color name="mobiru_app_bar_text_color">#4E4E4E</color>
+    <color name="manual_test_desc_color">#4E4E4E</color>
+    <color name="dialog_text_color">#4E4E4E</color>
+    <color name="text_black">#202020</color>
+    <color name="manual_test_name">#333333</color>
+    <color name="manual_test_prev">#80333333</color>
+    <color name="serveice_desc_color">#707070</color>
+    <color name="text_summary_light">#838383</color>
+</resources>

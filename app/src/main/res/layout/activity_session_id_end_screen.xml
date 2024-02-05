@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_gray"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/CustomToolBar"
+        layout="@layout/custom_shadow_toolbar" />
+
+    <TextView
+        android:id="@+id/session_id_end_msg"
+        android:layout_above="@+id/session_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/session_id_end_screen_msg"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="50dp"
+        android:textAppearance="@style/textStyle_options"></TextView>
+
+    <TextView
+        android:id="@+id/session_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawablePadding="10dp"
+        android:textColor="@color/red"
+        android:clickable="true"
+        android:drawableRight="@drawable/ic_copytoclipboard"
+        android:textAppearance="@style/textStyle_options"></TextView>
+
+
+
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+        android:id="@+id/end_btn_sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_exit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/terms_codition_confirm_button_padding_bottom"
+        android:paddingTop="@dimen/terms_codition_confirm_button_padding_top"
+        android:paddingLeft="@dimen/terms_codition_confirm_button_padding_left"
+        android:paddingRight="@dimen/terms_codition_confirm_button_padding_right"
+        android:layout_margin="@dimen/terms_codition_confirm_button_margin"
+        style="?buttonsTestPositiveStyle"
+
+        />
+</RelativeLayout>

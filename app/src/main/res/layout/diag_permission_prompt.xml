@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/include_action_bar"
+        layout="@layout/custom_action_bar_diagnostics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_below="@+id/custom_toolbar"-->
+    <!--        android:layout_above="@+id/permission_continue"-->
+    <!--        android:gravity="center"-->
+    <!--        android:orientation="vertical">-->
+    <!--        <ImageView-->
+    <!--            android:id="@+id/sprint_logo_img"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="32dp"-->
+    <!--            android:layout_gravity="center_horizontal"-->
+    <!--            android:src="@drawable/mobiru_icon"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_margin="40dp"-->
+    <!--            android:textColor="@color/text_black"-->
+    <!--            android:text="@string/permission_prompt"-->
+    <!--            style="@style/mobiru_14_regular" />-->
+
+
+    <!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include_action_bar"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcomehead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="@string/diag_permission_prompt_heading"
+            android:textAppearance="@style/textStyle_bodyHeading"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/prompt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/diag_permission_prompt_1"
+            android:textSize="16sp"
+            android:translationY="-2.1sp" />
+
+        <TextView
+            android:id="@+id/prompt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:fontFamily="@font/poppins"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/diag_permission_prompt_2"
+            android:textSize="16sp"
+            android:translationY="-2.1sp" />
+
+
+    </LinearLayout>
+
+
+    <!-- <LinearLayout
+         android:id="@+id/button_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom|center_horizontal"
+         android:gravity="bottom"
+         android:orientation="vertical">
+
+         <TextView
+             android:id="@+id/suggestion_text"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:fontFamily="@font/aileron_light"
+             android:gravity="bottom|center_horizontal"
+             android:paddingLeft="12dp"
+             android:paddingRight="12dp"
+             android:text="@string/welcome_text"
+             android:textColor="@color/device_info_name_color"
+             android:textSize="15sp" />
+
+         <Button
+             android:id="@+id/letsgetstarted"
+             android:textAppearance="@style/custom_btn_style"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_margin="20dp"
+             style="?buttonsTestPositiveStyle"
+             android:padding="10dp"
+             android:text="@string/letsgetstarted"
+             android:visibility="visible" />
+
+         <Button
+             android:id="@+id/copyLogs"
+             android:textAppearance="@style/custom_btn_style"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:layout_margin="20dp"
+             style="?buttonsTestPositiveStyle"
+             android:padding="10dp"
+             android:text="Copy Logs"
+             android:visibility="visible" />
+
+         <TextView
+             android:id="@+id/version"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="bottom"
+             android:gravity="center_horizontal"
+             android:text="@string/device_info_version"
+             android:textColor="@color/backgroundColor"
+             android:textSize="10sp"
+             android:textStyle="bold" />
+     </LinearLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnpermission_continue"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center_horizontal|top"
+        android:text="@string/diag_permission_note"
+        android:textSize="15sp" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnpermission_continue"-->
+    <!--        style="?buttonTestNegativeStyle"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginStart="30dp"-->
+    <!--        android:layout_marginTop="30dp"-->
+    <!--        android:layout_marginEnd="30dp"-->
+    <!--        android:layout_marginBottom="30dp"-->
+    <!--        android:background="@drawable/custom_button"-->
+    <!--        android:letterSpacing="0.1"-->
+    <!--        android:paddingLeft="40dp"-->
+    <!--        android:paddingRight="40dp"-->
+    <!--        android:text="@string/str_continue"-->
+    <!--        android:textAppearance="@style/custom_btn_style"-->
+    <!--        android:textColor="#000000"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:visibility="visible" />-->
+
+    <include
+        android:id="@+id/btnpermission_continue"
+        layout="@layout/custom_new_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_10"
+        android:layout_marginBottom="15dp" />
+</RelativeLayout>

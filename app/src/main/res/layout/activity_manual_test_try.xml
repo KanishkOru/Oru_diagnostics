@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_manual_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--    <include-->
+    <!--        android:id="@+id/custom_toolbar"-->
+    <!--        layout="@layout/custom_toolbar" />-->
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/custom_toolbar"
+        android:orientation="vertical">
+        <include
+            layout="@layout/manual_test_layout" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_continue_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+    <include layout="@layout/continue_layout" />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/custom_toolbar"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!--            -->
+            <!--            <ListView-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gifViewLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:gravity="center">
+            <include
+                layout="@layout/manual_test_layout" />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/test_desc_view"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:gravity="center"-->
+            <!--                android:layout_marginLeft="25dp"-->
+            <!--                android:layout_marginRight="25dp"-->
+            <!--                android:text="@string/manual_instruction_note"-->
+            <!--                style="@style/manuale_test_note"/>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="@dimen/manualtest_padding"
+            android:weightSum="5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!-- <ScrollView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:scrollbars="vertical"
+                     android:layout_above="@id/ll_continue_layout">
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical">
+                 <TextView
+                     android:layout_gravity="center"
+                     android:id="@+id/test_name"
+                     style="@style/Manualtest_title"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentTop="true"
+                     android:layout_centerHorizontal="true"
+                     android:textColor="@color/backgroundColor"
+                     android:text="Test Name"
+                     android:textSize="30sp"
+                     android:visibility="gone"/>
+
+                 <TextView
+                     android:id="@+id/test_description"
+                     style="@style/Manualtest_description"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@+id/test_name"
+                     android:layout_marginTop="10dp"
+                     android:layout_centerHorizontal="true"
+                     android:layout_gravity="center"
+                     android:gravity="center"
+                     android:text="Manual test Description"
+                     android:textSize="18sp"/>
+                 </LinearLayout>
+                 </ScrollView>-->
+
+                <!--<LinearLayout
+                    android:id="@+id/ll_continue_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/continue_layout" />
+
+                    <ProgressBar
+                        android:id="@+id/manual_test_Progressbar"
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginStart="15dp"
+                        android:progressTint="@color/backgroundColor"
+                        android:progressBackgroundTint="@color/gray" />
+
+                </LinearLayout>-->
+                <LinearLayout
+                    android:id="@+id/ll_continue_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/continue_layout" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_shadow_toolbar" />
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottomLayout"
+        android:layout_below="@id/custom_toolbar">
+
+        <LinearLayout
+            android:id="@+id/layout_fix_result_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomLayout"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:id="@+id/layout_suggestedFixes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_suggestedFixes"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center"
+                    android:background="@color/main_bg_gray"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/resolution_padding"
+                    android:text="@string/suggested_fixes"
+                    android:textAppearance="@style/textStyle_heading" />
+
+                <LinearLayout
+                    android:id="@+id/layout_resolution"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_detailedResults"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text_detailedResults"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center"
+                    android:background="@color/main_bg_gray"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/resolution_padding"
+                    android:text="@string/detailed_result"
+                    android:textAppearance="@style/textStyle_heading" />
+
+                <LinearLayout
+                    android:id="@+id/detailed_test_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--FIVE POINT CHECK-->
+                <TextView
+                    android:id="@+id/five_point_check_result_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center"
+                    android:background="@color/main_bg_gray"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/resolution_padding"
+                    android:text="@string/five_point_check_toolbar_name"
+                    android:textAppearance="@style/textStyle_heading" />
+
+                <TextView
+                    android:id="@+id/none_selected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/result_padding"
+                    android:text="@string/none_selected"
+                    android:textAppearance="@style/textStyle_subheading"
+                    android:visibility="gone" />
+
+
+                <LinearLayout
+                    android:id="@+id/five_point_check_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <!--NOTES-->
+                <TextView
+                    android:id="@+id/notes_result_heading"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/resolution_padding"
+                    android:text="@string/notes_title"
+                    android:textAppearance="@style/textStyle_heading"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/notes_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/result_margin_top"
+                    android:text="@string/none_selected"
+                    android:textAppearance="@style/textStyle_subheading"
+                    android:visibility="gone" />
+
+                <!-- Battery test results-->
+                <TextView
+                    android:id="@+id/text_quick_battery"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center"
+                    android:background="@color/main_bg_gray"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/resolution_padding"
+                    android:text="@string/battery_results"
+                    android:textAppearance="@style/textStyle_heading" />
+
+
+                <LinearLayout
+                    android:id="@+id/battery_test_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/batteryhealth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/battery_health_value"
+                            android:layout_toLeftOf="@+id/battery_health_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/battery_health_result"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/battery_health_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/design_capacity_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/design_capacity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/design_capacity_value"
+                            android:layout_toLeftOf="@+id/design_capacity_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/design_capacity"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/design_capacity_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/actual_capacity_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/actual_capacity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/actual_capacity_value"
+                            android:layout_toLeftOf="@+id/actual_capacity_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/actual_capacity"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/actual_capacity_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/soh_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+                        <TextView
+                            android:id="@+id/soh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/soh_value"
+                            android:layout_toLeftOf="@+id/soh_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/soh"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/soh_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/charging_level_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/charging_level"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/charging_level_value"
+                            android:layout_toLeftOf="@+id/charging_level_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/charging_level"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/charging_level_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/temperature_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:visibility="visible">
+                        <TextView
+                            android:id="@+id/temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/temperature_value"
+                            android:layout_toLeftOf="@+id/temperature_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/temperature"
+                            android:textAppearance="@style/textStyle_subheading" />
+                        <TextView
+                            android:id="@+id/temperature_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/test_not_supported"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/result_padding"
+                    android:text="@string/test_not_supported"
+                    android:textAppearance="@style/textStyle_subheading"
+                    android:visibility="gone" />
+
+
+                <!--Batter health check-->
+                <TextView
+                    android:id="@+id/text_battery_results"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_gravity="center"
+                    android:background="@color/main_bg_gray"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/resolution_padding"
+                    android:text="@string/battery_health_check"
+                    android:textAppearance="@style/textStyle_heading" />
+
+
+                <TextView
+                    android:id="@+id/text_battery_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:drawableStart="@drawable/ic_passed"
+                    android:drawableLeft="@drawable/ic_passed"
+                    android:drawablePadding="@dimen/resolution_padding"
+                    android:gravity="center"
+                    android:padding="@dimen/resolution_padding"
+                    android:text="@string/replace_not_needed"
+                    android:textAppearance="@style/textStyle_question" />
+
+
+                <LinearLayout
+                    android:id="@+id/battery_health_check_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+
+                <!--Device-->
+                <LinearLayout
+                    android:id="@+id/device_info_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--DEVICE TITLE-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/device_info_summary_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="?actionBarSize"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:background="@color/main_bg_gray"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/resolution_padding"
+                            android:text="@string/title_activity_device_info"
+                            android:textAppearance="@style/textStyle_heading" />
+                    </RelativeLayout>
+                    <!--DEVICE MAKE-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/device_info_make"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/device_info_make_value"
+                            android:layout_toLeftOf="@+id/device_info_make_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/device_info_make"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/device_info_make_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="@dimen/result_padding"
+                            android:layout_marginTop="@dimen/result_padding"
+                            android:layout_marginEnd="@dimen/result_padding"
+                            android:layout_marginBottom="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+                    <!--MODEL-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/device_info_model"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/device_info_model_value"
+                            android:layout_toLeftOf="@+id/device_info_model_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/device_info_model"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/device_info_model_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+                    <!--IMEI/MAC-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/device_info_imei"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/device_info_imei_mac"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/device_info_imei_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="center_vertical|right|end"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </LinearLayout>
+                    <!--Firmware-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/device_info_firmware"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/firmware_version"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/device_info_firmware_value"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/roboto_regular"
+                            android:gravity="center_vertical|end|right"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </LinearLayout>
+                    <!--OS-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/device_info_os"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/device_info_os_version_value"
+                            android:layout_toLeftOf="@+id/device_info_os_version_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/os_version_summary"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/device_info_os_version_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+                    <!--RAN-->
+                    <RelativeLayout
+                        android:id="@+id/device_info_ran_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/device_info_ran"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/device_info_ran_value"
+                            android:layout_toLeftOf="@+id/device_info_ran_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/ran_number"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/device_info_ran_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+
+                    <!--START TIME -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/device_info_start_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/device_info_start_time_value"
+                            android:layout_toLeftOf="@+id/device_info_start_time_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/start_time"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/device_info_start_time_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+
+                    </RelativeLayout>
+
+                    <!--SESSION ID -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:id="@+id/session_Id"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_toStartOf="@+id/session_Id_value"
+                            android:layout_toLeftOf="@+id/session_Id_value"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/result_padding"
+                            android:text="@string/session_id"
+                            android:textAppearance="@style/textStyle_subheading" />
+
+                        <TextView
+                            android:id="@+id/session_Id_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="@dimen/result_padding"
+                            android:clickable="true"
+                            android:drawablePadding="10dp"
+                            android:fontFamily="@string/roboto_regular"
+                            android:gravity="center_vertical"
+                            android:textAppearance="@style/textSmallStyle" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/internet_unavailable_retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/scrollview"
+        android:background="@color/main_bg_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/text_internet_unavailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:background="@color/main_bg_gray"
+            android:maxLines="2"
+            android:padding="@dimen/resolution_padding"
+            android:text="@string/internet_unvailable_retry_summary"
+            android:textAppearance="@style/textStyle_subheading"
+            android:textColor="@color/red" />
+
+        <ImageButton
+            android:id="@+id/iv_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/btn_refresh" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_bg_gray"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <org.pervacio.wirelessapp.common.CustomButton
+            android:id="@+id/done_tv"
+            android:layout_width="@dimen/custom_center_btn_width"
+            android:layout_height="@dimen/custom_btn_height"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:minWidth="64dp"
+            android:padding="@dimen/button_padding"
+            android:text="@string/btn_exit"
+            android:gravity="center"
+            style="?buttonTestNegativeStyle" />
+
+        <org.pervacio.wirelessapp.common.CustomButton
+            android:id="@+id/send_summary"
+            android:layout_width="@dimen/custom_center_btn_width"
+            android:layout_height="@dimen/custom_btn_height"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:minWidth="64dp"
+            android:padding="4dp"
+            android:text="@string/send_summary"
+            android:gravity="center"
+            style="?buttonsTestPositiveStyle"
+            />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/result_upload_progress"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        />
+</RelativeLayout>

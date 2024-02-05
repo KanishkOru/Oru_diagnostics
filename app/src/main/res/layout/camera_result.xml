@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_manual_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/custom_toolbar"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/camResultGifViewLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            android:background="@color/thick_grey"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="gone"/>
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:background="@color/main_bg_gray"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:weightSum="5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/test_name"
+                    style="@style/Manualtest_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/backgroundColor"
+                    android:text="@string/camera_result_test_name"
+                    android:textSize="30sp"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/test_description"
+                    style="@style/Manualtest_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/test_name"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:text="@string/camera_result_test_description"
+                    android:textSize="15sp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+
+                    <include layout="@layout/continue_three_button_layout" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

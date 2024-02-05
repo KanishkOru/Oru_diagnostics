@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:gravity="center"
+            android:paddingLeft="@dimen/terms_condition_dialog_layout_padding"
+            android:paddingRight="@dimen/terms_condition_dialog_layout_padding"
+            android:orientation="vertical">
+
+            <com.oruphones.nativediagnostic.common.DiagnosticsTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/session_id_number"
+                android:textSize="@dimen/terms_condition_dialog_session_header_text_size"
+                android:gravity="center"
+                android:textColor="@color/terms_condition_dialog_header_text_color"
+                android:fontFamily="@string/Aileron_SemiBold"
+                android:padding="@dimen/terms_condition_dialog_padding_top"/>
+
+            <com.oruphones.nativediagnostic.common.DiagnosticsTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/terms_condition_dialog_header_ack_text_color"
+                android:text="@string/session_message"
+                android:textSize="@dimen/terms_condition_dialog_session_ack_text_size"
+                android:gravity="center"
+                android:fontFamily="@string/Aileron_Light"
+                />
+            <EditText
+                android:id="@+id/Session_Id"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="@integer/session_id_length"
+                android:editable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="@string/Aileron_SemiBold"
+                android:background="@drawable/whiteborderbackground"
+                android:inputType="numberSigned"
+                android:layout_margin="@dimen/terms_codition_button_margin_right"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <com.oruphones.nativediagnostic.common.CustomButton
+            android:id="@+id/Session_Enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/session_button_enter"
+            android:paddingBottom="@dimen/terms_codition_enter_button_padding_bottom"
+            android:paddingTop="@dimen/terms_codition_enter_button_padding_top"
+            android:paddingLeft="@dimen/terms_codition_enter_button_padding_left"
+            android:paddingRight="@dimen/terms_codition_enter_button_padding_right"
+            android:textColor="@color/backgroundColor"
+            android:background="@drawable/round_corners"
+            android:onClick="onButtonClick"
+            android:visibility="gone"
+            android:textAllCaps="false"
+            android:layout_marginRight="@dimen/terms_codition_enter_button_margin"
+            />
+    </LinearLayout>
+</LinearLayout>

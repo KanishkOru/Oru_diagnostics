@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_terms_and_conditions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/terms_conditions_toolbar"
+        layout="@layout/custom_toolbar" />
+
+    <!--Body -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="@dimen/activity_horizontal_margin"
+                    >
+
+                    <TextView
+                        android:text="@string/ran_number"
+                        style="@style/rap_title.bg_white"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp"
+                        android:fontFamily="@font/roboto_bold"
+                        />
+                    <TextView
+                        android:text="@string/colon"
+                        style="@style/rap_title.bg_white"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp"
+                        android:fontFamily="@font/roboto_bold"
+                        />
+                    <TextView
+                        android:id="@+id/ranNumber"
+                        style="@style/rap_title.bg_white"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp"
+                        android:fontFamily="@font/roboto_bold"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:text="@string/ran_description_hint"
+                    style="@style/rap_title.bg_white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+
+                    />
+                <TextView
+                    android:id="@+id/ranTextFailed"
+                    android:fontFamily="@font/roboto_bold"                    style="@style/rap_title.sub"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:background="@color/white"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+        android:id="@+id/ranNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="@dimen/button_padding"
+        android:text="@string/str_next"
+        android:minWidth="160dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        style="?buttonsTestPositiveStyle"
+        />
+
+</LinearLayout>

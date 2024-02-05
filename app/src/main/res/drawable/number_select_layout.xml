@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="30dp"
+    android:background="?numSelectBackgroundStyle"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/neg_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/button_padding"
+        android:text="@string/number_select_layout_minus"
+        style="?buttonTestNegativeStyle"
+        android:visibility="gone"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/num_edit"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:padding="@dimen/button_padding"
+        android:inputType="numberSigned"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="1"
+        android:text=""
+        android:background="@drawable/pin_shape"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/pos_btn"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/button_padding"
+        android:text="@string/number_select_layout_add"
+        style="?buttonsTestPositiveStyle"
+        android:visibility="gone"
+        android:layout_weight="1"/>
+
+</LinearLayout>

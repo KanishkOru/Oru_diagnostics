@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/time_out_alrt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textAppearance="@style/dialog_title"
+        android:text="@string/timed_out"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/time_out_alrt_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/time_out_alrt_title">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/time_out_alrt_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/dialog_mesage"
+        app:layout_constraintTop_toBottomOf="@id/time_out_alrt_img">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time_out_alrt_msg">
+
+        <Button
+            android:id="@+id/suggestion_retry_btn"
+            style="?buttonTestNegativeStyle"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/btn_retry" />
+
+        <Button
+            android:id="@+id/suggestion_fail_btn"
+            style="?buttonsTestPositiveStyle"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="@string/fail_btn" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+//pluginManagement {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        gradlePluginPortal()
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        flatDir {
+//            dirs 'libs'
+//        }
+//        google()
+//        mavenCentral()
+//    }
+//}
+//
+//rootProject.name = "NativeDiagnostic"
+//include ':app'
+include ':app'
+setBinding(new Binding([gradle: this]))
+//evaluate(new File(
+//        settingsDir,
+//        '../Mobiru_Flutter/.android/include_flutter.groovy'
+//))
+
+//include ':ssd_mobiru_module'
+//project(':ssd_mobiru_module').projectDir = new File('../Mobiru_Flutter')

@@ -1,0 +1,1352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locale">pt</string>
+    <string name="app_name">Pervacio Mobile Diagnostics</string>
+
+    <string name="sprint_text">Pervacio Mobile\nDiagnostics</string>
+    <string name="mobile_diagnostics">Pervacio Diagnostics</string>
+
+    <string name="accept">Concordo</string>
+    <string name="devicename_toast">Nome do dispositivo.</string>
+    <string name="letsgetstarted">Vamos Começar!</string>
+
+    <!--SPLASH SCREEN-->
+    <string name="terms_and_condition_welcome">Welcome to Pervacio Assisted Diagnostics</string>
+    <string name="welcome_to_text">Bem-vindo ao</string>
+    <string name="welcome_text">A ferramenta Pervacio Diagnostics permite solucionar problemas de seu dispositivo, identificar quaisquer problemas e otimizar seu desempenho geral.</string>
+    <string name="assisted">Call Center</string>
+
+    <!-- TERMS & CONDITION -->
+    <string name="terms_and_condition_message">Vamos orientar você no diagnóstico para tentar resolver os problemas do seu dispositivo.</string>
+
+    <string name="analyse_my_device">Analise meu dispositivo</string>
+    <string name="settings">Configurações</string>
+    <string name="terms_and_conditions">Termos e Condições</string>
+    <string name="title_activity_device_info">Informação do Dispositivo</string>
+    <string name="diagnostics">Diagnósticos</string>
+    <string name="pick_a_test">Escolha uma categoria de teste</string>
+    <string name="analysing">Analisando dispositivo</string>
+    <string name="auto_tests_completed">Todos os testes automáticos concluídos.</string>
+    <string name="session_button_enter">Enviar</string>
+    <string name="select_all">Selecionar tudo</string>
+
+    <string name="full_diagnostics">Diagnóstico Completo</string>
+    <string name="additional_tests">Testes adicionais</string>
+    <string name="diagnostics_infotext">Selecione testes adicionais</string>
+
+    <string name="all_test_complete">Todos os testes concluídos</string>
+    <string name="no_issue_have_been_found">Nenhum problema foi encontrado</string>
+    <string name="detailed_result">Resultados detalhados</string>
+
+    <string name="about">Sobre</string>
+    <string name="version_number">Número da versão</string>
+    <string name="build_release_date">Data de lançamento da versão</string>
+    <!--Permission text-->
+    <string name="permission">Permissão</string>
+    <string name="accept_permissions">Aceitar Permissões</string>
+    <string name="accept_permissions_msg"> O aplicativo requer algumas permissões obrigatórias para funcionar corretamente. Aceite todas as permissões quando solicitado. Toque em OK para continuar e em Cancelar para sair do aplicativo.</string>
+    <string name="accept_permissions_msg2">Algumas permissões foram negadas. Todas as permissões são obrigatórias para que o aplicativo funcione corretamente. Aceite todas as permissões quando solicitado novamente. Toque em OK para continuar ou Cancelar para sair do aplicativo.</string>
+    <string name="accept_permissions_msg3">Algumas permissões exigidas pelo aplicativo ainda foram negadas. Toque em Configurações e, em seguida, toque em Permissões para habilitar manualmente todas as permissões</string>
+
+    <string name="enable_usage_stats_permission">Procure o aplicativo Pervacio Mobile Diagnostics e habilite a permissão.</string>
+    <string name="enable_dnd_permission">Ative a permissão para alterar o Modo Silencioso para realizar testes de áudio.</string>
+    <string name="enable_permissions">Habilite as permissões de modificação de configurações para continuar o diagnóstico.</string>
+
+    <string name="warning">Aviso</string>
+    <string name="insufficient_storage">Armazenamento insuficiente</string>
+    <string name="key_active">ATIVO</string>
+    <string name="key_camera">CÂMERA</string>
+    <string name="key_enlarge">PROLONGAR</string>
+    <string name="key_hide">OCULTAR</string>
+    <string name="key_kaku">Escreva</string>
+    <string name="key_ringer">Oscilador mecânico</string>
+    <string name="key_screen_shot">CAPTURA DE TELA</string>
+    <string name="key_zoom">ZOOM</string>
+    <string name="key_slide">DESLIZAR</string>
+    <string name="str_gesture_up">ACIMA</string>
+    <string name="str_gesture_down">BAIXO</string>
+    <string name="str_gesture_left">ESQUERDA</string>
+    <string name="str_gesture_right">CERTO</string>
+    <string name="enter_pin">Digite o Número ID informado pelo atendente.</string>
+    <string name="submit">Enviar</string>
+    <string name="alert">Alerta</string>
+    <string name="endsession_suggestion">Para que suas melhorias sejam concluídas, desinstale o aplicativo de diagnósticos Pervacio e reinicie o dispositivo.</string>
+    <string name="done">Feito</string>
+
+
+
+    <string name="Accessibility_permission_Title">Permissão de Acessibilidade</string>
+    <string name="Accessibility_permission_des">Por favor, clique em OK para dar acesso ao aplicativo Diagnostics</string>
+    <string name="summary_folder_name">Diagnósticos</string>
+    <string name="device_assist_tool">Ferramenta de assistência a dispositivos</string>
+    <string name="fg_bringup_wait_en">Aguarde a tela de Diagnóstico do Dispositivo retornar ...</string>
+    <string name="ok">Está bem</string>
+    <string name="fail">Falhou</string>
+    <string name="error_taking_picture">Erro ao tirar foto</string>
+    <string name="error_in_preview_display">Erro na exibição de visualização</string>
+    <string name="unable_to_open_camera">Não é possível abrir a câmera</string>
+    <string name="zoom_is_not_supported">O zoom não é suportado neste modo</string>
+    <string name="unable_to_save_the_file">Não é possível salvar o arquivo</string>
+    <string name="sdcard_permission">Permissão de Acesso ao Cartão SD</string>
+    <string name="sdcard_permission_des">Por favor, clique em OK para realizar o teste do cartão SD e selecione Permitir</string>
+    <string name="skip">Pular</string>
+    <string name="device_offline">O dispositivo está offline</string>
+    <string name="device_offline_message">A rede deve estar disponível para continuar o diagnóstico.</string>
+    <string name="trun_on_wifi">Ligue o WIFI</string>
+    <string name="run_time_permissions">Por favor habilite permissões para continuar diagnósticos</string>
+    <string name="usage_stats_permission">Toque em OK. Selecione \ "Diagnóstico de investigação sem fio \" e ative a opção.</string>
+    <string name="dnd_permission">Toque em OK. Ative a alternância exibida em \ "Diagnóstico de investigação sem fios \" e toque em "ALLOW"</string>
+    <string name="desc">A ferramenta Pervacio Diagnostics permite solucionar problemas no dispositivo, identificar problemas e otimizar seu desempenho geral.</string>
+    <string name="welcome">Bem-vindo ao</string>
+    <string name="pervacio">Pervacio</string>
+    <string name="permissions">Permissões</string>
+    <string name="bgn_session">Iniciar sessão</string>
+
+    <string name="or">OU</string>
+    <string name="qr_message">Clique em Scan QR code para ativar a câmera</string>
+
+    <string name="qr_alert_message">QR Code digitalizado incorreto, por favor, tente novamente</string>
+    <string name="pin_alert_message">Pin digitado incorreto, por favor, tente novamente</string>
+    <string name="btn_qr">Escanear o código QR</string>
+    <string name="pin_alert">Por favor, digite o pin completo</string>
+    <string name="thank_you_message">Obrigado por usar</string>
+    <string name="trun_on_ap">Por favor, ligue o modo avião para continuar o teste de mergulho profundo da bateria</string>
+    <string name="trun_off_ap">Para continuar o diagnóstico, desligue o modo Avião</string>
+    <string name="waiting_for_online">Aguardando que o dispositivo fique on-line</string>
+
+    <string name="nw_error_message">Rede indisponível. Toque em "Repetir" para continuar.</string>
+    <string name="retry">Tente novamente</string>
+    <string name="increase_vibration_intensity_msg">Toque na intensidade da vibração e role o controle deslizante de notificações para aumentar a intensidade.</string>
+    <string name="qr_scan_camera_error_msg">Não é possível digitalizar o código QR. Digite o PIN exibido na GUI.</string>
+    <string name="exit">Sair</string>
+
+
+
+
+    <string name="sdcard_not_mounted">Nenhum cartão SD instaurado. Espaço de armazenamento insuficiente.</string>
+    <string name="navigate_to_setting_to_enable_nfc">Navegue até a tela de configurações para ativar o NFC</string>
+    <string name="relaunch_from_menu">Por favor, reinicie o aplicativo no menu</string>
+
+    <string-array name="test_categories">
+        <item>Chamada</item>
+        <item>Bateria e Carregamento</item>
+        <item>Áudio</item>
+        <item>Tela e Touch</item>
+        <item>Hardware</item>
+
+
+    </string-array>
+    <string-array name="test_categories_sub_text">
+        <item>O teste de chamada visa verificar a capacidade do dispositivo de fazer uma chamada.</item>
+        <item>O Teste de carga visa verificar a capacidade do dispositivo de ser carregad.</item>
+        <item>Verifica os componentes de áudio do dispositivo.</item>
+        <item>Verifica a tela dos dispositivo, a tela sensível ao toque e os sensores.</item>
+        <item>Verifica o hardware do dispositivo.</item>
+        <item></item>
+    </string-array>
+    <string name="skipped_status">Teste Pulou</string>
+
+    <!-- Physical Damage Screen texts -->
+    <string name="title_activity_pdc">Verificação de Danos Físicos</string>
+    <string name="pdc_msg">Selecione a descrição mais apropriada da condição do dispositivo</string>
+    <string name="pdc_display_damage">DANOS NA TELA</string>
+    <string name="no_damage">Sem Danos</string>
+    <string name="visible_scratches">Riscos Visíveis</string>
+    <string name="visible_cracks">Rachaduras Visíveis / Riscos</string>
+    <string name="cosmetic_condition">CONDIÇÕES COSMÉTICAS GERAIS</string>
+    <string name="like_new">Como Novo</string>
+    <string name="light_tear">Desgaste Leve</string>
+    <string name="heavy_tear">Desgaste Forte</string>
+    <string name="pin_try_gain">Tente novamente</string>
+
+
+    <!--EMAIL SUMMARY -->
+    <string name="email_summary">Resumo por Email</string>
+    <string name="email_heading">Quer receber um resumo de sua sessão por e-mail?</string>
+    <string name="email_sent_success">E-mail enviado com sucesso</string>
+    <string name="sending_email_summary">Enviando e-mail de resumo</string>
+    <string name="email_summary_statement1">*O endereço de e-mail do cliente não será armazenado.</string>
+    <string name="back_to_summar">Voltar ao resumo</string>
+    <string name="verify_the_email">Por favor, verifique o endereço de e-mail abaixo para enviar o resumo da sessão para:</string>
+    <string name="eamil_toolbar">Resumo por e-mail</string>
+    <string name="send_email_summary">Enviar email</string>
+    <string name="enter_valid_email">Por favor insira um endereço de e-mail válido</string>
+    <string name="verify">Verificar</string>
+
+
+
+
+    <string name="str_start_test">Iniciar Teste</string>
+
+    <!-- Camera Flash Test  -->
+    <string name="cameraflash_try_message">Teste o flash da câmera traseira observando o estroboscópio. Cuidado, não olhe diretamente para o flash.</string>
+    <string name="cameraflash_result_message">O flash da câmera traseira disparou?</string>
+    <string name="earphone_test_try_message">Você precisará de seus fones de ouvido. Depois de conectar seus fones de ouvido ao dispositivo, comece o teste e ouça a música que está sendo reproduzida.</string>
+
+    <!--Call test -->
+    <string name="calltest_try_message">Faça uma chamada de teste. Ouça a voz do operador.</string>
+
+    <!--bluetooth-->
+    <string name="bluetooth_recommondation_text">Esta correção visa desligar o Bluetooth do dispositivo. Desligar o Bluetooth quando não estiver em uso aumentará a bateria.</string>
+
+    <!-- Educational Message -->
+    <string name="session_id_copied_msg" translatable="false">ID de diagnóstico copiado para a área de transferência</string>
+
+    <!--nfc-->
+    <string name="nfc_toolbar_text">Status do NFC</string>
+    <string name="nfc_toolbar_connectivity_text">NFC Ativado</string>
+    <string name="nfc_recommondation_text">O NFC pode afetar a vida útil da bateria. Para prolongar a vida da bateria, desligue o NFC quando não estiver em uso.</string>
+    <string name="nfc_on_recommondation_text">A configuração NFC está desligada neste dispositivo. Para habilitar o NFC, vá para Configurações usando o botão abaixo.</string>
+    <string name="nfc_status_on">NFC está LIGADO</string>
+    <string name="nfc_status_off">NFC está DESLIGADO</string>
+    <string name="enable_nfc">Ative os serviços NFC</string>
+    <string name="disable_nfc">Desative os serviços NFC</string>
+    <string name="nfc_services_active">Os serviços NFC estão ativos</string>
+    <string name="nfc_services_not_active">Os serviços NFC não estão ativos</string>
+    <string name="nfc_connectivity_recommondation">Ligue o NFC</string>
+    <string name="go_to_nfc_setting">Vá para as configurações de NFC</string>
+
+    <!--mobilehotspot-->
+    <string name="hotspot_recommondation_text">Manter o Ponto de Acesso Móvel desligado quando não estiver em uso pode estender a vida útil da bateria do seu dispositivo.</string>
+    <string name="hotspot_status_text">Desligue o Ponto de Acesso Móvel</string>
+    <string name="hotspot_heading_text">O Ponto de Acesso Móvel está ativado</string>
+
+
+
+
+    <string name="str_storage">Armazenamento</string>
+    <string name="str_apn">APN</string>
+    <string name="str_mobile_data">Dados Móveis</string>
+    <string name="str_wifi">WIFI</string>
+    <string name="str_network_mode">Network Mode</string>
+    <string name="str_volte_calls">VoLTE Calls</string>
+
+    <string name="agree_to_submit_data">Ao selecionar enviar, você concorda que a Pervacio poderá coletar informações sobre o seu dispositivo.
+    </string>
+
+    <!--GPS-->
+    <string name="gps_service_active">Os serviços GPS estão ativos</string>
+    <string name="gps_service_not_active">Os serviços GPS não estão ativos</string>
+    <string name="disable_gps_services">Desative os serviços de localização e GPS.</string>
+    <string name="enable_gps_services">Ative os Serviços de localização e GPS.</string>
+    <string name="gps_toolbar_text">Status do GPS</string>
+    <string name="gps_toolbar_connectivity_text">GPS Ativado</string>
+    <string name="gps_recommondation_text">O GPS pode afetar a vida útil da bateria. Para prolongar a vida da bateria, desligue o GPS quando não estiver em uso.</string>
+    <string name="gps_on_recommondation_text">A configuração do GPS está DESLIGADA neste dispositivo. Para habilitar o GPS, vá para Configurações usando o botão abaixo.</string>
+    <string name="gps_on">O GPS está LIGADO</string>
+    <string name="gps_off">O GPS está DESLIGADO</string>
+    <string name="note_text">Nota: alguns aplicativos podem exigir um sinal de GPS para funcionar corretamente.</string>
+    <string name="gps_connectivity_recommondation">Ligue o GPS</string>
+    <string name="go_to_gps_setting">Vá para as configurações de GPS</string>
+
+    <!--IMEI-->
+    <string name="imei_capture_title">Capturar IMEI</string>
+    <string name="imei_steps_heading">Capture o IMEI do dispositivo seguindo as etapas abaixo:</string>
+    <string name="imei_read_instructions_10_step_1">1. Este é o Assistente Pervacio. Ele irá guiá-lo passo a passo para capturar IMEI</string>
+    <string name="imei_read_instructions_10_step_2">2. Pressione o botão Iniciar e siga o Assistente Pervacio</string>
+    <string name="imei_read_instructions_10_bubble_message">Disque *#06#. Você verá o \npop-up IMEI. \nPor favor, aguarde a \ncontagem regressiva aparecer</string>
+    <string name="imei_search_time_out">Você não inseriu o código secreto *#06#. Você pode reprocessar o IMEI clicando no botão Iniciar.</string>
+    <string name="permission_show_over_other_apps">Ative a permissão \"Exibir sobre outros aplicativos\" para continuar o diagnóstico.</string>
+    <string name="permission_show_over_other_apps_xiaomi">Ative a permissão \"Exibir sobre outros aplicativos\" &amp; \"Exibir janelas pop-up durante a execução em segundo plano\" para continuar o diagnóstico..</string>
+
+    <string name="imei_read_manual_instructions_10"><![CDATA[<div style="text-align: center"><strong>Capture o IMEl do dispositivo seguindo as etapas abaixo:</strong></div><br>
+1. Toque no bot\u00e3o Iniciar para abrir o discador do telefone. <br>
+2. Digite o c\u00f3digo * # 06 #. <br>
+3. Fa\u00e7a uma captura de tela do IMEl mantendo pressionado o bot\u00e3o <font color="#009BDF">Ligar / Desligar</font> e a tecla <font color="#009BDF">Diminuir Volume</font> ao mesmo tempo. <br>
+4. Mantenha-os pressionados até ouvir um clique audível ou um som de captura de tela.<br>
+5. Toque em <font color="#009BDF">OK</font> no pop-up do IMEI. <br>
+6. Pressione a tecla <font color="#009BDF">Voltar</font>. <br>
+7. Continue com o diagn\u00f3stico.]]></string>
+
+
+    <string name="start">Iniciar</string>
+    <string name="imei_capture_success_msg">IMEI foi capturado com sucesso.</string>
+    <string name="imei_capture_fail_msg">A captura de IMEI n\u00e3o foi efetuado. \nToque em OK para tentar novamente.</string>
+    <string name="please_wait">Por favor, aguarde.</string>
+
+    <!-- Customer Satisfaction dialog -->
+    <string name="rate_your_experience">Avalie sua experiência</string>
+    <string name="cust_satisfy_title">Satisfação do cliente</string>
+    <string name="cust_satisfy_msg">Por favor, avalie a experiência do serviço na loja que você recebeu hoje.</string>
+    <string name="agent_satisfy_title">Satisfação do Agente Movistar</string>
+    <string name="agent_satisfy_msg">Entregue o dispositivo ao Agente da Loja para avaliar sua experiência com o serviço</string>
+    <string name="reason_for_rating">Motivo da insatisfação</string>
+    <string-array name="reasons_list">
+        <item>Motivo da insatisfação</item>
+        <item>O aplicativo reiniciou uma ou mais vezes</item>
+        <item>Problemas para baixar o aplicativo</item>
+        <item>Testes não puderam ser executados</item>
+        <item>Não satisfeito com o resultado</item>
+        <item>Não é fácil de usar</item>
+        <item>Tempo de execução demorado</item>
+        <item>O processo não funcionou na primeira tentativa</item>
+    </string-array>
+
+
+    <string name="brightness_toolbar_text">Status de Brilho</string>
+    <string name="brightness_recommendation">Reduzir automaticamente o brilho do aparelho, otimiza a tela para máxima visibilidade e vida útil da bateria.</string>
+    <string name="brightness_automode">Brilho Automático</string>
+    <string name="brightness_status_text">Brilho Automático</string>
+    <string name="auto_brightness_off">Brilho Automático DESLIGADO</string>
+    <string name="checking">Checando</string>
+
+    <string name="screen_timeout_toolbar_text">Tempo limite da tela</string>
+    <string name="screen_timeout_status">Tempo limite da tela: não definido para 1 minuto</string>
+    <string name="screentimeout_improved">Tempo limite da tela: definido para 1 minuto</string>
+    <string name="screen_timeout_recommondation_text">Estender o tempo limite da tela para além de um minuto pode afetar a vida útil da bateria.</string>
+
+    <!-- -Finger Print -->
+    <string name="finger_print_test">Sensor de impressão digital</string>
+    <string name="finger_print_test_try_message">Verifique se o sensor de impressão digital está funcionando como esperado.</string>
+    <string name="finger_print_result_message"></string>
+    <string name="finger_print_test_inprogress_message">Coloque o dedo sobre o sensor de impressão digital.</string>
+
+    <string name="finger_print_too_many_attempts">Muitas tentativas</string>
+    <string name="finger_print_pop_up_description">Não há impressões digitais registradas no dispositivo. Inscreva-se e volte a testar novamente</string>
+    <string name="enrol">Inscreva-se</string>
+
+    <!--SSD-->
+    <string name="gotoresults">Ir para os resultados</string>
+    <string name="str_skip">Pular</string>
+    <string name="str_continue">Continuar</string>
+    <string name="manual_tests_selection_btn_continue">Continuar</string>
+    <string name="str_yes">Sim</string>
+    <string name="str_ok">OK</string>
+    <string name="btn_retry">TENTAR NOVAMENTE</string>
+    <string name="btn_retest">Reteste</string>
+    <string name="btn_go_offline">PROCEDER OFFLINE</string>
+    <string name="btn_exit">Sair</string>
+    <string name="network_msz">Por favor verifique sua conexão com a internet e tente novamente.</string>
+    <string name="storage_msg">Armazenamento está cheio. Libere espaço para realizar o teste.</string>
+    <string name="time_out_msg_advance_flow">Você precisa de mais tempo?</string>
+    <string name="server_not_rechable">Servidor não acessível</string>
+    <string name="server_unavailable_msg">Não conseguimos acessar o servidor. Seus dados de transação não serão salvos.</string>
+
+
+    <!--24 March -->
+    <!--Airplane Mode-->
+
+    <string name="airplane_message">Desligue o modo avião</string>
+    <string name="location_text">Localização está habilitada</string>
+    <string name="picture_toast">Toque para tirar uma foto</string>
+    <string name="record_toast">Toque para gravar</string>
+    <string name="play_toast">Clique para tocar</string>
+    <string name="fail_warning">Deseja falhar o teste?</string>
+    <string name="bluetooth_toast">Nenhum dispositivo próximo detectado.</string>
+
+    <!--Terms and conditiins text-->
+    <string name="decline">Recusar</string>
+    <string name="agree">Concordo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancel_settings">Não estou de acordo</string>
+
+
+    <string name="check_my_device">VERIFIQUE MEU DISPOSITIVO</string>
+    <string name="initializing_tests">Iniciando testes</string>
+    <string name="loading">Carregando</string>
+    <string name="manualtest_selection">Selecione pelo menos um item para continuar.</string>
+    <string name="manualtest_result_dialog">O teste falhou</string>
+
+
+    <!--  fragment text-->
+
+
+    <string name="complete">Teste completo</string>
+    <string name="history">Histórico</string>
+    <string name="no_history_text">Sem histórico</string>
+    <string name="empty_result">Nenhum teste é realizado</string>
+    <string name="txt_below_analyze_my_device">O Verificar Meu Dispositivo irá realizar todos os testes automáticos e dará a você a opção de selecionar os testes manuais.</string>
+
+
+    <string name="str_total_storage">Armazenamento Total</string>
+    <string name="str_storage_available">Armazenamento Disponível</string>
+
+
+
+    <string name="autotests">Testes Automáticos</string>
+    <string name="str_no">Não</string>
+
+    <string name="addManualtests">SELECIONE TESTES MANUAIS</string>
+
+
+    <!-- History -->
+    <string name="manual_tests">Testes Manuais</string>
+    <string name="history_title">Histórico de Diagnóstico</string>
+
+
+
+    <!-- Ambientligt Test  -->
+    <string name="ambientligt_test">Luz Ambiente</string>
+    <string name="ambient_try_message">Coloque sua mão sobre o telefone. \nObservação: certifique-se de que você esteja em uma área iluminada ao realizar o teste.</string>
+    <string name="ambient_message">Mova sua mão sobre a parte superior do telefone para testar o sensor de luz ambiente.</string>
+
+    <!-- Acceleromter Test  -->
+    <string name="accelerometer_test">Acelerômetro</string>
+    <string name="accelerometer_try_message">Gire seu dispositivo para alterar a exibição entre as visualizações na vertical e horizontal.</string>
+    <string name="accelerometer_result_message">A imagem na tela girou corretamente?</string>
+
+    <!-- Proximity Test  -->
+    <string name="proximity_test">Proximidade</string>
+    <string name="proximity_try_message">Mova a palma da mão próximo da parte superior do dispositivo e, em seguida, mova a palma da mão para frente e para trás da esquerda para a direita.</string>
+    <string name="proximity_message">Coloque sua mão sobre o sensor de proximidade, conforme mostrado na imagem.</string>
+
+    <!--Gesture test -->
+    <string name="guesture_test">Gestos</string>
+    <string name="guesture_try_message">Acene sua mão sobre o sensor, conforme mostrado. O teste deve passar automaticamente.</string>
+
+
+    <!-- Microphone Test  -->
+    <string name="microphone_test">Microfone</string>
+    <string name="microphone_test_try_message">Teste seu microfone falando normalmente.</string>
+    <string name="microphone_record_message"> Toque em \'Gravar\' e fale para gravar o áudio.</string>
+    <string name="microphone_play_message">Toque em \'Reproduzir\' e ouça o áudio gravado.</string>
+    <string name="recording">Gravação</string>
+    <string name="record">Gravar</string>
+    <string name="play">Tocar</string>
+    <string name="recording_done">Gravação Concluída</string>
+    <string name="recording_start">Gravação Iniciada</string>
+    <string name="microphone_not_started">Microfone não pode ser iniciado</string>
+    <string name="microphone_test_play_description">Ouça o áudio gravado</string>
+    <string name="microphone_result_message">Você ouviu o áudio gravado?</string>
+    <string name="audio_source_error">Erro na fonte de áudio</string>
+    <string name="microphone_test_suggestion">• Verifique se há entradas bloqueadas
+      \n• Retire a capa do aparelho \n• Limpe a entrada do microfone \n• Desconecte qualquer acessório (Bluetooth ou outros)\n\n Toque em \'Tentar Novamente\' se quiser refazer o teste; caso contrário, toque em \'Falhou\' se o teste não for aprovado.</string>
+
+    <string name="media_recorder_error">Erro na preparação do Gravador de Mídia</string>
+    <string name="media_server_died">Erro no Servidor de Mídia</string>
+    <string name="unknown_error">Erro Desconhecido</string>
+
+
+    <!-- Hardkey Test  -->
+    <string name="hardkey_test">Botões Físicos</string>
+    <string name="hardkey_try_messaage">Teste os botões do dispositivo pressionando cada um.</string>
+    <string name="key_result_message">Todos os círculos têm uma marca de seleção?</string>
+    <string name="endtest">TERMINAR TESTE</string>
+    <string name="relauch_msg">Aguarde até que o aplicativo seja reiniciado.</string>
+
+    <!-- Softkey Test  -->
+    <string name="softkey_test">Botões de Navegação</string>
+    <string name="softkey_try_message">Teste as teclas programáveis do dispositivo tocando em cada uma.</string>
+
+    <!-- Speaker Test  -->
+    <string name="speaker_test">Alto Falante</string>
+    <string name="speakaer_test_try_message">Teste o alto-falante ouvindo os números ilustrados no áudio reproduzido</string>
+    <string name="speaker_result_message">Por favor, digite os números que você ouviu do palestrante</string>
+    <string name="we_have_turned_up_valume">Aumentamos o seu volume e será redefinido mais tarde.</string>
+    <string name="speakaer_test_inprogress_message">A música está tocando.</string>
+
+    <!-- Receiver Test  -->
+    <string name="receiver_test">Receptor</string>
+    <string name="receivertest_try_message">Teste o fone de ouvido ouvindo os números ilustrados no áudio reproduzido</string>
+    <string name="receiver_test_result_message">Por favor, digite os números que você ouviu do fone de ouvido.</string>
+    <string name="receivertest_inprogress_message">A música está tocando.</string>
+
+
+    <!-- Earpiece Test  -->
+    <string name="earpiece_test">Auscultador</string>
+    <string name="earpiecetest_try_message">Teste o fone de ouvido ouvindo os números ilustrados no áudio reproduzido</string>
+    <string name="earpiece_test_result_message">Por favor, digite os números que você ouviu do fone de ouvido.</string>
+
+    <!-- Touch Test  -->
+    <string name="touch_test">Tela e Touch</string>
+    <string name="touch_test_try_message">Toque ou deslize todos os quadros na tela para torná-los azuis.</string>
+    <string name="str_touch_test_passed">Teste de toque aprovado</string>
+    <string name="str_touch_test_failed">Teste de toque falhou</string>
+    <string name="touch_test_result_message">Todos os quadros ficaram azuis?</string>
+    <!-- Spen Test  -->
+    <string name="spen_test">SPen</string>
+    <string name="spen_test_try_message">Toque ou deslize todos os quadros na tela com seu SPen para torná-los azuis.</string>
+
+
+    <!-- Rear camera picture Test  -->
+    <string name="rear_camera_picture_test">Foto da Câmera Traseira</string>
+    <string name="rear_camera_picture_try_message">Teste a câmera traseira tirando uma foto.</string>
+    <string name="rear_camera_picture_result_message">O dispositivo tirou uma foto nítida?</string>
+
+    <!-- Rear camera picture Test for Multi Camera -->
+    <string name="rear_camera_picture_test1">Foto da Câmera Traseira 1</string>
+    <string name="rear_camera_picture_test2">Foto da Câmera Traseira 2</string>
+    <string name="rear_camera_picture_test3">Foto da Câmera Traseira 3</string>
+    <string name="rear_camera_picture_test4">Foto da Câmera Traseira 4</string>
+    <string name="rear_camera_picture_test5">Foto da Câmera Traseira 5</string>
+    <string name="rear_camera_picture_test6">Foto da Câmera Traseira 6</string>
+
+    <!-- Vídeo da Câmera Traseira  -->
+    <string name="rear_camera_video_test">Vídeo da Câmera Traseira</string>
+    <string name="rear_camera_video_try_message">Teste o vídeo da câmera traseira gravando um vídeo.</string>
+    <string name="rear_camera_video_result_message">O dispositivo gravou um vídeo nítido?</string>
+    <string name="rear_camera_not_working">A câmera traseira não está funcionando.</string>
+
+
+    <!-- Vídeo da Câmera Traseira  -->
+    <string name="rear_camera_video_test1">Vídeo da Câmera Traseira 1</string>
+    <string name="rear_camera_video_test2">Vídeo da Câmera Traseira 2</string>
+    <string name="rear_camera_video_test3">Vídeo da Câmera Traseira 3</string>
+    <string name="rear_camera_video_test4">Vídeo da Câmera Traseira 4</string>
+    <string name="rear_camera_video_test5">Vídeo da Câmera Traseira 5</string>
+    <string name="rear_camera_video_test6">Vídeo da Câmera Traseira 6</string>
+
+    <!-- Vídeo da Câmera Frontal  -->
+    <string name="front_camera_video_test">Vídeo da Câmera Frontal</string>
+    <string name="FrontCameraVideo_Test">Vídeo da Câmera Frontal</string>
+    <string name="front_camera_video_try_message">Teste o vídeo da câmera voltado para frente gravando um vídeo.</string>
+    <string name="front_camera_video_result_message">O dispositivo gravou um vídeo nítido?</string>
+
+    <!-- Vídeo da Câmera Frontal  -->
+    <string name="front_camera_video_test1">Vídeo da Câmera Frontal 1</string>
+    <string name="front_camera_video_test2">Vídeo da Câmera Frontal 2</string>
+    <string name="front_camera_video_test3">Vídeo da Câmera Frontal 3</string>
+    <string name="front_camera_video_test4">Vídeo da Câmera Frontal 4</string>
+    <string name="front_camera_video_test5">Vídeo da Câmera Frontal 5</string>
+    <string name="front_camera_video_test6">Vídeo da Câmera Frontal 6</string>
+
+    <!-- Foto da Câmera Frontal  -->
+    <string name="front_camera_picture_test">Foto da Câmera Frontal</string>
+    <string name="front_camera_picture_try_message">Teste a câmera voltada para frente tirando uma foto.</string>
+    <string name="front_camera_picture_result_message">O dispositivo tirou uma foto nítida?</string>
+
+
+    <!-- Foto da Câmera Frontal  -->
+    <string name="front_camera_picture_test1">Foto da Câmera Frontal 1</string>
+    <string name="front_camera_picture_test2">Foto da Câmera Frontal 2</string>
+    <string name="front_camera_picture_test3">Foto da Câmera Frontal 3</string>
+    <string name="front_camera_picture_test4">Foto da Câmera Frontal 4</string>
+    <string name="front_camera_picture_test5">Foto da Câmera Frontal 5</string>
+    <string name="front_camera_picture_test6">Foto da Câmera Frontal 6</string>
+
+    <!-- Camera Flash Test  -->
+    <string name="cameraflash_test">Flash da Câmera Traseira</string>
+    <string name="camera_flash_on">O flash da câmera está ligado</string>
+    <string name="camera_flash_off">O flash da câmera está desligado</string>
+
+
+
+    <!--LCD test-->
+    <string name="display_test">Teste da Tela</string>
+    <string name="lcd_test">Teste da Tela</string>
+    <string name="display_test_try_message">Toque na tela para alterar as cores para branco, cinza, preto, vermelho, verde e azul. Procure pixels ausentes ou cores desiguais.</string>
+    <string name="display_test_result_message">A tela está livre de pixels mortos e descoloração?</string>
+
+    <!--DeadPixel test-->
+    <string name="deadpixel_test">Teste de Pixel Morto</string>
+    <string name="deadpixel_test_try_message">Pressione e segure para selecionar os pontos coloridos (toque duas vezes para desmarcar). Deslize para continuar. \n\nTelas em preto e branco serão apresentadas.</string>
+    <string name="deadpixel_test_result_message">Você tocou em algum ponto colorido?</string>
+
+    <!-- Discoloration test-->
+    <string name="discoloration_test">Teste de Descoloração</string>
+    <string name="discoloration_test_try_message">Pressione e segure para selecionar a área descolorida (toque duas vezes para desmarcar). Deslize para continuar. \n\nTelas brancas e cinzas serão apresentadas.</string>
+    <string name="discoloration_test_result_message">Você delineou alguma área descolorida na tela?</string>
+
+    <!--ScreenBurn test-->
+    <string name="screenburn_test">Teste de Queima de Tela</string>
+    <string name="screenburn_test_try_message">Pressione e segure para selecionar as áreas de gravação (toque duas vezes para desmarcar). Deslize para continuar. \n\nTelas cinza e brancas serão apresentadas.</string>
+    <string name="screenburn_test_result_message">Você delineou alguma área queimada na tela?</string>
+
+
+
+    <!-- Earphone Test  -->
+    <string name="earphone_test">Fone de Ouvido</string>
+    <string name="earphone_test_skip_disable_try_message">Conecte seus fones de ouvido com fio. \n Os fones de ouvido sem fio não podem ser testados.</string>
+    <string name="earphone_test_suggestion_play">Agora vamos ouvir a música sendo \nreproduzida pelo seu fone de ouvido.</string>
+    <string name="connect_earaphones">Conecte seus fones de ouvido.</string>
+    <string name="ear_jack_unplug_earphones">Desconecte os fones de ouvido.</string>
+    <string name="connect_earphones_dialog">Conecte seus fones de ouvido</string>
+    <string name="connect_earphones_toast">Conecte seus fones de ouvido para reproduzir áudio.</string>
+    <string name="earphone_result_message">Você ouviu a música?</string>
+
+
+    <!-- Dimming Test  -->
+    <string name="dimming_test">Escurecimento</string>
+    <string name="dimming_try_message">Assim que o teste começar, toque na tela 3 vezes. Observe as alterações de brilho da tela.</string>
+    <string name="dimming_result_message">Você viu as mudanças no brilho da tela?</string>
+    <string name="tap_toproceed">Toque para continuar.</string>
+
+    <!--Call test -->
+    <string name="call_test">Chamada</string>
+    <string name="calltest_result_message">Você conseguiu ouvir uma mensagem automática?</string>
+    <string name="call_test_feature">Este recurso já está sendo usado com sucesso</string>
+
+
+    <!-- Vibration test-->
+    <string name="vibration_test">Vibração</string>
+    <string name="vibration_try_message">Inicie o teste e conte quantas vezes o dispositivo vibra</string>
+    <string name="vibration_result_message">Quantas vezes seu dispositivo vibrou?</string>
+    <string name="str_vibrator_testrunning">Teste de vibração em execução</string>
+    <string name="str_vibration_isdone">A vibração está concluída</string>
+    <string name="increase_vibration_intensity">Aumente a intensidade de vibração</string>
+
+
+    <!-- USB COnnection Test -->
+    <string name="usbconnection_test">Conexão USB</string>
+    <string name="usbconnection_try_message">Vamos verificar se o seu dispositivo é capaz de reconhecer uma conexão USB. Conecte seu dispositivo a um cabo USB em funcionamento.</string>
+    <string name="usbconnection_test_instruction">Você precisará de um cabo USB à mão para este teste.</string>
+    <string name="usbconnection_result_messsage">A porta USB funcionou corretamente?</string>
+    <string name="connect_usb">Conectar USB</string>
+    <string name="usb_connected">USB está conectado</string>
+    <string name="usb_connection_test_failed">Falha no teste de Conexão USB</string>
+    <string name="please_connect_usb">Por favor conecte USB</string>
+
+    <!-- Charging Test  -->
+    <string name="charging_test">Carregamento</string>
+    <string name="charging_try_message">Vamos verificar se a capacidade de carregamento do seu dispositivo está funcionando conforme o esperado. Conecte seu dispositivo ao carregador de parede.</string>
+    <string name="charging_result_message">O carregamento do dispositivo funcionou corretamente?</string>
+    <string name="please_connect_charger">Conecte o carregador</string>
+    <string name="device_charging">O dispositivo está carregando</string>
+    <string name="charging_test_timeout_message">• Remova quaisquer detritos da porta de carregamento na parte inferior do seu dispositivo
+      \n• Verifique o cabo de carregamento e o adaptador USB quanto a sinais de danos, como rupturas ou pontas dobradas \n\n Toque em \'Tentar Novamente\' se quiser refazer o teste; caso contrário, toque em \'Falhou\' se o teste não for aprovado.</string>
+
+    <!-- bluetooth connectivity test-->
+    <string name="bluetooth_connectivity_test">Conectividade Bluetooth</string>
+    <string name="bluetooth_connectivity_try_message">Teste a capacidade de reconhecer um dispositivo Bluetooth nas proximidades.</string>
+    <string name="bluetooth_connectivity_result_message">A conectividade bluetooth funcionou?</string>
+    <string name="bluetooth_connectivity_text">Procurando...</string>
+
+
+    <!--wifi connectivity test -->
+    <string name="wifi_setting">Configurações de wifi</string>
+    <string name="wifi_check_status">Verificando o status do Wifi ...</string>
+    <string name="wifi_connectivity_test">Teste de Conectividade Wifi</string>
+    <string name="wifi_connectivity_heading">@string/wifi_connectivity_test</string>
+    <string name="wifi_connectivity_try_message">Teste a capacidade de reconhecer um dispositivo WIFI nas proximidades.</string>
+    <string name="wifi_connectivity_off_message">O wi-fi parece estar desligado, clique no botão Configurações de wi-fi para ligá-lo.</string>
+
+    <!-- Gesture test  -->
+    <string name="title_activity_gesture_test">Gestos</string>
+
+    <!-- Earjack test  -->
+    <string name="earjact_test">Conector de fone de ouvido</string>
+    <string name="earjack_test_try_message">Conecte seu fone de ouvido. Certifique-se de que seu dispositivo indica o status \"Conectado\".</string>
+    <string name="earjack_result_message">Quando você conectou os fones de ouvido, o dispositivo respondeu?</string>
+
+    <!-- NFC Toggle Test  -->
+    <string name="nfctoggle_test">NFC</string>
+
+
+    <!-- Sleep Test  -->
+    <string name="sleep_test">Sleep</string>
+    <!--Battery Performance Test-->
+    <string name="battery_performance_name">Desempenho da bateria</string>
+    <string name="battery_performance_try_message">Para medir o consumo da bateria, você deve ativar o Modo Avião em seu dispositivo. Este teste levará cerca de 5 minutos para ser concluído.</string>
+
+    <string name="all_sounds_off">Todos os sons estão desligados!</string>
+    <string name="all_sounds_off_instruction">Vá para configurações-> acessibilidade e ligue todos os sons para continuar o teste.</string>
+    <string name="unplug_earphones">Desconecte os fones de ouvido para reproduzir áudio</string>
+    <string name="plug_earphones">Você pode conectar seus fones de ouvido de volta</string>
+    <string name="unnplug_earphones">Agora você pode desconectar seus fones de ouvido.</string>
+    <string name="instruction">Instrução</string>
+    <string name="enable_accessibility_service">Ligue a ferramenta Pervacio no serviço de Acessibilidade.</string>
+    <string name="all_tests_completed">Todos os testes concluídos</string>
+    <string name="no_issues_found">Nenhum problema foi encontrado</string>
+
+    <string name="str_return">Voltar</string>
+    <string name="str_next">Seguinte</string>
+    <string name="str_is_passed">passou</string>
+    <string name="str_is_failed">falhou</string>
+    <string name="str_is_timeout">expirou</string>
+    <string name="result_timed_out">Tempo esgotado!</string>
+    <string name="str_is_access_denied">Acesso Negado</string>
+    <string name="result_access_denied">Acesso Negado</string>
+    <string name="result_fail">FALHOU</string>
+    <string name="result_pass">PASSOU</string>
+
+     <!--resolutions-->
+    <string name="on">LIGADO</string>
+    <string name="off">DESLIGADO</string>
+    <string name="recommondation">Recomendação:</string>
+    <string name="go_to_settings">VÁ PARA AS CONFIGURAÇÕES</string>
+    <string name="action_cancel">Cancelar</string>
+
+     <!--wifi-->
+    <string name="wifi_heading_text">WIFI pronto</string>
+    <string name="wifi_status_heading_text">Status do WIFI</string>
+    <string name="wifi_recommondation_text">Manter o Wi-Fi desligado quando não estiver em uso prolonga a vida útil da bateria.</string>
+    <string name="wifi_status_on">WIFI está LIGADO</string>
+    <string name="wifi__status_off">WIFI está DESLIGADO</string>
+    <string name="wifi_connectivity_recommondation">Manter o Wi-fi DESLIGADO quando não estiver usando a Internet pode estender a vida útil da bateria.​</string>
+    <string name="wifi_on_connectivity_recommondation">Recomenda-se ligar o Wifi.​</string>
+    <string name="pass_status">Teste Passou</string>
+    <string name="fail_status">Teste Falhou</string>
+    <string name="skip_status">Teste Pulou</string>
+    <string name="timeout_status">Teste Expirado</string>
+    <string name="accessdenied_status">Teste com Acesso Negado</string>
+    <string name="not_supported_status">O teste de desempenho da bateria não é compatível com este dispositivo.</string>
+
+    <!--bluetooth-->
+    <string name="bluetooth_toolbar_connectivity_text">Bluetooth está pronto</string>
+    <string name="bluetooth_toolbar_text">Status do Bluetooth</string>
+    <string name="bluetooth_on_recommondation_text">A configuração de Bluetooth está DESLIGADA neste dispositivo. Para habilitar o Bluetooth, mude o controle deslizante para a posição LIGADO.</string>
+    <string name="bluetooth_status_on_text">Bluetooth está LIGADO</string>
+    <string name="bluetooth_status_off_text">Bluetooth está DESLIGADO</string>
+    <string name="bluetooth_connectivity_recommondation">Ligue o Bluetooth</string>
+    <string name="bluetooth_note_text">Nota: alguns aplicativos podem exigir uma conexão Bluetooth para funcionar corretamente.</string>
+
+
+    <!--livewallpaper-->
+    <string name="live_wallpaper_msg">Não é possível desligar o papel de parede animado</string>
+    <string name="livewallpaper_toolbar_text">Status do papel de parede animado</string>
+    <string name="livewallpaer_off">O papel de parede animado está DESATIVADO</string>
+    <string name="livewallpaer_on">O papel de parede animado está ATIVADO</string>
+    <string name="livewallpaper_recommondation_text">O papel de parede animado pode ter um impacto significativo na vida útil da bateria. Para prolongar a vida útil da bateria, use um papel de parede de foto ou imagem.</string>
+
+
+    <string name="str_delete">Apagar</string>
+    <string name="str_stop">Parar</string>
+    <string name="str_uninstall">Desinstalar</string>
+    <string name="str_name">Nome</string>
+    <string name="str_date">Data</string>
+    <string name="str_size">Tamanho</string>
+
+    <string name="title_autostartapps">Aplicativos que iniciam automaticamente</string>
+    <string name="title_runningapps">Aplicativos atualmente em execução</string>
+    <string name="title_backgroundapps">Aplicativos em execução em segundo plano</string>
+    <string name="title_riskyapps">Desinstalar aplicativos arriscados</string>
+    <string name="title_malwareapps">Desinstalar aplicativos de malware</string>
+    <string name="title_adwareapps">Desinstalar aplicativos Adware</string>
+    <string name="title_outdatedapps">Desinstalar aplicativos desatualizados</string>
+    <string name="title_unusedapps">Desinstalar aplicativos não usados</string>
+    <string name="title_duplicatefiles">Excluir arquivos duplicados</string>
+    <string name="title_music">Apagar Áudio</string>
+    <string name="title_images">Apagar Imagens</string>
+    <string name="title_videos">Apagar Vídeos</string>
+    <string name="delete_alert_msg">"Tem certeza de que deseja excluir os arquivos selecionados?</string>
+
+
+
+
+    <!-- mail and comment feedback -->
+    <string name="app_created">Este aplicativo foi criado para Vivo por Pervacio, Inc.</string>
+    <string name="comment_box">Por favor, deixe um comentário sobre o aplicativo.</string>
+    <string name="selet_one_to_continue">Selecione pelo menos um item para continuar.</string>
+    <string name="read_more_link">Consulte mais informações</string>
+    <string name="here_data_send"><b>Aqui estão os dados que acessaremos para ajudar a melhorar nossos serviços.</b></string>
+    <string name="network_access">• IMEI</string>
+    <string name="phone_number">• Número do Telefone</string>
+    <string name="device_manufacture">• Fabricante do dispositivo</string>
+    <string name="device_model">• Modelo do dispositivo</string>
+    <string name="os_version">• Versão do sistema operacional</string>
+    <string name="latitude">• Latitude</string>
+    <string name="longitude">• Longitude</string>
+    <string name="device_features">• Recursos do dispositivo</string>
+    <string name="battery_health">• Saúde da bateria</string>
+    <string name="apps_installed">• Aplicativos instalados no dispositivo. (Observação: não armazenamos essas informações em nenhum lugar)</string>
+    <string name="msg_sprint_checkup">O Pervacio Mobile Diagnostics permite que você faça um checkup do seu telefone de forma rápida e fácil.</string>
+    <string name="msg_empty_rating">Avalie o aplicativo ou deixe algum comentário</string>
+    <string name="rate_this_app">Avalie este aplicativo</string>
+    <string name="comment">Comentários</string>
+
+    <!-- Resolution Names -->
+    <string name="resolution_images">Imagens</string>
+    <string name="resolution_music">Áudio</string>
+    <string name="resolution_videos">Vídeos</string>
+    <string name="resolution_duplicate">Arquivos duplicados</string>
+    <string name="resolution_running_apps">Aplicativos abertos</string>
+    <string name="resolution_background_apps">Apps em Segundo Plano</string>
+    <string name="resolution_autostart_apps">Aplicativos de inicialização automática</string>
+    <string name="resolution_malware_apps">Aplicativos de Malware</string>
+    <string name="resolution_adware_apps">Aplicativos Adware</string>
+    <string name="resolution_risky_apps">Aplicativos Arriscados</string>
+    <string name="resolution_outdated_apps">Aplicativos Desatualizados</string>
+    <string name="resolution_unused_apps">Aplicativos não utilizado</string>
+    <string name="resolution_unused_app_identify">Identificação de aplicativos não utilizados</string>
+
+    <string name="rotate_device">Gire seu dispositivo</string>
+    <string name="rotate">GIRAR</string>
+    <string name="file_deleted">O arquivo foi excluído</string>
+    <string name="files_are_deleted">Arquivos foram excluídos</string>
+    <string name="kill_app">App está encerrado</string>
+    <string name="unable_to_kill">Incapaz de encerrar o aplicativo</string>
+    <string name="terms_and_conditions_text">Precisamos que você concorde que a Telefonica Brasil S.A. não aceita qualquer responsabilidade por qualquer perda de dados pessoais, incluindo, mas não se limitando a Contatos, Conteúdo de SMS, Configurações de Conta, Multimídia, Fotografias e Vídeos ou configurações de aplicativos / mídias sociais e / ou senhas , também não aceitamos qualquer responsabilidade por quaisquer danos causados ao dispositivo. A Telefonica Brasil S.A. também coletará dados anônimos sobre o seu agendamento e dispositivo com a finalidade de melhorar o serviço, o que incluirá informações técnicas sobre exames de saúde e diagnósticos, isso pode incluir o IMEI dos dispositivos em que trabalhamos. Ao assinar este documento, você concede à Telefonica Brasil S.A. permissão para compartilhar dados essenciais e instalar aplicativos de terceiros em seu dispositivo para fins de diagnóstico, exames de saúde e transferência de dados, conforme aprovado pela Telefonica Brasil S.A., quando necessário. Não armazenaremos nenhum dado pessoal em nossas estações de trabalho.</string>
+
+    <string name="enable_gps">Habilite o GPS do dispositivo.</string>
+    <!-- Educational Message -->
+
+    <string name="firmware_text">Manter o firmware do seu dispositivo atualizado melhorará o desempenho geral da bateria e do dispositivo. É altamente recomendável atualizar o firmware do seu dispositivo.\n\n<b> Sua versão do firmware: %1$s <!--\nVersão do firmware mais recente: %2$s--> </b>\n\nVá para Configurações e pesquise por atualização de software. Verifique se uma atualização de software está disponível e execute o processo de atualização.</string>
+    <string name="last_restart">Detectamos que você não reiniciou seu telefone desde ** ##.\nSeu aparelho fica lento com o tempo. Recomendamos reiniciar seu dispositivo de vez em quando.</string>
+    <string name="sim_card_resolution_text">O cartão SIM não está presente no dispositivo. Insira o SIM para fazer uma chamada.</string>
+    <string name="pass_response">Resposta enviada.</string>
+    <string name="fail_response">Incapaz de enviar a resposta.</string>
+
+
+    <string name="access_denied_text">Para realizar este teste, precisamos que as permissões apropriadas sejam concedidas. Solicitamos que você visite as Configurações do Aparelho e conceda as permissões necessárias.</string>
+    <string name="failed_text">Seu dispositivo pode precisar de reparos. Se for necessária uma reparação, podem ser aplicadas taxas. Para que um técnico certificado diagnostique este dispositivo para reparo, marque um atendimento na Loja.</string>
+
+    <string name="str_last_restart">Última Reinicialização</string>
+    <string name="testresult_pass">Passou</string>
+    <string name="testresult_fail">Falhou</string>
+    <string name="testresult_accessdenied">Acesso Negado</string>
+    <string name="testresult_notequipped">Nenhum</string>
+    <string name="testresult_timeout">Tempo Esgotado</string>
+    <string name="testresult_skip">Pulado</string>
+    <string name="testresult_userinput">Entrada do usuário</string>
+    <string name="testresult_canbeimproved">Otimizável</string>
+    <string name="testresult_optimized">Otimizado</string>
+
+
+    <string name="suggested_fixes">Correções Sugeridas</string>
+    <string name="result_text">Resultado dos Testes</string>
+    <string name="read_more"> Mais informações</string>
+    <string name="device_info_version">Versão</string>
+    <string name="server_war_version">Número da versão do servidor %1$s</string>
+
+
+    <!-- Session Screen -->
+    <string name="session_id_number">Número ID</string>
+    <string name="session_message">Por favor, compartilhe a ID abaixo com o cliente para continuar.</string>
+
+    <!-- Device Info -->
+
+    <string name="device_info_tag_name">Por favor, confirme as informações abaixo</string>
+    <string name="device_info_hardware">Hardware</string>
+    <string name="device_info_make">Marca</string>
+    <string name="device_info_model">Modelo</string>
+    <string name="device_info_imei">IMEI </string>
+    <string name="device_info_imei_mac">IMEI / MAC</string>
+    <string name="device_info_storage">Armazenamento</string>
+    <string name="device_info_carrier">Operadora</string>
+    <string name="serialnumber">Número de Série</string>
+    <string name="device_info_os">Sistema Operacional</string>
+    <string name="device_info_platfrom">Plataforma</string>
+    <string name="str_batteryusage_battery">Bateria</string>
+    <string name="device_information_battery_charging_level">Nível de carga</string>
+    <string name="device_information_battery_temperature">Temperatura</string>
+    <string name="device_information_battery_technology">Tecnologia</string>
+    <string name="device_info_imei_block_status">Status de IMEI%1$s bloqueado</string>
+
+    <string name="firmware_version">Versão do Firmware</string>
+    <string name="os_version_summary">Versão do Sistema Operacional</string>
+    <string name="start_time">Hora de Início</string>
+    <string name="device_info_confirm_button">Confirme</string>
+    <string name="title_activity_pin_generation">Pin Generation Activity</string>
+    <string name="str_results_skip">Pular</string>
+    <string name="ownership_header"><b>Falha na verificação de propriedade</b></string>
+    <string name="ownership_text">Não é possível continuar com o diagnóstico.\n Toque em OK para encerrar a sessão.</string>
+    <string name="pleaseWait">Por favor, espere.</string>
+    <string name="invalid_pin">Por favor, insira um PIN válido</string>
+    <string name="errror_conn">Algum erro na conexão</string>
+
+    <string name="rooted_msg">Este é um dispositivo Rooteado e pode levar a resultados de teste inconsistentes ou enganosos. O diagnóstico será ignorado e a sessão será encerrada.</string>
+    <string name="rooted_title">Dispositivo Rooteado encontrado</string>
+
+    <string name="tradein_title">Dispositivo não elegível!</string>
+    <string name="tradein_msg">Este dispositivo não é elegível para troca. Para mais perguntas, entre em contato com a operadora.</string>
+
+    <string name="server_msg">Incapaz de conectar o servidor. Por favor, tente depois de algum tempo</string>
+    <string name="eligible_title">Dispositivo não elegível!</string>
+    <string name="eligible_msg">Este dispositivo não é elegível para troca</string>
+    <string name="server_unreachable_title">Servidor Inacessível</string>
+    <string name="server_unreachable_msg">A conexão com o servidor foi perdida, tente novamente.</string>
+    <string name="feedback_exit">Sair</string>
+
+
+    <!--email summary-->
+    <string name="plz_enter_email">Digite o endereço de e-mail</string>
+    <string name="select_destination">Selecione o destino</string>
+    <string name="email">Email</string>
+    <string name="save_to_device">Salvar no dispositivo</string>
+    <string name="enter_email_address">Insira o seu endereço de email</string>
+    <string name="invalid_email_address">*Endereço de email inválido</string>
+
+    <string name="send_summary">Enviar Resumo</string>
+    <string name="saved_summary_image">Uma imagem do resultado da sessão de diagnóstico atual foi salva na Galeria do dispositivo.</string>
+    <string name="unable_to_save_denied">Erro, não foi possível salvar a imagem, permissão negada.</string>
+
+
+
+    <!-- End session strings-->
+    <string name="endsession_message">Obrigado</string>
+    <string name="endsession_name">Pervacio\nAssisted Diagnostics</string>
+    <string name="end_session">Finalizar Sessão</string>
+
+
+
+    <!-- Ending Session -->
+    <string name="title_activity_ending_session">Finalizando Sessão</string>
+    <string name="title_activity_ending_session_message">Obrigado por usar OnDevice Diagnostics!</string>
+    <string name="title_activity_ending_session_tag">Para que suas melhorias sejam concluídas, seu dispositivo deve reiniciar. Avisaremos quando puder desconectar.</string>
+    <string name="title_activity_ending_session_finish">Terminar</string>
+    <string name="title_activity_feed_back">FeedBackActivity</string>
+
+    <!-- StooreID alert dialog text -->
+    <string name="storeid_header">Insira o ID da Loja</string>
+    <string name="storeid_message">Insira a ID da loja abaixo.</string>
+    <string name="storeid_cancel">Cancelar</string>
+    <string name="storeid_submit">Enviar</string>
+    <string name="connecting_to_server">Conectando ao servidor</string>
+    <string name="invalid_storeid">ID de loja inválido</string>
+    <string name="try_again">Não foi possível acessar o servidor. Por favor verifique sua conexão com a internet e tente novamente.</string>
+    <string name="saving_summary_image">Salvando imagem do Resumo</string>
+    <string name="storeid_empty_msg">Insira o ID da loja</string>
+    <string name="enter_code">Digite o Código</string>
+    <string name="code">Código</string>
+
+    <!-- Quick battery test -->
+    <string name="not_applicable">NA</string>
+    <string name="battery_results">Resultados do Teste de Bateria</string>
+    <string name="quick_battery_results">Resultado do Teste Rápido da Bateria</string>
+    <string name="battery_performance_results">Desempenho da Bateria</string>
+    <string name="battery_health_result">Saúde da Bateria</string>
+    <string name="design_capacity">Capacidade(mAh)</string>
+    <string name="actual_capacity">Capacidade Real(mAh)</string>
+    <string name="soh">Saúde da Bateria(%)</string>
+    <string name="charging_level">Nível de carga(%)</string>
+    <string name="temperature">Temperatura(°C)</string>
+    <string name="test_not_supported">Teste não suportado</string>
+    <string name="quick_battery_suggestion_one"><b>Condição da bateria:</b> OTIMIZÁVEL</string>
+    <string name="quick_battery_suggestion_two">Parece que a capacidade real de carga da bateria é menor que o limite recomendado.</string>
+    <string name="quick_battery_suggestion_three"><b>Recomendação:</b> Para garantir a longevidade da bateria, evite deixá-la descarregar completamente. Além disso, evite expor a bateria a temperaturas extremas, pois isso pode ter um impacto significativo na vida da bateria.</string>
+    <string name="vgood">Ótima</string>
+    <string name="good">Boa</string>
+    <string name="bad">Ruim</string>
+    <string name="normal">Normal</string>
+    <string name="unsupported">Sem suporte</string>
+    <string name="unknown">Desconhecido</string>
+
+    <string name="battery_health_check">Verificação da saúde da bateria</string>
+    <string name="how_long_had_your_phone">1. Há quanto tempo você está com seu telefone?</string>
+    <string name="when_is_the_last_time">2. Quando foi a última vez que você substituiu a bateria?</string>
+    <string name="are_u_charging_ur_phone">3. Você está carregando seu telefone mais de uma vez por dia?</string>
+    <string name="one_year_or_less">1 ano ou menos</string>
+    <string name="two_years">2 anos</string>
+    <string name="three_or_more">3 anos ou mais</string>
+    <string name="never">Nunca</string>
+    <string name="less_than_year">Menos de um ano</string>
+    <string name="more_than_year">Mais de um ano</string>
+    <string name="replace_battery"><font fgcolor='#FF0000'>Substitua a Bateria</font></string>
+    <string name="replace_not_needed"><font fgcolor='#ff669900'>Substituição Não Necessária</font></string>
+    <string name="consider_replace"><font fgcolor='#ffa500'>Considere a Substituição da Bateria</font></string>
+    <string name="battery_check_worning">Por favor, responda a todas as perguntas.</string>
+
+
+    <!-- Five Point Check -->
+    <string name="check_all_that_apply">Marque todas as opções aplicáveis</string>
+    <string name="five_point_check_toolbar_name">Verificação de 5 pontos</string>
+    <string name="none_selected">Nenhum selecionado</string>
+    <string name="notes_title">Notas</string>
+    <string name="notes_message_text"> / 150 caracteres</string>
+    <string name="notes_hint">Insira informações adicionais sobre as condições do seu dispositivo</string>
+    <!-- Font Names in Assets -->
+    <string name="roboto_light">roboto_light.ttf</string>
+    <string name="roboto_regular">roboto_regular.ttf</string>
+    <string name="roboto_bold">roboto_bold.ttf</string>
+    <string name="roboto_medium">roboto_medium.ttf</string>
+    <string name="roboto_thin">roboto_thin.ttf</string>
+    <string name="Aileron_SemiBold">aileron_semibold.ttf</string>
+    <string name="Aileron_Light">aileron_light.ttf</string>
+    <string name="Aileron_Thin">aileron_thin.ttf</string>
+    <string name="Aileron_Regular">aileron_regular.ttf</string>
+
+    <!--Keys Names-->
+    <string name="key_back">Voltar</string>
+    <string name="key_home">Home</string>
+    <string name="key_menu">Menu</string>
+    <string name="key_power">Power</string>
+    <string name="key_volume_down">Abaixar Volume</string>
+    <string name="key_volume_up">Subir Volume</string>
+    <string name="key_recentapps">Aplicativos recentes</string>
+    <string name="key_share">COMPARTILHAR</string>
+    <string name="key_end_call">TERMINAR CHAMADA</string>
+    <string name="key_search">PROCURAR</string>
+    <string name="key_focus">FOCO</string>
+    <string name="key_call">CHAMAR</string>
+    <string name="key_ok">OK</string>
+    <string name="key_a">A</string>
+    <string name="key_b">B</string>
+    <string name="key_c">C</string>
+    <string name="key_d">D</string>
+    <string name="key_e">E</string>
+    <string name="key_f">F</string>
+    <string name="key_g">G</string>
+    <string name="key_h">H</string>
+    <string name="key_i">I</string>
+    <string name="key_j">J</string>
+    <string name="key_k">K</string>
+    <string name="key_l">L</string>
+    <string name="key_m">M</string>
+    <string name="key_n">N</string>
+    <string name="key_o">O</string>
+    <string name="key_p">P</string>
+    <string name="key_q">Q</string>
+    <string name="key_r">R</string>
+    <string name="key_s">S</string>
+    <string name="key_t">T</string>
+    <string name="key_u">U</string>
+    <string name="key_v">V</string>
+    <string name="key_w">W</string>
+    <string name="key_x">X</string>
+    <string name="key_y">Y</string>
+    <string name="key_z">Z</string>
+    <string name="key_1">1</string>
+    <string name="key_2">2</string>
+    <string name="key_3">3</string>
+    <string name="key_4">4</string>
+    <string name="key_5">5</string>
+    <string name="key_6">6</string>
+    <string name="key_7">7</string>
+    <string name="key_8">8</string>
+    <string name="key_9">9</string>
+    <string name="key_0">0</string>
+    <string name="key_dpad_down">DPAD_DOWN</string>
+    <string name="key_dpad_left">DPAD_LEFT</string>
+    <string name="key_dpad_right">DPAD_RIGHT</string>
+    <string name="key_dpad_up">DPAD_UP</string>
+    <string name="key_enter">ENTER</string>
+    <string name="key_space">ESPAÇO</string>
+    <string name="key_comma">VÍRGULA</string>
+    <string name="key_alt_left">ALT_ESQUERDO</string>
+    <string name="key_shift_left">SHIFT_ESQUERDO</string>
+    <string name="key_shift_right">SHIFT_DIREITO</string>
+    <string name="key_alt_right">ALT_DIREITO</string>
+    <string name="key_period">PERÍODO</string>
+    <string name="key_del">DEL</string>
+    <string name="key_apostrophe">APÓSTROFO</string>
+    <string name="key_tab">TAB</string>
+    <string name="key_function">FUNÇÃO</string>
+    <string name="key_voice_input">ENTRADA_DE_VOZ</string>
+    <string name="key_email">EMAIL</string>
+    <string name="key_dual">DUAL</string>
+    <string name="key_at">AT</string>
+    <string name="key_insert">INSERT</string>
+    <string name="key_lock">LOCK</string>
+    <string name="key_escape">ESC</string>
+    <string name="key_forward">FORWARD</string>
+    <string name="key_right_shift">RIGHT_SHIFT</string>
+    <string name="key_quick_memo">QUICK_MEMO</string>
+    <string name="key_quick_button">QUICK_BUTTON</string>
+    <string name="key_ring">RING</string>
+    <string name="key_wake">WAKE</string>
+    <string name="key_talk">TALK</string>
+    <string name="key_audio">AUDIO</string>
+    <string name="key_tv">TV</string>
+    <string name="key_caps">CAPS</string>
+    <string name="key_sym">SYM</string>
+    <string name="key_minus">MINUS</string>
+    <string name="key_equals">EQUALS</string>
+    <string name="key_slash">SLASH</string>
+    <string name="key_text">TEXTO</string>
+    <string name="key_question">PERGUNTA</string>
+    <string name="key_camcorder">CAMCORDER</string>
+    <string name="key_mute">MUTE</string>
+    <string name="key_speaker">ALTO_FALANTE</string>
+    <string name="key_mic">MIC</string>
+    <string name="key_bixby">BIXBY</string>
+    <string name="key_programmable">PROGRAMÁVEL</string>
+    <string name="key_direct_connect">CONEXÃO_DIRETA</string>
+    <string name="phy_dam_tool_name">Verificação de Danos Físicos</string>
+    <string name="phy_dam_test_name">Nome de teste</string>
+    <string name="phy_dam_subtest_name">Se o teste é executado ou não</string>
+    <string name="phy_dam_test_number">"1/4"</string>
+    <string name="display_free_from_damage">Você vê danos na tela?</string>
+    <string name="display_damage_title">Danos na Tela</string>
+    <string name="physical_damage_title">Dano Físico</string>
+    <string name="liquid_damage_title">Danos Líquidos Visíveis</string>
+    <string name="device_charge_title">Carga do Dispositivo</string>
+    <string name="screen_cracked_description">• Tela rachada / levantada / amassada\n• Bolha debaixo do vidro</string>
+    <string name="free_from_other_damage">Você vê danos físicos?</string>
+    <string name="bent_or_cracked">• Dobrado / rachado / levantado\n• Lente da câmera rachada\n• Peças danificadas ou ausentes, incluindo SIM / bandeja de mídia</string>
+    <string name="free_from_liquid_damage">Você vê danos por líquido?</string>
+    <string name="check_liquid_indicator">• Verifique os indicadores de líquido</string>
+    <string name="does_device_charge">O dispositivo carrega?</string>
+    <string name="phy_dmg_summary_title">Resumo de Danos no Dispositivo:</string>
+    <string name="toggle_change_result">Ao alternar, você pode alterar o resultado</string>
+    <string name="phy_dmg_result">Verificação de Danos Físicos</string>
+    <string name="display_damage_title_q">Dano na tela?</string>
+    <string name="physical_damage_title_q">Dano físico?</string>
+    <string name="device_charge_title_q">Carga do dispositivo?</string>
+
+    <string name="country_selection">Selecione o seu país</string>
+    <string name="confirm_pin">Confirme o seu PIN / padrão</string>
+
+    <integer name="session_id_length">6</integer>
+
+    <string name="session_id">ID de Sessão</string>
+    <string name="prod_config_title">Iniciar Sessão</string>
+    <string name="prod_scan_qr">Digitalize o Código QR</string>
+    <string name="prod_qr_scan_camera_error_msg">Não foi possível ler o código QR. Digite o PIN exibido na GUI.</string>
+    <string name="prod_scan_qr_msg">Toque em Ler Código QR para habilitar a câmera.</string>
+    <string name="prod_or">OR</string>
+    <string name="prod_enter_pin">Insira o Código PIN</string>
+    <string name="complete_following_steps">Conclua as seguintes etapas:</string>
+    <string name="uninstall_diagnostics_app">1 . Desinstale o aplicativo Trade-in Diagnostic deste dispositivo</string>
+    <string name="forget_store_wifi">2. Esqueça o Wi-Fi da loja neste dispositivo</string>
+    <string name="completed">Concluído</string>
+
+
+    <!--EMAIL SUMMARY-->
+    <string name="enter_cust_email_address">Digite o endereço de e-mail do cliente</string>
+    <string name="email_summary_statement2">Uma cópia do e-mail será enviada para os seguintes endereços:</string>
+    <string name="store_email_address">Endereço de Email da Loja</string>
+    <string name="customer_email_address">Endereço de Email do Cliente</string>
+    <string name="central_email_address">Endereço de e-mail da Central</string>
+    <string name="privacy_statement">Declaração de Privacidade</string>
+
+    <string name="session_id_end_screen_msg">Insira este ID de diagnóstico no portal de reparos:</string>
+    <string name="send_to_repair">Enviar para reparo</string>
+    <string name="not_available">Não disponível</string>
+    <string name="internet_unvailable">Internet indisponível. Por favor, verifique e tente novamente.</string>
+    <string name="enter_valid_code">Insira um código válido</string>
+    <string name="internet_unvailable_retry_summary">*Internet indisponível. Tente novamente para ativar o envio do resumo.</string>
+    <string name="capturing_imei">Capturando IMEI</string>
+    <string name="eaphone_warning_msg">O teste começa com 100% do volume!\nNão coloque os fones, mantenha uma pequena distância do ouvido.</string>
+    <string name="bt_headset_connected_msg">Detectamos um dispositivo de áudio bluetooth. Para prosseguir com o teste do alto-falante, desconecte o dispositivo bluetooth e clique em OK para iniciar o teste.</string>
+    <string name="internet_not_available">Internet não disponível</string>
+    <string name="flash_warning">Este teste pode potencialmente desencadear convulsões em pessoas com epilepsia fotossensível. Tenha cuidado.</string>
+    <string name="privacy_statement_text"><![CDATA[&nbsp;<p><strong>Política de Privacidade da Pervacio</strong></p>
+<p>&nbsp;</p>
+<p>Obrigado por escolher fazer parte de nossa comunidade na Pervacio India Private Limited (&#8220;Company&#8221;, &#8220;we&#8221;, &#8220;us&#8221;, or &#8220;our&#8221;). Temos o compromisso de proteger suas informações pessoais e seu direito à privacidade. Se você tiver alguma dúvida ou preocupação sobre nosso aviso ou nossas práticas com relação às suas informações pessoais, entre em contato conosco at&nbsp;<a href="mailto:support@pervacio.com">support@pervacio.com</a></p>
+<p>&nbsp;</p>
+<p>Quando você visita nosso site, aplicativo móvel e usa nossos serviços, você nos confia suas informações pessoais. Nós levamos sua privacidade muito a sério. Neste aviso de privacidade, procuramos explicar da forma mais clara possível quais informações coletamos, como as usamos e quais direitos você tem em relação a elas. Esperamos que você reserve algum tempo para lê-lo com atenção, pois é importante. Se houver algum termo neste aviso de privacidade com o qual você não concorda, interrompa o uso de nossos Sites ou Aplicativos e de nossos serviços.</p>
+<p>&nbsp;</p>
+<p>Este aviso de privacidade se aplica a todas as informações coletadas por meio de nosso site, aplicativo móvel, (&#8220;Apps&#8221;), e / ou quaisquer serviços, vendas, marketing ou eventos relacionados (nos referimos a eles coletivamente neste aviso de privacidade como o &#8220;Services&#8221;).</p>
+<p>&nbsp;</p>
+<p>Leia este aviso de privacidade com atenção, pois ele o ajudará a tomar decisões informadas sobre como compartilhar suas informações pessoais conosco.</p>
+<p>&nbsp;</p>
+<p><strong>Índice</strong></p>
+<p>&nbsp;</p>
+<ol type = "1">
+<li>Quais são as informações que coletamos?</li>
+<li>Como usamos sua informação?</li>
+<li>Suas informações serão compartilhadas com alguém?</li>
+<li>Por quanto tempo mantemos suas informações?</li>
+<li>Como mantemos suas informações seguras?</li>
+<li>Coletamos informações de menores?</li>
+<li>Quais são os seus direitos de privacidade?</li>
+<li>Controles para não rastrear recursos</li>
+<li>Os residentes da Califórnia têm direitos específicos de privacidade?</li>
+<li>Nós atualizamos esta política?</li>
+<li>Como você pode nos contatar sobre esta política?</li>
+<li>Como você pode revisar, atualizar ou excluir os dados que coletamos de você?</li>
+</ol>
+<p>&nbsp;</p>
+<strong>1. Quais são as informações que coletamos?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Podemos coletar informações sobre o seu dispositivo móvel, quando você usa nossos aplicativos.</p>
+<p>Se você usar nossos aplicativos, também podemos coletar as seguintes informações:</p>
+<p>Acesso a dispositivos móveis. Podemos solicitar acesso ou permissão a certos recursos de seu dispositivo móvel, incluindo seu dispositivo móvel	&#8217;s bluetooth, câmera, microfone, sensores, contatos, calendário, lembretes, armazenamento e outros recursos. Se desejar alterar nosso acesso ou permissões, você pode fazê-lo em seu dispositivo	&#8217;s settings.</p>
+<p>Dados do dispositivo móvel. Podemos coletar automaticamente informações do dispositivo (como ID do dispositivo móvel, modelo e fabricante), sistema operacional, informações de versão e endereço IP.</p>
+<p>&nbsp;</p>
+<strong>2. Como usamos sua informação?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Processamos suas informações para fins com base em interesses comerciais legítimos, no cumprimento de nosso contrato com você, no cumprimento de nossas obrigações legais e / ou em seu consentimento.</p>
+<p>Usamos as informações pessoais coletadas por meio de nossos serviços ou aplicativos para uma variedade de fins comerciais descritos abaixo. Processamos suas informações pessoais para esses fins com base em nossos interesses comerciais legítimos, a fim de celebrar ou executar um contrato com você, com o seu consentimento e / ou para o cumprimento de nossas obrigações legais. Indicamos os fundamentos de processamento específicos nos quais confiamos ao lado de cada propósito listado abaixo.</p>
+<p><strong>Usamos as informações que coletamos ou recebemos:</strong></p>
+<ul>
+<li>Para fazer cumprir nossos termos, condições e políticas para fins comerciais, motivos legais e contratuais.</li>
+<li>Para responder às solicitações legais e prevenir danos. Se recebermos uma intimação ou outra solicitação legal, podemos precisar inspecionar os dados que possuímos para determinar como responder.</li>
+<li>Para fornecer serviços de classificação de dispositivo para você. Podemos usar suas informações para fornecer o serviço solicitado.</li>
+</ul>
+<p>&nbsp;</p>
+<strong>3. Suas informações serão compartilhadas com alguém?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Nós apenas compartilhamos informações com o seu consentimento, para cumprir as leis, para lhe fornecer serviços, para proteger seus direitos ou para cumprir obrigações comerciais.</p>
+<p><em>Podemos processar ou compartilhar dados com base na seguinte base jurídica:</em></p>
+<p><strong>Consentimento:</strong>&nbsp;Podemos processar seus dados se você nos der consentimento específico para usar suas informações pessoais em uma finalidade específica.</p>
+<p><strong>Interesses legítimos:</strong>&nbsp;Podemos processar seus dados quando for razoavelmente necessário para atingir nossos interesses comerciais legítimos.</p>
+<p><strong>Execução de um contrato:</strong>&nbsp;Quando celebramos um contrato com você, podemos processar suas informações pessoais para cumprir os termos do nosso contrato.</p>
+<p><strong>Obrigações legais:</strong>&nbsp;Podemos divulgar suas informações onde formos legalmente obrigados a fazê-lo, a fim de cumprir a lei aplicável, solicitações governamentais, um processo judicial, ordem judicial ou processo legal, como em resposta a uma ordem judicial ou uma intimação (incluindo em resposta às autoridades públicas para atender aos requisitos de segurança nacional ou aplicação da lei).</p>
+<p><strong>Interesses vitais:</strong>&nbsp;Podemos divulgar suas informações quando acreditamos ser necessário investigar, prevenir ou tomar medidas em relação a possíveis violações de nossas políticas, suspeita de fraude, situações envolvendo ameaças potenciais à segurança de qualquer pessoa e atividades ilegais, ou como evidência em litígio em que estamos envolvidos.</p>
+<p><em>Mais especificamente, podemos precisar processar seus dados ou compartilhar suas informações pessoais nas seguintes situações:</em></p>
+<p><strong>Fornecedores, consultores e outros provedores de serviços terceirizados:</strong>&nbsp;Podemos compartilhar seus dados com fornecedores terceirizados, provedores de serviços, empreiteiros ou agentes que prestam serviços para nós ou em nosso nome e requerem acesso a tais informações para fazer esse trabalho. Os exemplos incluem: processamento de pagamentos, análise de dados, entrega de e-mail, serviços de hospedagem, atendimento ao cliente e esforços de marketing. Podemos permitir que terceiros selecionados usem tecnologia de rastreamento nos Serviços ou Aplicativos, o que lhes permitirá coletar dados sobre como você interage com os Serviços ou Aplicativos ao longo do tempo. Essas informações podem ser usadas para, entre outras coisas, analisar e rastrear dados, determinar a popularidade de determinado conteúdo e entender melhor a atividade online. A menos que descrito nesta Política, não compartilhamos, vendemos, alugamos ou trocamos nenhuma de suas informações com terceiros para fins promocionais.</p>
+<p><strong>Transferências de negócios:</strong>&nbsp;Podemos compartilhar ou transferir suas informações em conexão com, ou durante as negociações de qualquer fusão, venda de ativos da empresa, financiamento ou aquisição de todo ou parte de nosso negócio para outra empresa.</p>
+<p><strong>Anunciantes terceirizados:</strong>&nbsp;Podemos usar empresas de publicidade terceirizadas para veicular anúncios quando você visita os Serviços ou Aplicativos. Essas empresas podem usar informações sobre suas visitas ao (s) nosso (s) site (s) e outros sites contidos em cookies da web e outras tecnologias de rastreamento para fornecer anúncios sobre produtos e serviços de seu interesse.</p>
+<p>&nbsp;</p>
+<strong>4. Por quanto tempo mantemos suas informações?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Mantemos suas informações pelo tempo necessário para cumprir os propósitos descritos neste aviso de privacidade, a menos que seja exigido de outra forma por lei.</p>
+<p>Manteremos suas informações pessoais apenas pelo tempo necessário para os fins definidos neste aviso de privacidade, a menos que um período de retenção mais longo seja exigido ou permitido por lei (como impostos, contabilidade ou outros requisitos legais). Nenhum propósito desta política exigirá que mantenhamos suas informações pessoais por mais de 90 dias.</p>
+<p>Quando não houver necessidade comercial legítima em andamento de processar suas informações pessoais, iremos excluí-las ou torná-las anônimas ou, se isso não for possível (por exemplo, porque suas informações pessoais foram armazenadas em arquivos de backup), armazenaremos com segurança suas informações pessoais e isolá-las de qualquer processamento posterior até que a exclusão seja possível.</p>
+<p>&nbsp;</p>
+<strong>5. Como mantemos suas informações seguras?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Nosso objetivo é proteger suas informações pessoais por meio de um sistema de medidas de segurança organizacional e técnica.</p>
+<p>Implementamos medidas de segurança técnicas e organizacionais apropriadas, destinadas a proteger a segurança de qualquer informação pessoal que processamos. No entanto, lembre-se também de que não podemos garantir que a própria Internet seja 100% segura. Embora façamos o nosso melhor para proteger suas informações pessoais, a transmissão de informações pessoais de e para nossos Serviços ou Aplicativos é por sua própria conta e risco. Você só deve acessar os serviços em um ambiente seguro.</p>
+<p>&nbsp;</p>
+<strong>6. Coletamos informações de menores?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Não recolhemos dados nem comercializamos intencionalmente para crianças com menos de 18 anos.</p>
+<p>Não solicitamos dados ou comercializamos intencionalmente para crianças menores de 18 anos. Ao usar os Serviços ou Aplicativos, você declara que tem pelo menos 18 anos ou que é o pai ou responsável por tal menor e concorda com o menor dependente &#8217; uso dos Serviços ou Aplicativos. Se soubermos que informações pessoais de usuários menores de 18 anos foram coletadas, desativaremos a conta e tomaremos as medidas cabíveis para excluir imediatamente tais dados de nossos registros. Se você souber de quaisquer dados que coletamos de crianças menores de 18 anos, entre em contato conosco at&nbsp;<a href="mailto:support@pervacio.com">support@pervacio.com</a></p>
+<p>&nbsp;</p>
+<strong>7. Quais são os seus direitos de privacidade?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Você pode revisar, alterar ou encerrar sua conta a qualquer momento.</p>
+<p>Se você é residente no Espaço Econômico Europeu e acredita que estamos processando ilegalmente suas informações pessoais, você também tem o direito de reclamar junto à autoridade supervisora de proteção de dados local. Você pode encontrar os detalhes de contato aqui:&nbsp;<a href="http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm">http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm</a>.</p>
+<p>&nbsp;</p>
+<strong>8. Controles para não rastrear recursos</strong>
+<p>&nbsp;</p>
+<p>A maioria dos navegadores da web e alguns sistemas operacionais e aplicativos móveis incluem um não rastrear (&#8220;DNT&#8221;) recurso ou configuração que você pode ativar para sinalizar sua preferência de privacidade para que os dados sobre suas atividades de navegação online não sejam monitorados e coletados. Nenhum padrão de tecnologia uniforme para reconhecimento e implementação de sinais DNT foi finalizado. Como tal, atualmente não respondemos aos sinais do navegador DNT ou a qualquer outro mecanismo que comunique automaticamente a sua escolha de não ser rastreado online. Se for adotado um padrão para rastreamento online que devemos seguir no futuro, iremos informá-lo sobre essa prática em uma versão revisada deste aviso de privacidade.</p>
+<p>&nbsp;</p>
+<strong>9. Os residentes da Califórnia têm direitos específicos de privacidade?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Sim, se você for residente na Califórnia, terá direitos específicos relacionados ao acesso às suas informações pessoais.</p>
+<p>Seção do Código Civil da Califórnia 1798.83, também conhecido como o &#8220;Shine The Light&#8221; lei, permite que nossos usuários residentes na Califórnia solicitem e obtenham de nós, uma vez por ano e gratuitamente, informações sobre categorias de informações pessoais (se houver) que divulgamos a terceiros para fins de marketing direto e os nomes e endereços de todos terceiros com os quais compartilhamos informações pessoais no ano civil imediatamente anterior. Se você é residente na Califórnia e gostaria de fazer tal solicitação, envie sua solicitação por escrito para nós usando as informações de contato fornecidas abaixo.</p>
+<p>Se você for menor de 18 anos, residir na Califórnia e tiver uma conta registrada nos Serviços ou Apps, terá o direito de solicitar a remoção de dados indesejados que postar publicamente nos Serviços ou Apps. Para solicitar a remoção de tais dados, entre em contato conosco usando as informações de contato fornecidas abaixo e inclua o endereço de e-mail associado à sua conta e uma declaração de que você reside na Califórnia. Garantiremos que os dados não sejam exibidos publicamente nos Serviços ou Aplicativos, mas esteja ciente de que os dados podem não ser removidos completa ou totalmente de nossos sistemas.</p>
+<p>&nbsp;</p>
+<strong>10. Nós atualizamos esta política?</strong>
+<p>&nbsp;</p>
+<p><strong>Resumidamente:</strong>&nbsp;Sim, atualizaremos esta política conforme necessário para permanecer em conformidade com as leis relevantes.</p>
+<p>Podemos atualizar este aviso de privacidade de tempos em tempos. A versão atualizada será indicada por um atualizado &#8220;Revised&#8221; data e a versão atualizada entrará em vigor assim que estiver acessível. Se fizermos alterações materiais a este aviso de privacidade, podemos notificá-lo publicando em destaque um aviso de tais alterações ou enviando-lhe diretamente uma notificação. Nós o encorajamos a revisar este aviso de privacidade freqüentemente para ser informado sobre como estamos protegendo suas informações.</p>
+<p>&nbsp;</p>
+<strong>11. Como você pode nos contatar sobre esta política?</strong>
+<p>&nbsp;</p>
+<p>Se você tiver perguntas ou comentários sobre esta política, pode nos enviar um e-mail at&nbsp;<a href="mailto:privacy@pervacio.com">privacy@pervacio.com</a>&nbsp;ou por correio para:</p>
+<p>5215 N O	&#8217;Connor Blvd, 11th Floor, Irving TX 75039<br /> Telephone: +1 888 221 4762</p>
+<p>&nbsp;</p>
+<strong>12. Como você pode revisar, atualizar ou excluir os dados que coletamos de você?</strong>
+<p>&nbsp;</p>
+<p>Com base nas leis de alguns países, você pode ter o direito de solicitar acesso às informações pessoais que coletamos de você, alterar essas informações ou excluí-las em algumas circunstâncias. Para solicitar a revisão, atualização ou exclusão de suas informações pessoais, envie uma solicitação para&nbsp;<a href="mailto:privacy@pervacio.com">privacy@pervacio.com</a>. Responderemos à sua solicitação em 30 dias.</p>]]></string>
+
+    <!--RAP TEXT-->
+    <!--Report a problem-->
+    <string name="rap_title" translatable="false">Reportar um problema</string>
+    <string name="rap_h" translatable="false">Insira os detalhes do problema abaixo e toque em enviar.</string>
+    <string name="required" translatable="false">*obrigatório</string>
+    <string name="rap_description_h" translatable="false">Descrição</string>
+    <string name="rap_description_hint" translatable="false">Insira a descrição aqui</string>
+    <string name="rap_name_h" translatable="false">Nome</string>
+    <string name="rap_name_hint" translatable="false">Digite seu nome</string>
+
+    <string name="rap_phone_h" translatable="false">Número de Telefone</string>
+    <string name="rap_phone_hint" translatable="false">Digite seu número de telefone</string>
+
+
+    <string name="rap_send" translatable="false">Enviar</string>
+    <string name="rap_error_validation" translatable="false">Por favor, preencha todas as informações necessárias.</string>
+    <string name="rap_submit_success" translatable="false">Relatório enviado com sucesso.</string>
+
+    <string name="rap_info_text" translatable="false">Registros de erros devem ser incluídos neste relatório. Nenhuma informação pessoal é coletada. Para obter mais informações, consulte a Política de Proteção de Conteúdo</string>
+    <string name="content_protection_policy_title" translatable="false">Política de Proteção de Conteúdo</string>
+    <string name="content_protection_policy_description" translatable="false">Como acontece com qualquer suporte de aplicativo de software de computador padrão, esta ferramenta emprega arquivos de log que registram dados de uso da ferramenta. Os dados coletados não são pessoais e podem incluir detalhes da marca e modelo do seu dispositivo móvel, número de série, versão do firmware, tipo de plataforma, tipo e quantidade de dados, carimbo de data / hora que serão protegidos de acordo com as políticas de privacidade de Pervacio.</string>
+
+
+    <!-- Battery Performance Test -->
+    <string name="battery_level_alert">Este teste requer um nível mínimo de bateria de $%. Carregue o dispositivo e pressione OK para continuar ou pressione Pular para pular este teste.</string>
+    <string name="usb_connected_alert">Desconecte o cabo USB.</string>
+    <string name="airplane_mode_on">Ligue o modo avião.</string>
+    <string name="airplane_mode_off">Desligue o modo avião.</string>
+    <string name="int_storage_msg">A memória do seu dispositivo está acabando. É menos de 20%. Libere memória do dispositivo excluindo arquivos de imagem, duplicado, áudio e vídeo.</string>
+
+
+    <!--Battery Info -->
+    <string name="battery_info">Informação da Bateria</string>
+
+    / <!-- Accessory Strings -->
+    <string name="accessory_dialog_title">A categoria que você selecionou requer os acessórios listados abaixo.</string>
+    <string name="accessory_dialog_message">Certifique-se de tê-los em mãos:</string>
+
+    <string name="accessory_wall_charger">Carregador de Parede</string>
+    <string name="accessory_usb_cable">Cabo USB</string>
+    <string name="accessory_wire_earphone">Fones de ouvido com fio</string>
+    <string name="result_user_message">Você encontrará recomendações para melhorar o desempenho do seu telefone em \"Correções Sugeridas\"</string>
+
+    <!--Restriction Check -->
+    <string name="restriction_check">Verificação de Restrição</string>
+    <string name="restriction_check_description">Certifique-se de que os bloqueios abaixo sejam removidos antes de enviar o aparelho para o reparo:</string>
+
+    <string name="rc_gfrp_pass_text">Conta do Google não presente</string>
+    <string name="rc_gfrp_fail_text">Conta do Google presente</string>
+    <string name="rc_gfrp_dialog_title">A Conta do Google deve ser removida para reparo do dispositivo</string>
+    <string name="rc_gfrp_dialog_description">A conta do Google deve ser removida antes de enviar o dispositivo para reparo. Remova a conta do Google do seu dispositivo tocando no botão ‘Ir para as configurações’.</string>
+
+    <string name="rc_sim_pass_text">Cartão SIM ausente</string>
+    <string name="rc_sim_fail_text">Cartão SIM presente</string>
+    <string name="rc_sim_dialog_title">O cartão SIM deve ser removido para reparo do dispositivo</string>
+    <string name="rc_sim_dialog_description">O cartão SIM deve ser removido antes de enviar o dispositivo para reparo. Remova o cartão SIM do slot e pressione OK.</string>
+
+    <string name="rc_sdcard_pass_text">Cartão SD ausente</string>
+    <string name="rc_sdcard_fail_text">Cartão SD presentet</string>
+    <string name="rc_sdcard_dialog_title">O cartão SD deve ser removido para reparo do dispositivo</string>
+    <string name="rc_sdcard_dialog_description">O cartão SD deve ser removido antes de enviar o dispositivo para reparo. Remova o cartão SD do slot e pressione OK.</string>
+
+    <!--NOW PREVIEW -->
+    <string name="no_preview">Nenhuma visualização disponível</string>
+
+    <string name="rc_pin_pass_text">PIN / Padrão / Senha - Não detectado</string>
+    <string name="rc_pin_fail_text">PIN / Padrão / Senha - Detectado</string>
+
+    <!-- No Navigation Strings-->
+    <string name="terms_and_conditions_text_vivo_brazil">Ao concordar com esse termo, você afirma estar ciente que a Vivo não se responsabiliza por qualquer dano causado no dispositivo ou perda de dados pessoais, incluindo contatos, conteúdo de SMS, fotografia, vídeos, configurações de aplicativos ou senhas. Você também autoriza que a Vivo colete e compartilhe dados anônimos e essenciais sobre o seu dispositivo, com o objetivo de melhorar o seu serviço. Além disso, quando for necessário, permite que a Vivo instale aplicativos de terceiros no seu aparelho, para realização de diagnósticos, conforme aprovado pela empresa. Por fim, é importante reforçar que a Vivo não armazena nenhum dado pessoal nas estações de trabalho.</string>
+    <string name="terms_and_conditions_text_sergio">Necesitamos que este de acuerdo que no se acepta ninguna responsabilidad por la pérdida de datos personales, incluidos, entre otros, contactos, contenido de SMS, configuración de la cuenta, multimedia, fotografías y videos o configuración de aplicaciones / redes sociales o contraseñas, ni aceptamos cualquier responsabilidad por cualquier daño causado al dispositivo. Se recopilará algunos datos anónimos con el fin de mejorar el servicio, esto incluirá información técnica sobre controles y diagnósticos de salud, esto puede incluir el IMEI de los dispositivos en los que trabajamos. Al firmar este documento, nos otorga permiso para compartir datos básicos e instalar aplicaciones de terceros en su dispositivo con el fin de realizar diagnósticos, verificaciones de estado y transferencias de datos, cuando sea necesario. No almacenaremos ningún dato personal como fotos, videos, música, claves, correos y contactos.</string>
+    <string name="title_network_resolutions">Resoluções</string>
+    <string name="title_network_info">Informação de Rede</string>
+    <string name="data_info">Informação de Dados</string>
+    <string name="apn_settings">Configurações de APN</string>
+    <string name="airplane_mode">Modo Avião</string>
+    <string name="str_wifi_status">Status do Wifi</string>
+    <string name="airplane_mode_toggle">Alternancia do Modo Avião</string>
+    <string name="roaming_mobile_data">Roaming de Dados Móveis</string>
+    <string name="connected_network_type">Tipo de Rede Conectada</string>
+    <string name="str_sim_configuration">Configuração SIM</string>
+    <string name="sim_slot_1">Slot SIM 1</string>
+    <string name="sim_slot_2">Slot SIM 2</string>
+    <string name="default_mobile_data">Dados Móveis Padrão</string>
+    <string name="iccid_info">Informações ICCID</string>
+    <string name="sim1_iccid">ICCID SIM 1:</string>
+    <string name="sim2_iccid">ICCID SIM 2:</string>
+    <string name="mobile_data_limit">Limite de Dados Móveis</string>
+    <string name="btn_fix">Resolver</string>
+    <string name="str_verified">Verificado</string>
+    <string name="str_not_verified">Não Verificado</string>
+    <string name="title_activity_network_info">Informação de Rede</string>
+    <string name="user_msg_apn_settings">Clique em "Ir para Configurações" para verificar os parâmetros APN.</string>
+    <string name="user_msg_airplane_mode_toggle_on">Clique em "Ir para Configurações" para LIGAR o Modo Avião.</string>
+    <string name="user_msg_airplane_mode_toggle_off">Clique em "Ir para Configurações" para DESLIGAR o Modo Avião.</string>
+    <string name="user_msg_mobile_data_settings">Clique em "Ir para Configurações" para LIGAR os Dados Móveis.</string>
+    <string name="user_msg_data_roaming_settings">Clique em "Ir para Configurações" para LIGAR o Roaming de Dados.</string>
+    <string name="user_msg_def_mobile_data_settings">Clique em "Ir para Configurações" para alterar os Dados Móveis Padrão.</string>
+    <string name="user_msg_network_type_settings">Clique em "Ir para Configurações" para alterar o Tipo de Rede para a rede compatível mais alta que sua operadora oferece suporte.</string>
+    <string name="user_msg_data_limit_settings">Clique em "Ir para Configurações" para verificar a configuração de Limite de Dados e desabilitar se estiver configurada</string>
+    <string name="user_msg_confirm_data_limit">Por favor, confirme se o Limite de Dados foi verificado.</string>
+    <string name="user_msg_confirm_network_type">Por favor, confirme se o Tipo de Rede já foi verificado.</string>
+    <string name="user_msg_confirm_apn_settings">Por favor, confirme se os valores APN foram verificados.</string>
+    <string name="user_msg_wifi_disable">Clique em "Ir para as Configurações" para DESLIGAR o Wifi.</string>
+    <string name="user_msg_wifi_enable">Clique em "Ir para Configurações" para LIGAR o Wifi.</string>
+    <string name="user_msg_sim_swap">Pressione OK para sair do aplicativo, troque os SIMs nos slots e reinicie o aplicativo novamente.</string>
+    <string name="str_summary">Resumo</string>
+    <string name="str_network_status">Status da rede</string>
+    <string name="str_before">ANTES</string>
+    <string name="str_after">DEPOIS</string>
+    <string name="str_connected">Conectado</string>
+    <string name="str_not_connected">Não conectado</string>
+    <string name="str_test_results">Resultado dos Testes</string>
+    <string name="str_empty"></string>
+    <string name="str_check_connection"> Verifique a Conexão</string>
+    <string name="fail_btn">Falhou</string>
+    <string name="suggestions">Sugestões:</string>
+    <string name="user_msg_resolution_confirm_title">Confirmação de Resolução</string>
+    <string name="user_msg_resolution_confirm_text">VIVOSeu problema foi resolvido?</string>
+
+    <string name="ambient_test_suggestion">
+    • Limpe a área do sensor.\n
+    • Mova seu dispositivo para uma área mais iluminada para realizar o teste.\n\n
+    Toque em \‘Tentar novamente\’ se quiser refazer o teste, caso contrário, toque em ‘\Falhou\’ para apontar falha no teste.
+    </string>
+    <string name="proximity_test_suggestion">
+     • Limpe a área do sensor.\n
+     • Mova sua mão lentamente perto da área do sensor.\n\n
+    Toque em \‘Tentar novamente\’ se quiser refazer o teste, caso contrário, toque em ‘\Falhou\’ para apontar falha no teste.
+    </string>
+    <string name="usb_test_suggestion">
+    • Remova quaisquer resíduos da porta de carregamento na parte inferior do seu dispositivo.\n
+    • Verifique se há sinais de danos no cabo de carregamento e no adaptador USB, como pinos quebrados ou tortos.\n\n
+    Toque em \‘Tentar novamente\’ se quiser refazer o teste, caso contrário, toque em ‘\Falhou\’ para apontar falha no teste.
+    </string>
+    <string name="speaker_test_suggestion">
+    • Limpe a grade do alto-falante na parte inferior do dispositivo.\n\n
+    Toque em \‘Tentar novamente\’ se quiser refazer o teste, caso contrário, toque em ‘\Falhou\’ para apontar falha no teste.
+    </string>
+    <string name="receiver_test_suggestion">
+    • Limpe a ranhura do receptor.\n\n
+    Toque em \‘Tentar novamente\’ se quiser refazer o teste, caso contrário, toque em ‘\Falhou\’ para apontar falha no teste.
+    </string>
+    <string name="earphone_test_suggestion">
+    • Certifique-se de que a entradado fone de ouvido esteja livre de quaisquer detritos.\n
+    • Use fones de ouvido em boas condições.\n\n
+    Toque em \‘Tentar novamente\’ se quiser refazer o teste, caso contrário, toque em ‘\Falhou\’ para apontar falha no teste.
+    </string>
+    <string name="earphone_jack_test_suggestion">
+    • Certifique-se de que a entradado fone de ouvido esteja livre de quaisquer detritos.\n
+    • Use fones de ouvido em boas condições.\n\n
+    Toque em \‘Tentar novamente\’ se quiser refazer o teste, caso contrário, toque em ‘\Falhou\’ para apontar falha no teste.
+    </string>
+    <string name="imei_manual_instructions_msg">Este modelo exige que o IMEI seja capturado manualmente. Leia atentamente as instruções antes de continuar.</string>
+    <string name="imei_captured_failed_msg">Não foi possível fazer a captura automática do IMEI. Precisamos capturar o IMEI manualmente. Leia atentamente as instruções antes de prosseguir.</string>
+</resources>

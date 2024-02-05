@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.oruphones.nativediagnostic">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!--STORAGE -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+    <!--WIFI-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <!-- AUDIO-->
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <queries>
+        <package android:name="com.oruphones.oruphones_deviceinfo" />
+        <package android:name="com.pervacio.wds" />
+    </queries>
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.SEND_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.READ_CALL_LOG"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.READ_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_CALL_LOG"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.WRITE_SMS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:node="remove"
+        tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission
+        android:name="android.permission.REQUEST_INSTALL_PACKAGES"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission
+        android:name="android.permission.BODY_SENSORS"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="com.google.android.gms.permission.AD_ID"
+        tools:node="remove" /> <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/> -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.front" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:name="org.pervacio.onediaglib.APPI"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="LockedOrientationActivity"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="31">
+        <activity android:name=".manualtests.NfcTestActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED"/>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <action android:name="android.nfc.action.TAG_DISCOVERED"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".manualtests.WifiManualTestActivity"
+            android:exported="false"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".manualtests.MiddleActivity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".WelcomeScreenActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB7ySpLsqy8GzmpC9jybEv-aFT_1C1Uj1U" />
+        <activity
+            android:name=".ProdConfigActivity"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".PinValidationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PinGenerationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TermsAndConditionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrivacyStatement"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SessionIdEndScreen"
+            android:exported="false" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RANErrorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManualTestEndActivity"
+            android:exported="false" />
+        <activity
+            android:name=".autotests.AutoTestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.ManualTestsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".result.ResultsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".result.ResultsSummeryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.ManualTestsTryActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manualtests.ManualTestsResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.DisplayTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/DisplayandTouchTheme" />
+        <activity
+            android:name=".manualtests.DimmingTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.TouchTestActivity"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/DisplayandTouchTheme" />
+        <activity
+            android:name=".manualtests.BluetoothConnectivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.CallTestActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.AccelerometerTest"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.GPSManualTestActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.AmbientLightTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.ProximitySensorTestActivity"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.BluetoothTestActivity"
+            android:exported="true"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.VibrationTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.EarPhoneJackTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.EarpieceTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.EarphoneTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.SpeakerTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.FingerPrintTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.CameraPictureTestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.CameraVideoTestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.CameraTestResultActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.CameraFlashTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.USBConnectionTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.DeviceChargingTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.MicroPhoneTestActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.GestureTest"
+            android:hardwareAccelerated="false"
+            android:label="@string/title_activity_gesture_test"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".manualtests.KeysTestActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ProdQRScanner"
+            android:exported="false" />
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".resolutions.ResolutionsEducationalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.StorageResolutionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.BluetoothResolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.GpsResolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.NfcResolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.WifiResolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.BrightnessResolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.ScreenTimeOutResolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.LivewallpaperResolutionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".resolutions.AppResolutionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutActivity"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".EndingSessionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BaseUrlUpdateActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".RAPActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <service
+            android:name=".util.monitor.MonitorServiceDocomo"
+            android:enabled="true" />
+        <service
+            android:name=".services.InitService"
+            android:exported="false" />
+        <service
+            android:name=".services.AppService"
+            android:exported="false" />
+        <service
+            android:name=".services.TransactionLogService"
+            android:exported="false" />
+        <service
+            android:name=".services.OfflineTransactionService"
+            android:exported="false" />
+        <service
+            android:name=".Storage.InternalStorageUsageIntentService"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

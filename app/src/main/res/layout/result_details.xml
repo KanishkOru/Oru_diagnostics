@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_shadow_toolbar" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/custom_toolbar"
+        android:layout_above="@+id/btn_layout"
+        android:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/recommondation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/elevation_padding"
+            android:textAppearance="@style/educational_textStyle_body" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recommondation_text1"
+            android:padding="15dp"
+            android:layout_below="@+id/recommondation_text"
+            android:textAppearance="@style/educational_textStyle_body"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recommondation_text2"
+            android:padding="15dp"
+            android:layout_below="@+id/recommondation_text1"
+            android:textAppearance="@style/educational_textStyle_body"
+            android:visibility="gone"/>
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.oruphones.nativediagnostic.common.CustomButton
+            android:layout_width="@dimen/custom_btn_width"
+            android:layout_height="@dimen/custom_btn_height"
+            android:id="@+id/done_btn"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:minWidth="64dp"
+            android:padding="@dimen/button_padding"
+            android:text="@string/done"
+            style="?buttonsTestPositiveStyle"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

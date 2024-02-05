@@ -1,0 +1,703 @@
+<resources>
+    <string name="locale">de</string>
+    <string name="app_name">Pervacio Mobile Diagnose</string>
+    <string name="sprint_text"><b>Mobile\n<font color="#009bdf">Diagnose</font></b></string>
+    <string name="mobile_diagnostics">Pervacio Diagnose</string>
+    <string name="diagnostics">Fehlerdiagnose</string>
+    <string name="full_diagnostics">Gesamt-Test</string>
+    <string name="additional_tests">weitere Tests</string>
+    <string name="diagnostics_infotext">Auswahl weitere Tests</string>
+    <string name="airplane_message">Flugzeugmodus ausschalten</string>
+    <string name="location_text">Standortfreigabe einschalten</string>
+    <string name="picture_toast">Drücken um ein Foto zu machen</string>
+    <string name="record_toast">Drücken um aufzunehmen</string>
+    <string name="play_toast">Drücken um abzuspielen</string>
+    <string name="fail_warning">Wollen Sie den Test als gescheitert betrachten ?</string>
+    <string name="bluetooth_toast">Keine weiteren Geräte gefunden</string>
+
+    <string name="devicename_toast">Bluetooth Scan Test bestanden.\n Gescannte Geräte:\n BT Gerät - %1$s</string>
+
+    <string name="accept">Ich stimme zu</string>
+    <string name="cancel">Abbruch</string>
+    <string name="cancel_settings">Zurück</string>
+    <string name="settings">Einstellungen</string>
+    <string name="terms_and_conditions">BESTIMMUNGEN UND BEDINGUNGEN</string>
+    <string name="check_my_device">TESTE MEIN GERÄT</string>
+    <string name="analyse_my_device">Analysiere mein Gerät</string>
+    <string name="accept_permissions">Freigabe Zugriffsrechte</string>
+    <string name="accept_permissions_msg">Die App erfordert einige wenige erforderliche Berechtigungen, damit sie ordnungsgemäß funktionieren kann. Lassen Sie alle Berechtigungen zu, wenn Sie dazu aufgefordert werden. Tippen Sie auf OK, um fortzufahren, und auf Abbrechen, um die App zu beenden.</string>
+    <string name="accept_permissions_msg2">Einige Genehmigungen wurden verweigert. Alle Berechtigungen sind erforderlich, damit die App ordnungsgemäß funktioniert. Lassen Sie alle Berechtigungen zu, wenn Sie erneut dazu aufgefordert werden. Tippen Sie auf OK, um fortzufahren, oder auf Abbrechen, um die App zu beenden.</string>
+    <string name="accept_permissions_msg3">Einige erforderliche Berechtigungen durch die Anwendung wurden weiterhin abgelehnt. Tippen Sie auf Einstellungen und dann auf Berechtigungen, um alle Berechtigungen manuell zu aktivieren.</string>
+    <string name="initializing_tests">Start Tests</string>
+    <string name="please_wait">Bitte warten …</string>
+    <string name="loading">Wird geladen</string>
+    <string name="manualtest_selection">Bitte wählen Sie mindestens ein Feld aus</string>
+    <string name="manualtest_result_dialog">Test fehlerhaft</string>
+    <string name="test">Test</string>
+    <string name="complete">Gesamt-Test</string>
+    <string name="categories">Kategorien</string>
+    <string name="history">Verlauf</string>
+    <string name="no_history_text">kein Verlauf</string>
+    <string name="pick_a_test">Auswahl Testkategorie</string>
+    <string name="empty_result">Kein Test ausgeführt</string>
+    <string name="txt_below_analyze_my_device">Analyse mein Gerätes wird alle automatischen Tests starten, Sie haben die Möglichgeit weitere manuelle Tests durchzuführen.</string>
+    <string name="autotests">Automatische Tests</string>
+    <string name="analysing">Analysiere</string>
+    <string name="str_skip">Überspringen</string>
+    <string name="str_continue">Weiter</string>
+    <string name="manual_tests_selection_btn_continue">Weiter</string>
+    <string name="str_start_test">Starte Test</string>
+    <string name="str_yes">JA</string>
+    <string name="str_no">NEIN</string>
+    <string name="str_ok">OK</string>
+    <string name="alert">Hinweis</string>
+    <string name="btn_retry">Wiederholung</string>
+    <string name="btn_go_offline">ABLAUF OFFLINE</string>
+    <string name="btn_exit">ENDE</string>
+    <string name="network_msz">Bitte überprüfen Sie Ihre Internet-Verbindung und versuchen es erneut.</string>
+    <string name="storage_msg">Speicher ist voll. Löschen Sie etwas damit der Test durchgeführt werden kann.</string>
+    <string name="checking">Testprozess in Arbeit</string>
+    <string name="gotoresults">ZUR AUSWERTUNG</string>
+    <string name="addManualtests">MANUELLE TESTS HINZUFÜGEN</string>
+    <string name="auto_tests_completed">Alle automatischen Tests durchgeführt</string>
+    <string name="suggested_fixes">Vorschlag zur Abhilfe</string>
+    <string name="result_text">Ergebnisse</string>
+    <string name="all_test_complete">Alle Tests abgeschlossen</string>
+    <string name="no_issue_have_been_found">kein Vorschlag zur Abhilfe vorhanden</string>
+    <string name="detailed_result">Detaillierte Resultate</string>
+    <string name="auto_tests">Automatische Tests</string>
+    <string name="manual_tests">Manuelle Tests</string>
+    <string name="done">Zurück</string>
+
+    <!--DeadPixel test-->
+    <string name="deadpixel_test">Fehlende Pixel Test</string>
+    <string name="deadpixel_test_try_message">Drücken Sie längere Zeit auf die Stelle mit den fehlenden Bildpunkten ( 2mal tippen um die Auswahl aufzuheben). \nWischen Sie nach oben um fortzufahren.</string>
+
+    <!--Discoloration test-->
+    <string name="discoloration_test">Verfärbung Test</string>
+    <string name="discoloration_test_try_message">Drücken Sie längere Zeit auf die Stelle der Verfärbung ( 2mal tippen um die Auswahl aufzuheben). \nWischen Sie nach oben um fortzufahren.</string>
+
+    <!--ScreenBurn test-->
+    <string name="screenburn_test">Geisterbild Test</string>
+    <string name="screenburn_test_try_message">Drücken Sie längere Zeit auf die Stelle wo der Bildschirm eingebrannt ist ( 2mal tippen um die Auswahl aufzuheben). \nWischen Sie nach oben um fortzufahren.</string>
+
+
+    <string name="ambientligt_test">Licht Test</string>
+    <string name="ambient_try_message">Bitte bewegen Sie Ihre Hand über den oberen Rand wie im Bild dargestellt.\nHinweis: Führen Sie diesen Test in einer hell beleuchteten Umgebung aus.</string>
+    <string name="ambient_message">Bewegen Sie Ihre Hand über den oberen Teil des Gerätes um den Umgebungslicht-Sensors zu testen.</string>
+    <string name="accelerometer_test">Test Beschleunigungs-Sensor</string>
+    <string name="accelerometer_try_message">Wechseln Sie durch Drehen Ihres Gerätes zwischen Hoch- und Querformat.</string>
+    <string name="accelerometer_result_message">Hat sich das Bild auf dem Bildschirm korrekt mitgedreht?</string>
+    <string name="proximity_test">Test Näherungs-Sensor</string>
+    <string name="proximity_try_message">Bewegen Sie Ihre Handfläche langsam auf die obere Hälfte des Gerätes zu bis Sie diese berühren.</string>    <string name="proximity_message">Legen Sie Ihre Hand über den Näherungs-Sensor wie im Bild dargestellt.</string>
+    <string name="guesture_test">Test Bewegungs-Sensor</string>
+    <string name="guesture_try_message">Winken Sie mit Ihere Hand über den Sensor wie dargestellt. Der Test wird automatisch beendet.</string>
+    <string name="str_gesture_up">Aufwärts</string>
+    <string name="str_gesture_down">Abwärts</string>
+    <string name="str_gesture_left">Links</string>
+    <string name="str_gesture_right">Rechts</string>
+    <string name="microphone_test">Test Mikrofon</string>
+    <string name="microphone_test_try_message">Starten Sie den Test und sprechen Sie bitte in das Mikrofon.</string>
+    <string name="microphone_record_message">Drücken Sie bitte auf \'Aufnahme\' und sprechen Sie um Ihre Stimme aufzunehmen.</string>
+    <string name="microphone_play_message">Drücken Sie bitte auf \'Abspielen\' um die Aufnahme abzuhören.</string>
+    <string name="recording">Aufnehmen</string>
+    <string name="record">Aufnahme</string>
+    <string name="play">Abspielen</string>
+    <string name="recording_done">Aufnahme fertig</string>
+    <string name="recording_start">Aufnahme beginnt</string>
+    <string name="microphone_not_started">Mikrofon kann nicht gestartet werden</string>
+    <string name="microphone_test_play_description">Aufnahme wird abgespielt</string>
+    <string name="microphone_result_message">Haben Sie die aufgenomme Stimme gehört?</string>
+    <string name="audio_source_error">Fehler in der Audio-Quelle</string>
+    <string name="media_recorder_error">Fehler beim Starten der Aufnahme</string>
+    <string name="media_server_died">Keine Funktion des Medien Servers</string>
+    <string name="unknown_error">Unbekannter Fehler</string>
+    <string name="insufficient_storage">Ungenügend Speicher</string>
+    <string name="hardkey_test">Test der seitlichen Tasten</string>
+    <string name="hardkey_try_messaage">Bitte drücken Sie alle vorhandenen seitlichen Tasten jeweils einmal.</string>
+    <string name="key_result_message">Haben alle Kreise ein Häkchen</string>
+    <string name="endtest">TEST ENDE</string>
+    <string name="relauch_msg">Bitte warten auf Wiederkehr der Applikation</string>
+    <string name="softkey_test">Test Bildschirm-Tasten</string>
+    <string name="softkey_try_message">Überprüfung der Funktionalität von Bildschirm-Tasten</string>
+    <string name="speaker_test">Test Lautsprecher</string>
+    <string name="speakaer_test_try_message">Test Lautsprecher durch Abspielen von Musik.</string>
+    <string name="speaker_result_message">Haben Sie die Musik aus dem Lausprecher gehört?</string>
+    <string name="we_have_turned_up_valume">Wir haben die Lautstärke für diesen Test erhöht und stellen es später zurück.</string>
+    <string name="receiver_test">Test Wiedergabe</string>
+    <string name="receivertest_try_message">Test Wiedergabe durch Abhören der Musik aus Ihrem Gerät.</string>
+    <string name="receiver_test_result_message">Haben Sie die Musik gehört?</string>
+    <string name="earpiece_test">Test Hörmuschel</string>
+    <string name="earpiecetest_try_message">Test starten durch Abpielen von Musik. Wir haben die Lautstärke für diesen Test erhöht und stellen es später zurück.</string>
+    <string name="earpiece_test_result_message">Haben Sie die Musik gehört ?</string>
+    <string name="touch_test">Berührungstest</string>
+    <string name="touch_test_try_message">Drücken oder wischen Sie über alle Vierecke auf dem Bildschirm um diese blau einzufärben.</string>
+    <string name="str_touch_test_passed">Berührungstest bestanden</string>
+    <string name="str_touch_test_failed">Behrungstest nicht bestanden</string>
+    <string name="touch_test_result_message">Sind alle Vierecke blau?</string>
+    <string name="spen_test_try_message">Drücken oder wischen Sie über alle Vierecke mit dem Stift auf dem Bildschirm um diese blau einzufärben.</string>
+    <string name="rear_camera_picture_test">Kamera-Test Foto Rückseite</string>
+    <string name="rear_camera_picture_try_message">Test der Hauptkamera durch Aufnahme eines Fotos.</string>
+    <string name="rear_camera_picture_result_message">Zeigt das Gerät ein klares Bild?</string>
+    <string name="rear_camera_video_test">Kamera-Test Film Rückseite</string>
+    <string name="rear_camera_video_try_message">Test der Hauptkamera durch Aufnahme eines Videos.</string>
+    <string name="rear_camera_video_result_message">Zeigt das Gerät ein klares Video?</string>
+    <string name="rear_camera_not_working">Kamera Rückseite funktioniert nicht</string>
+    <string name="front_camera_video_test">Kamera-Test Film Vorderseite</string>
+    <string name="FrontCameraVideo_Test">Kamera-Test Film Vorderseite</string>
+    <string name="front_camera_video_try_message">Test der Frontkamera durch Aufnahme eines Videos.</string>
+    <string name="front_camera_video_result_message">Zeigt das Gerät ein klares Video?</string>
+    <string name="front_camera_picture_test">Kamera-Test Foto Vorderseite</string>
+    <string name="front_camera_picture_try_message">Test der Frontkamera durch Aufnahme eines Fotos.</string>
+    <string name="front_camera_picture_result_message">Zeigt das Gerät ein klares Bild?</string>
+    <string name="cameraflash_test">Test Blitzlicht</string>
+    <string name="cameraflash_try_message">Testen Sie das Kamera-Blitzlicht, indem Sie darauf schauen, dass sich das Blitzlicht der Kamera einschaltet.</string>
+    <string name="cameraflash_result_message">Hat sich das Blitzlicht eingeschaltet?</string>
+    <string name="camera_flash_on">Blitzlicht ist eingeschaltet</string>
+    <string name="camera_flash_off">Blitzlicht ist ausgeschaltet</string>
+    <string name="display_test">Test Bildschirm</string>
+    <string name="lcd_test">Test Bildschirm</string>
+    <string name="display_test_try_message">Drücken Sie mehrfach auf den Bildschirm um Farben zu wechseln. Achten Sie auf fehlende Pixel und gleichmäßigen Farbverlauf.</string>
+    <string name="display_test_result_message">Konnten Sie keine fehlende Pixel oder Flächen mit Verfärbungen auf dem Bildschirm feststellen?</string>
+
+    <!--wifi connectivity test -->
+    <string name="wifi_check_status">Überprüfen des WLAN-Status ...</string>
+    <string name="wifi_setting">Wlan einstellungen</string>
+    <string name="wifi_connectivity_test">Wifi-Konnektivitätstest</string>
+    <string name="wifi_connectivity_heading">@string/wifi_connectivity_test</string>
+    <string name="wifi_connectivity_try_message">Testen Sie die Fähigkeit, ein WIFI-Gerät in seiner Nähe zu erkennen.</string>
+    <string name="wifi_connectivity_off_message">Wifi scheint ausgeschaltet zu sein. Klicken Sie auf die Schaltfläche Wifi-Einstellungen, um Wifi einzuschalten.</string>
+
+
+    <!--EAR PHONE-->
+    <string name="earphone_test">Test Kopfhörer</string>
+    <string name="earphone_test_try_message">Bitte schließen Sie Ihre kabelgebundenen Kopfhörer an. \n Drahtlose Kopfhörer können nicht getestet werden. \n Bitte drücken Sie die Überspringen-Taste, wenn Sie keinen Kopfhörer haben.</string>
+    <string name="earphone_test_skip_disable_try_message">Bitte schließen Sie Ihre kabelgebundenen Kopfhörer an. \n Drahtlose Kopfhörer können nicht getestet werden.</string>
+
+    <string name="earphone_test_suggestion_play">Jetzt werden Sie \'Musik hören die imIhrem Kopfhörer \nabespielt wird.</string>
+    <string name="connect_earaphones">Bitte stecken Sie das Kabel der Kopfhörer in das Gerät.</string>
+    <string name="ear_jack_unplug_earphones">Bitte entfernen Sie das Kabel Ihres Kopfhörers aus dem Gerät.</string>
+    <string name="connect_earphones_dialog">Verbinden Sie Ihre Kopfhörer</string>
+    <string name="connect_earphones_toast">Verbinden Sie Ihre Kopfhörer um Musik abzuspielen.</string>
+    <string name="earphone_result_message">Haben Sie die Musik gehört?</string>
+    <string name="dimming_test">Test Bildhelligkeit</string>
+    <string name="dimming_try_message">Starten Sie den Test und drücken Sie drei Mal auf den Bildschirm, um eine Veränderung der Bildhelligkeit festzustellen.</string>
+    <string name="dimming_result_message">Haben Sie die Veränderung der Bildhelligkeit gesehen?</string>
+    <string name="tap_toproceed">Drücken Sie um fortzusetzen.</string>
+    <string name="call_test">Test Anruf</string>
+    <string name="calltest_try_message">Führen Sie einen Anruf durch und beenden Sie den Anruf, sobald Sie dazu aufgefordert werden.</string>
+    <string name="calltest_result_message">Waren Sie in der Lage, die automatische Nachricht zu hören?</string>
+    <string name="call_test_feature">Diese Funktion wurde erfolgreich getestet.</string>
+    <string name="inavalid_sim_msg">Bitte setzen Sie eine funktionierende SIM-Karte in das Gerät ein.</string>
+    <string name="vibration_test">Test Vibrationsalarm</string>
+    <string name="vibration_try_message">Starten Sie den Test um den Vibrationsalarm zu aktivieren.</string>
+    <string name="vibration_result_message">Haben Sie die Vibration des Gerätes fühlen können?</string>
+    <string name="str_vibrator_testrunning">Test Vibrationsalarm läuft</string>
+    <string name="str_vibration_isdone">Test Vibrationsalarm ist abgeschlossen</string>
+    <string name="increase_vibration_intensity">Bitte steigern Sie die Intensität des Vibrationsalarmes.</string>
+    <string name="usbconnection_test">Test USB Verbindung</string>
+    <string name="usbconnection_try_message">Bitte verbinden Sie Ihr Gerät mit dem ​USB-Kabel an einen Computer, benutzen Sie möglichst das Original-Zubehör.​ Kein Computer vorhanden -> Überspringen.</string>
+    <string name="usbconnection_test_instruction">Dieser Test benötigt ein USB-Kabel</string>
+    <string name="usbconnection_result_messsage">Arbeitet der USB-Anschluß korrekt?</string>
+    <string name="connect_usb">Verbinde USB</string>
+    <string name="usb_connected">USB ist verbunden </string>
+    <string name="usb_connection_test_failed">Test USB Verbindung fehlerhaft</string>
+    <string name="please_connect_usb">Bitte verbinden Sie USB</string>
+    <string name="charging_test">Test Ladung Batterie</string>
+    <string name="charging_try_message">Test der Aufladung der Gerätebatterie,​ Bitte schließen Sie Ihr Gerät an das Netzteil an,​ benutzen Sie möglichst das Original-Zubehör</string>
+    <string name="charging_result_message">Wird das Gerät aufgeladen?</string>
+    <string name="please_connect_charger">Bitte verbinden Sie das Netzteil</string>
+    <string name="device_charging">Gerät wird geladen</string>
+    <string name="bluetooth_connectivity_test">Test Bluetooth Verbindung</string>
+    <string name="bluetooth_connectivity_try_message">Test um ein Bluetooth-Gerät in der Nähe festzustellen</string>
+    <string name="bluetooth_connectivity_result_message">Funktioniert die Bluetooth-Verbindung?</string>
+    <string name="bluetooth_connectivity_text">Suche…</string>
+    <string name="title_activity_gesture_test">Test Bewegungs-Sensor</string>
+    <string name="earjact_test">Test Kopfhörer-Anschluß</string>
+    <string name="earjack_test_try_message">Bitte schließen Sie Ihre Kopfhörer mit dem Kabel an. Bluetooth-Kopfhörer werden nicht getestet. Keine Kopfhörer vorhanden -> Überspringen.</string>
+    <string name="earjack_result_message">Wenn Sie den Kopfhörer angesteckt haben, hat dann das Gerät reagiert ?</string>
+    <string name="nfctoggle_test">Test NFC Verbindung</string>
+    <string name="spen_test">Test Stift (S-Pen)</string>
+    <string name="sleep_test">Test Schlafmodus</string>
+    <string name="all_sounds_off">Gerät ist stummgeschaltet!</string>
+    <string name="all_sounds_off_instruction">Bitte gehen Sie zu den Geräte-Einstellungen und heben Sie die Stummschaltung des Gerätes auf um mit den Tests fortzufahren.</string>
+    <string name="unplug_earphones">Kopfhörer abstecken um Töne zu hören.</string>
+    <string name="plug_earphones">Kopfhörer wieder anstecken</string>
+    <string name="unnplug_earphones">Jetzt können Sie Kopfhörer abstecken.</string>
+    <string name="instruction">Anweisung</string>
+    <string name="permission">Freigabe</string>
+    <string name="enable_usage_stats_permission">Bitte ermöglichen Sie durch Ihre Freigabe das Fortsetzen der Diagnose.</string>
+    <string name="enable_accessibility_service">Bitte bringen Sie die Pervacio Apllikation in den "Accessibility Service" ???</string>
+    <string name="enable_dnd_permission">Ihr Gerät befindet sich im Lautlos-Modus. Bitte erteilen Sie uns die Freigabe um diesen Test fortzusetzen.</string>
+    <string name="all_tests_completed">Alle Tests durchgeführt</string>
+    <string name="no_issues_found">Es wurden keine Fehler gefunden</string>
+    <string name="str_return">Zurück</string>
+    <string name="str_next">Nächstes</string>
+    <string name="str_is_passed">bestanden</string>
+    <string name="str_is_failed">fehlerhaft</string>
+    <string name="str_is_timeout">Zeit überschritten</string>
+    <string name="result_timed_out">Laufzeitfehler!</string>
+    <string name="str_is_access_denied">ist Zugriff abgelehnt</string>
+    <string name="result_access_denied">Zugriff abgeleht</string>
+    <string name="result_fail">FEHLERHAFT</string>
+    <string name="result_pass">BESTANDEN</string>
+    <string name="on">EIN</string>
+    <string name="off">AUS</string>
+    <string name="recommondation">Empfehlung:</string>
+    <string name="go_to_settings">GEHEN SIE ZU EINSTELLUNGEN</string>
+    <string name="action_cancel">Abbruch</string>
+    <string name="wifi_heading_text">WLAN/WiFi betriebsbereit</string>
+    <string name="wifi_status_heading_text">WIFI status</string>
+
+    <string name="wifi_recommondation_text">WLAN augeschaltet lassen um mehr Batteriekapazität zur Verfügung zu haben</string>
+    <string name="wifi_status_on">WLAN ist AN</string>
+    <string name="wifi__status_off">WLAN ist AUS</string>
+    <string name="wifi_connectivity_recommondation">Wenn Sie das Internet nicht benötigen schalten Sie bitte WLAN aus um die Batterielaufzeit zu verlängern.</string>
+    <string name="wifi_on_connectivity_recommondation">Es wird empfohlen, das WLAN einzuschalten.​</string>
+
+    <string name="pass_status">Test bestanden</string>
+    <string name="fail_status">Test fehlerhaft</string>
+    <string name="timeout_status">Testzeit überschritten</string>
+    <string name="accessdenied_status">Test Zugriff erfolderlich</string>
+    <string name="bluetooth_toolbar_connectivity_text">Bluetooth bereit</string>
+    <string name="bluetooth_toolbar_text">Status Bluetooth</string>
+    <string name="bluetooth_recommondation_text">Bluetooth hat Einfluss auf die Batterielaufzeit, um diese zu verlängern schalten Sie bitte bei Nichtbenutzung Bluetooth aus.</string>
+    <string name="bluetooth_on_recommondation_text">Die Bluetooth-Einstellung ist bei diesem Gerät ausgeschaltet. Um Bluetooth zu aktivieren, stellen Sie bitte den Schieberegler auf EIN.</string>
+    <string name="bluetooth_status_on_text">Bluetooth ist EIN</string>
+    <string name="bluetooth_status_off_text">Bluetooth ist AUS</string>
+    <string name="bluetooth_connectivity_recommondation">Bluetooth einschalten</string>
+    <string name="bluetooth_note_text">Hinweis: Einige Applikationen benötigen eine Bluetooth-Verbindung um zu funktionieren.</string>
+    <string name="gps_service_active">GPS (Standortdienst) ist aktiv</string>
+    <string name="gps_service_not_active">GPS (Standortdienst) ist nicht aktiv</string>
+    <string name="disable_gps_services">Bitte GPS (Standortdienst) ausschalten</string>
+    <string name="enable_gps_services">Bitte GPS (Standortdienst) einschalten</string>
+    <string name="gps_toolbar_text">Status GPS (Standortzugriff)</string>
+    <string name="gps_toolbar_connectivity_text">GPS (Standortzugriff) bereit</string>
+    <string name="gps_recommondation_text">GPS (Standortzugriff) hat Einfluss auf die Batterielaufzeit. Diese wird verlängert wenn GPS (Standortzugriff) ausgeschaltet ist.</string>
+    <string name="gps_on_recommondation_text">GPS ist bei diesem Gerät ausgeschaltet. Um GPS zu aktivieren, gehen Sie bitte mit der Taste unten zu den Einstellungen.</string>
+    <string name="gps_on">GPS (Standortzugriff) ist EIN</string>
+    <string name="gps_off">GPS (Standortzugriff) ist AUS</string>
+    <string name="note_text">Hinweis: Einige Applikationen benötigen ein GPS-Signal oder Standortzugriff um zu funktionieren</string>
+    <string name="gps_connectivity_recommondation">GPS (Standortzugriff) einschalten </string>
+    <string name="go_to_gps_setting">Einstellungen</string>
+    <string name="nfc_toolbar_text">Status NFC Einstellung</string>
+    <string name="nfc_toolbar_connectivity_text">NFC bereit</string>
+    <string name="nfc_recommondation_text">NFC kann Einfluss auf die Batterielaufzeit haben. Um diese zu verlängern, schalten Sie NFC aus, wenn es nicht benötigt wird.</string>
+    <string name="nfc_on_recommondation_text">NFC ist bei diesem Gerät ausgeschaltet. Um NFC zu aktivieren, gehen Sie bitte mit der Taste unten zu den Einstellungen.</string>
+    <string name="nfc_status_on">NFC ist EIN</string>
+    <string name="nfc_status_off">NFC ist AUS</string>
+    <string name="enable_nfc">Bitte schalten Sie NFC Dienste ein</string>
+    <string name="disable_nfc">Bitte schalten Sie NFC Dienste aus</string>
+    <string name="nfc_services_active">NFC Dienste sind aktiv</string>
+    <string name="nfc_services_not_active">NFC Dienste sind nicht aktiv</string>
+    <string name="nfc_connectivity_recommondation">NFC einschalten</string>
+    <string name="go_to_nfc_setting">Einstellungen</string>
+    <string name="hotspot_recommondation_text">Eine Nichtverwendung des mobilen Hotspot verlängert die Batterielaufzeit</string>
+    <string name="hotspot_status_text">Mobilen Hotspot auschalten</string>
+    <string name="hotspot_heading_text">Mobiler Hotspot is an</string>
+    <string name="live_wallpaper_msg">Live Hintergrundbild kann nicht ausgeschaltet werden</string>
+    <string name="livewallpaper_toolbar_text">Eintelling Live Hintergrundbild</string>
+    <string name="livewallpaer_off">Live Hintergrundbild ist ausgeschaltet</string>
+    <string name="livewallpaer_on">Live Hintergrundbild ist eingeschaltet</string>
+    <string name="livewallpaper_recommondation_text">Live Hintergrundbilder haben einen großen Einfluss auf die aktuelle Batterielaufzeit. Um die Batterielaufzeit zu verlängern, verwenden Sie bitte ein Foto oder Bild als Hintergrund.</string>
+    <string name="screen_timeout_toolbar_text">aktuelle Einstellung Ruhezustand Bildschirm</string>
+    <string name="screen_timeout_status">Ruhezustand Bildschirm: auf 1 Minute einstellen</string>
+    <string name="screentimeout_improved">Ruhezustand Bildschirm: auf eine Minute einstellen</string>
+    <string name="screen_timeout_recommondation_text">Eine Verlängerung der automatischen Abschaltung des Bildschirmes über ein Minute hinaus hat Einfluss auf die aktuelle Batterielaufzeit</string>
+    <string name="brightness_toolbar_text">Helligkeits status</string>
+    <string name="brightness_recommendation">Automatisches Abdunkelung der Helligkeit optimiert den Bildschirm für maximale Lesbarkeit und verlängerte Batterieleistung</string>
+    <string name="brightness_automode">Automatische Bildschirmhelligkeit</string>
+    <string name="brightness_status_text">Automatische Bildschirmhelligkeit eingeschaltet</string>
+    <string name="auto_brightness_off">Automatische Bildschirmhelligkeit ausgeschaltet</string>
+    <string name="str_delete">Löschen</string>
+    <string name="str_stop">Stoppe</string>
+    <string name="str_uninstall">Deinstalliere</string>
+    <string name="str_name">Name</string>
+    <string name="str_date">Datum</string>
+    <string name="str_size">Größe</string>
+    <string name="title_autostartapps">Applikatione die automatisch starten</string>
+    <string name="title_runningapps">aktuelle laufende Applikationen</string>
+    <string name="title_backgroundapps">Applikationen laufen im Hintergrund</string>
+    <string name="title_riskyapps">Deinstallion von unsicheren Applikationen</string>
+    <string name="title_malwareapps">Deinstallation von Applikationen mit Schadsoftware</string>
+    <string name="title_adwareapps">Deinstallation von werbefinanzierten Applikationen</string>
+    <string name="title_outdatedapps">Deinstallieren von überalterten Applikationen</string>
+    <string name="title_unusedapps">Deinstallieren von nicht benutzte Applikationen</string>
+    <string name="title_duplicatefiles">Lösche doppelte Dateien</string>
+    <string name="title_music">Tonaufnahmen löschen</string>
+    <string name="title_images">Fotos löschen</string>
+    <string name="title_videos">Filme löschen</string>
+    <string name="select_all">Alles auswählen</string>
+    <string name="build_release_date">Release Date</string>
+    <string name="version_number">Versionsnummer</string>
+    <string name="app_created">Diese Applikation wurde für Telefonica von Pervacio, Inc. Entwickelt</string>
+    <string name="comment_box">Bitte hinterlassen Sie Ihren Kommentar über diese Applikation.</string>
+    <string name="about">Über</string>
+    <string name="submit">Weiter</string>
+    <string name="selet_one_to_continue">Bitte wählen Sie ein Feld aus um fortzufahren.</string>
+    <string name="enable_permissions">Bitte ermöglichen Sie durch Ihre Freigabe das Fortsetzen der Diagnose.</string>
+    <string name="agree_to_submit_data">Bei Auswahl: Übermittlung stimmen Sie einer Übermittlung Ihrer Informationen an Pervacio zu. Das hilft uns sehr für zukünfige Diagnosen unsere Systeme zu verbessern. </string>
+    <string name="read_more_link">Lesen Sie mehr</string>
+   <!--Device info-->
+    <string name="network_access">IMEI-Nummer</string>
+    <string name="phone_number">Telefonnummer</string>
+    <string name="device_manufacture">Gerätehersteller</string>
+    <string name="device_model">Geräte Modell</string>
+    <string name="os_version">Version Betriebssystem</string>
+    <string name="latitude">Breitengrad</string>
+    <string name="longitude">Längengrad</string>
+    <string name="device_features">Geräte Funktionen</string>
+    <string name="battery_health">Batterie-Zustand</string>
+    <string name="apps_installed">Applikationen wurden auf dieses Gerät geladen (Hinweis: Wir speichern die Informationen nirgendwo)</string>
+    <string name="msg_sprint_checkup">Pevacio\'s mobile Fehlerdiagnose erlaubt es Ihnen Ihr Gerät schnell und einfach auf eventuelle  technische Probleme zu test.</string>
+    <string name="msg_empty_rating">Bitte diese Applikation bewerten oder kommentieren</string>
+    <string name="rate_this_app">Bewerte diese Applikation</string>
+    <string name="device_info_imei_block_status">IMEI%1$s-Sperrstatus</string>
+
+
+    <string name="comment">Kommentar</string>
+    <string name="resolution_images">Bilder</string>
+    <string name="resolution_music">Tonaufzeichnung</string>
+    <string name="resolution_videos">Filme</string>
+    <string name="resolution_duplicate">Doppelte Dateien</string>
+    <string name="resolution_running_apps">laufende Applikationen</string>
+    <string name="resolution_background_apps">Applikationen im Hintergrund</string>
+    <string name="resolution_autostart_apps">Applikationen starten automatisch</string>
+    <string name="resolution_malware_apps">Applikationen mit Schadsoftware</string>
+    <string name="resolution_adware_apps">werbefinanzierte Applikation</string>
+    <string name="resolution_risky_apps">Nicht sichere Apllikationen</string>
+    <string name="resolution_outdated_apps">Überalterte Applikationen</string>
+    <string name="resolution_unused_apps">Unbenutzte Applikationen</string>
+    <string name="rotate_device">Drehen Sie Ihr Gerät</string>
+    <string name="file_deleted">Datei ist gelöscht</string>
+    <string name="files_are_deleted">Dateien wurden gelöscht</string>
+    <string name="kill_app">Applikation gelöscht</string>
+    <string name="unable_to_kill">Applikation kann nicht gelöscht werden</string>
+    <string name="enable_gps">Bitte GPS einschalten (Standortzugriff).</string>
+    <string name="access_denied_text">Um diesen Test auszuführen benötigen wir weitere Zugriffsrechte. Bitte gehen Sie zu den Eintellungen Ihres Gerätes und geben uns bitte die benötigten Freigaben während der Tests.</string>
+    <string name="failed_text">Ihr Gerät scheint eine Reparatur zu benötigen. Wenn eine Reparatur erforderlich sein sollte können zusätzliche Kosten auf Sie zukommen. Bitte lassen Sie Ihr Gerät von einem versierten Fachmann durchführen. Gehen Sie dazu in das nächst gelegenen Telefonica-Geschäft oder beauftragen ein Reparatur online unter " ???"</string>
+
+    <string name="firmware_text">Ein Update Ihres Betriebssytemes verbessert die Leistung des Gerätes und der Batterie. Wir empfehlen sehr ein Update Ihres Android Betriebssystemes.\n\n<b>Ihre firmware version : %1$s <!--\nNeueste firmware version :%2$s--></b>\n\nGehen Sie zu Einstellungen und suchen Sie nach Software Update. Überprüfen Sie, ob ein Software-Update verfügbar ist, und führen Sie den Update-Vorgang aus.</string>
+
+    <string name="last_restart">Wir haben festgestellt das Gerät seit **## wiedereingeschaltet haben. Das Gerät wird immer langsamer über die Zeit. Wie empfehlen von Zeit zu Zeit das Gerät auszuschalten und danach wieder einzuschalten.</string>
+    <string name="pass_response">Antwort übermittelt</string>
+    <string name="fail_response">Nicht möglich eine Antwort zu übermitteln.</string>
+    <string name="testresult_pass">Bestanden</string>
+    <string name="testresult_fail">fehlerhaft</string>
+    <string name="testresult_accessdenied">Zugriff erfordelich</string>
+    <string name="testresult_notequipped">kein</string>
+    <string name="testresult_timeout">Zeit abgelaufen</string>
+    <string name="testresult_skip">Abgebrochen</string>
+    <string name="testresult_canbeimproved">zu optimieren</string>
+    <string name="testresult_optimized">Optimiert</string>
+    <string name="testresult_userinput">Benutzereingabe</string>
+    <string name="letsgetstarted">Start</string>
+    <string name="title_activity_device_info">Geräteinformation</string>
+    <string name="welcome_to_text">Willkommen zu</string>
+    <string name="welcome_text">Pervacio Mobile Diagnose hilft Ihnen, den Gerätezustand schnell und effektiv zu beurteilen.</string>
+    <string name="device_info_make">Hersteller </string>
+    <string name="device_info_model">Modell </string>
+    <string name="firmware_version">Firmware Version</string>
+    <string name="os_version_summary">Betriebssytem Version</string>
+    <string name="start_time">Startzeit</string>
+    <string name="server_war_version">Server-Versionsnummer %1$s</string>
+
+    <!--EMAIL SUMMARY-->
+    <string name="sending_email_summary">Senden einer E-Mail-Zusammenfassung</string>
+    <string name="send_summary">Auswertung</string>
+    <string name="saved_summary_image">Ein Bild des Ergebnisses der aktuellen Analyse wurde auf dem Gerät in der Fotogalerie gespeichert.</string>
+    <string name="unable_to_save_denied">Fehler, kann das Bild nicht speichern, Genehmigung verweigert</string>
+    <string name="unable_to_save">Fehler, das Bild konnte nicht gespeichert werden.</string>
+    <string name="saving_summary_image">Speichern der Zusammenfassung</string>
+    <string name="endsession_message">Danke</string>
+    <string name="endsession_name">Pervacio \nunterstützte Diagnose</string>
+    <string name="endsession_suggestion">Vielen Dank für die Nutzung. Bitte deinstallieren Sie nun die Diagnose-App von Ihrem Gerät.</string>
+    <string name="connecting_to_server">Verbindung zum Server</string>
+    <string name="battery_results">Batterie Testergebnisse</string>
+    <string name="battery_health_result">Batterie-Zustand</string>
+    <string name="good">gut</string>
+    <string name="bad">schlecht</string>
+    <string name="test_not_supported">Test wird nicht unterstützt</string>
+    <string name="quick_battery_suggestion_one"><b>OPTIMIERUNG Zustand der Batterie:</b> optimierbar</string>
+    <string name="quick_battery_suggestion_two">Es scheint, dass Ihre tatsächliche Akkuladekapazität unter dem empfohlenen Richtwert liegt.</string>
+    <string name="quick_battery_suggestion_three"><b>Empfehlung:</b> Um die Lebensdauer der Batterie zu verlängern, vermeiden Sie es, die Batterie vollständig entladen zu lassen. Vermeiden Sie auch, die Batterie extremen Temperaturen auszusetzen, da dies die Lebensdauer der Batterie erheblich beeinträchtigen kann.
+</string>
+    <string name="key_back">Zurück</string>
+    <string name="key_home">Startseite</string>
+    <string name="key_menu">Menü</string>
+    <string name="key_power">Ein/Aus</string>
+    <string name="key_volume_down">Lautstärke reduzieren</string>
+    <string name="key_volume_up">Lautstärke erhöhen</string>
+    <!--<string name="key_recentapps">Tabs</string>-->
+    <string name="key_recentapps">zuletzt verwendet</string>
+    <string name="soh">Batteriestatus</string>
+    <string name="storeid_empty_msg">Bitte PIN-Code eingeben</string>
+    <string name="enter_code">Zugangscode</string>
+    <string name="code">Zugangscode</string>
+    <string name="invalid_storeid">Bitte geben Sie einen gültigen Zugangscode ein</string>
+    <string name="try_again">Wir können den Server nicht erreichen.  Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.</string>
+
+    <string name="privacy_statement">Datenschutzerklärung</string>
+    <string name="session_id">Diagnose-ID</string>
+    <string name="session_id_end_screen_msg">Bitte geben Sie diese Diagnose-ID in das Reparaturportal ein:</string>
+    <string name="session_id_copied_msg">Diagnose-ID in die Zwischenablage kopiert</string>
+
+    <string name="warning">Achtung</string>
+    <string name="eaphone_warning_msg">Der Test startet in voller Lautstärke. Setzen Sie die Kopfhörer daher nicht auf, sondern halten Sie diese etwas vom Ohr entfernt.</string>
+    <string name="bt_headset_connected_msg">Wir haben ein Bluetooth-Audiogerät entdeckt. Um mit dem Lautsprecher-Test fortzufahren, trennen Sie bitte die Verbindung zum Bluetooth-Gerät und klicken Sie auf Ok, um den Test zu starten.</string>
+
+    <string name="decline">Ich lehne ab</string>
+
+    <string name="internet_not_available">Internet nicht verfügbar.</string>
+    <string name="server_not_rechable">Server ist nicht erreichbar.</string>
+    <string name="not_available">Nicht verfügbar</string>
+    <string name="server_unavailable_msg">Wir sind nicht in der Lage, den Server zu kontaktieren. Ihre Transaktionsdaten werden nicht gespeichert.</string>
+    <string name="delete_alert_msg">Sind Sie sicher, dass Sie die ausgewählten Dateien löschen möchten?</string>
+    <string name="internet_unvailable">Internet nicht verfügbar. Bitte überprüfen und erneut versuchen</string>
+    <string name="enter_valid_code">Bitte geben Sie einen gültigen Zugangscode ein!</string>
+
+    <string name="terms_and_conditions_text"><![CDATA[ <p>Durch das Herunterladen und die Nutzung von Pervacio Mobile Diagnostics erkl&auml;ren Sie sich damit einverstanden, dass Sie die App nicht an andere Personen versenden und dass Sie die App, Teile der App oder unsere Marken in keinster Weise kopieren oder ver&auml;ndern d&uuml;rfen. Sie d&uuml;rfen den Quellcode der Anwendung nicht extrahieren, die Anwendung nicht &uuml;bersetzen und keine weiteren Versionen erstellen.</p>
+    <p>Die Pervacio Mobile Diagnostics App erfordert eine Reihe von Berechtigungen, um die Hardware-Funktionalit&auml;t des Ger&auml;ts zu testen und den Zustand Ihres Ger&auml;ts zu bewerten. Wir bitten um die folgenden Berechtigungen:</p>
+    <ul>
+        <li>Sensoren: Wir verwenden diese Berechtigung, um Sensoren auszulesen (d.h. Beschleunigungsmesser, Magnetfeldmesser &hellip;).</li>
+        <li>Standort: Wir verwenden diese Berechtigung f&uuml;r den Zugriff auf den genauen GPS-Standort (GPS und netzwerkbasiert).</li>
+        <li>Kamera: Wir verwenden diese Berechtigung, um Fotos und Videos zu machen, um sicherzustellen, dass die Kamera funktioniert.</li>
+        <li>Andere: Wir verwenden diese Berechtigungen, um die Hardware-Funktionalit&auml;t des Ger&auml;ts zu testen, den Zustand Ihres Ger&auml;ts zu bewerten und notwendige Sperren (mit Ihrer Zustimmung) zu entfernen, um Ihr Ger&auml;t f&uuml;r die Reparatur, R&uuml;ckgabe oder Inzahlungnahme vorzubereiten.</li>
+    </ul>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zugang Blitzlicht</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zugriff auf Bluetooth-Einstellungen</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vibration kontrollieren</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vollst&auml;ndiger Netzwerkzugang</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Netzwerkverbindungen ansehen</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Telefon am Schlafmodus hindern</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WLAN-Verbindungen anzeigen</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kopplung mit Bluetooth-Ger&auml;ten</p>
+    <p>o&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aufnahme und Wiedergabe von Audio-Testansagen</p>
+        <p>Wenn Sie auf "ICH STIMME ZU" tippen, erkennen Sie die oben genannten Bestimmungen und Bedingungen an und erkl&auml;ren sich mit ihnen einverstanden, und Sie haben die Datenschutzerkl&auml;rung gelesen.</p> ]]></string>
+
+
+
+    <string name="privacy_statement_text">
+    <![CDATA[
+    <p>Pervacio Datenschutzerkl&auml;rung</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <p>Vielen Dank, dass Sie sich entschieden haben, Teil unserer Gemeinschaft bei Pervacio India Private Limited ("Unternehmen", "wir", "uns" oder "unser") zu werden. Wir verpflichten uns, Ihre pers&ouml;nlichen Daten und Ihr Recht auf Privatsph&auml;re zu sch&uuml;tzen. Wenn Sie Fragen oder Bedenken zu unserer Mitteilung oder unseren Praktiken in Bezug auf Ihre pers&ouml;nlichen Daten haben, kontaktieren Sie uns bitte unter support@pervacio.com.</p>
+    <p>&nbsp;</p>
+    <p>Wenn Sie unsere Website besuchen sowie unsere mobile Anwendung und unsere Dienste nutzen, vertrauen Sie uns Ihre pers&ouml;nlichen Daten an. Wir nehmen Ihre Privatsph&auml;re sehr ernst. In dieser Datenschutzerkl&auml;rung versuchen wir Ihnen so klar wie m&ouml;glich zu erkl&auml;ren, welche Informationen wir sammeln, wie wir sie verwenden und welche Rechte Sie in Bezug auf sie haben. Wir hoffen, dass Sie sich etwas Zeit nehmen, um sie sorgf&auml;ltig durchzulesen, denn es ist wichtig. Sollten Sie mit den Bedingungen in diesem Datenschutzhinweis nicht einverstanden sein, stellen Sie bitte die Nutzung unserer Websites und Anwendungen sowie unserer Dienste ein.</p>
+    <p>&nbsp;</p>
+    <p>Dieser Datenschutzhinweis gilt f&uuml;r alle Informationen, die &uuml;ber unsere Website, mobile Anwendungen ("Apps") und/oder damit verbundene Dienstleistungen, Verk&auml;ufe, Marketing oder Veranstaltungen gesammelt werden (wir bezeichnen sie in diesem Datenschutzhinweis zusammenfassend als die "Dienstleistungen").</p>
+    <p>&nbsp;</p>
+    <p>Bitte lesen Sie diese Datenschutzerkl&auml;rung sorgf&auml;ltig durch, da sie Ihnen helfen wird, fundierte Entscheidungen &uuml;ber die Weitergabe Ihrer pers&ouml;nlichen Daten an uns zu treffen.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Inhaltsverzeichnis</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp; Welche Informationen sammeln wir?</p>
+    <p>&nbsp;&nbsp;&nbsp; Wie verwenden wir Ihre Informationen?</p>
+    <p>&nbsp;&nbsp;&nbsp; Werden Ihre Informationen mit jemandem geteilt?</p>
+    <p>&nbsp;&nbsp;&nbsp; Wie lange bewahren wir Ihre Informationen auf?</p>
+    <p>&nbsp;&nbsp;&nbsp; Wie bewahren wir Ihre Informationen sicher auf?</p>
+    <p>&nbsp;&nbsp;&nbsp; Sammeln wir Informationen von Minderj&auml;hrigen?</p>
+    <p>&nbsp;&nbsp;&nbsp; Was sind Ihre Rechte auf Privatsph&auml;re?</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp; Kontrollen f&uuml;r Nicht-Verfolgen-Funktionen</p>
+    <p>&nbsp;&nbsp;&nbsp; Haben Einwohner Kaliforniens besondere Rechte auf ihre Privatsph&auml;re?</p>
+    <p>&nbsp;&nbsp;&nbsp; Machen wir Aktualisierungen dieser Richtlinie?</p>
+    <p>&nbsp;&nbsp;&nbsp; Wie k&ouml;nnen Sie uns bez&uuml;glich dieser Richtlinie kontaktieren?</p>
+    <p>&nbsp;&nbsp;&nbsp; Wie k&ouml;nnen Sie die Daten, die wir von Ihnen erfassen, &uuml;berpr&uuml;fen, aktualisieren oder l&ouml;schen?</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <ol>
+        <li>Welche Informationen sammeln wir?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Wir k&ouml;nnen Informationen &uuml;ber Ihr mobiles Ger&auml;t sammeln, wenn Sie unsere Apps benutzen.</p>
+    <p>&nbsp;</p>
+    <p>Wenn Sie unsere Apps verwenden, k&ouml;nnen wir auch die folgenden Informationen erfassen:</p>
+    <p>&nbsp;</p>
+    <p>Zugang zu mobilen Ger&auml;ten. M&ouml;glicherweise bitten wir Sie um Zugang oder die Erlaubnis f&uuml;r bestimmte Funktionen Ihres Mobilger&auml;ts, einschlie&szlig;lich Bluetooth, Kamera, Mikrofon, Sensoren, Kontakte, Kalender, Erinnerungen, Speicher und andere Funktionen Ihres Mobilger&auml;ts. Wenn Sie unseren Zugang oder unsere Zugriffsrechte &auml;ndern m&ouml;chten, k&ouml;nnen Sie dies in den Einstellungen Ihres Ger&auml;ts tun.</p>
+    <p>&nbsp;</p>
+    <p>Daten f&uuml;r mobile Ger&auml;te. Wir erfassen m&ouml;glicherweise automatisch Ger&auml;teinformationen (wie Ihre IMEI-Nummer, Modell und Hersteller), Betriebssystem, Versions-Informationen und IP-Adresse.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <ol start="2">
+        <li>Wie verwenden wir Ihre Informationen?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Wir verarbeiten Ihre Daten zu Zwecken, die auf legitimen Gesch&auml;ftsinteressen, der Erf&uuml;llung unseres Vertrags mit Ihnen, der Einhaltung unserer gesetzlichen Verpflichtungen und/oder Ihrer Zustimmung beruhen.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Wir verwenden pers&ouml;nliche Informationen, die &uuml;ber unsere Dienste oder Apps gesammelt wurden, f&uuml;r eine Vielzahl von Gesch&auml;ftszwecken, die im Folgenden beschrieben werden. Wir verarbeiten Ihre pers&ouml;nlichen Daten f&uuml;r diese Zwecke im Vertrauen auf unsere legitimen Gesch&auml;ftsinteressen, um mit Ihrer Zustimmung einen Vertrag mit Ihnen abzuschlie&szlig;en oder zu erf&uuml;llen und/oder um unsere gesetzlichen Verpflichtungen zu erf&uuml;llen. Wir geben die spezifischen Verarbeitungsgr&uuml;nde, auf die wir uns st&uuml;tzen, neben jedem unten aufgef&uuml;hrten Zweck an.</p>
+    <p>&nbsp;</p>
+    <p>Wir verwenden die von uns gesammelten oder erhaltenen Informationen:</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;&nbsp;&nbsp; Um unsere Bedingungen und Richtlinien f&uuml;r Gesch&auml;ftszwecke, rechtliche Gr&uuml;nde und vertragliche Vereinbarungen durchzusetzen.</p>
+    <p>&nbsp;&nbsp;&nbsp; Um auf rechtliche Anfragen zu reagieren und Schaden zu verhindern. Wenn wir eine Vorladung oder eine andere rechtliche Anfrage erhalten, m&uuml;ssen wir m&ouml;glicherweise die in unserem Besitz befindlichen Daten &uuml;berpr&uuml;fen, um festzustellen, wie wir darauf reagieren sollen.</p>
+    <p>&nbsp;&nbsp;&nbsp; Um Ihnen Dienstleistungen zur Ger&auml;teklassifizierung anzubieten. Wir k&ouml;nnen Ihre Informationen verwenden, um Ihnen den angefragten Service zu bieten.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <ol start="3">
+        <li>Werden Ihre Informationen mit jemandem geteilt?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Wir geben Informationen nur mit Ihrem Einverst&auml;ndnis weiter, um Gesetze einzuhalten, um Ihnen Dienstleistungen anzubieten, um Ihre Rechte zu sch&uuml;tzen oder um gesch&auml;ftliche Verpflichtungen zu erf&uuml;llen.</p>
+    <p>&nbsp;</p>
+    <p>Wir k&ouml;nnen Daten auf der Grundlage der folgenden rechtlichen Grundlage verarbeiten oder weitergeben:</p>
+    <p>Zustimmung: Wir k&ouml;nnen Ihre Daten verarbeiten, wenn Sie uns Ihre ausdr&uuml;ckliche Zustimmung zur Verwendung Ihrer pers&ouml;nlichen Daten f&uuml;r einen bestimmten Zweck gegeben haben.</p>
+    <p>Berechtigte Interessen: Wir k&ouml;nnen Ihre Daten verarbeiten, wenn dies zur Verwirklichung unserer legitimen Gesch&auml;ftsinteressen angemessen erforderlich ist.</p>
+    <p>Vertragserf&uuml;llung: Wenn wir einen Vertrag mit Ihnen abgeschlossen haben, k&ouml;nnen wir Ihre pers&ouml;nlichen Daten verarbeiten, um die Bedingungen unseres Vertrags zu erf&uuml;llen.</p>
+    <p>Rechtliche Verpflichtungen: Wir k&ouml;nnen Ihre Daten offenlegen, wenn wir gesetzlich dazu verpflichtet sind, um geltendem Recht, Regierungsanfragen, einem Gerichtsverfahren, einer Gerichtsverf&uuml;gung oder einem Rechtsverfahren nachzukommen, wie z.B. als Antwort auf eine gerichtliche Anordnung oder eine Vorladung (einschlie&szlig;lich als Antwort auf &ouml;ffentliche Beh&ouml;rden, um Anforderungen der nationalen Sicherheit oder der Strafverfolgung zu erf&uuml;llen).</p>
+    <p>Lebenswichtige Interessen: Wir k&ouml;nnen Ihre Informationen offenlegen, wenn wir der Meinung sind, dass es notwendig ist, um potenzielle Verletzungen unserer Richtlinien, Betrugsverdacht, Situationen mit potenziellen Gefahren f&uuml;r die Sicherheit von Personen und illegalen Aktivit&auml;ten zu untersuchen, zu verhindern oder Ma&szlig;nahmen zu ergreifen, oder als Beweis in Rechtsstreitigkeiten, in die wir verwickelt sind.</p>
+    <p>Genauer gesagt m&uuml;ssen wir Ihre Daten m&ouml;glicherweise in den folgenden Situationen verarbeiten oder Ihre pers&ouml;nlichen Informationen weitergeben:</p>
+    <p>Anbieter, Berater und andere Drittanbieter von Dienstleistungen: Wir k&ouml;nnen Ihre Daten an Drittanbieter, Dienstleister, Auftragnehmer oder Vertreter weitergeben, die f&uuml;r uns oder in unserem Auftrag Dienstleistungen erbringen und f&uuml;r diese Arbeit Zugang zu diesen Informationen ben&ouml;tigen. Beispiele hierf&uuml;r sind: Zahlungsabwicklung, Datenanalyse, E-Mail-Zustellung, Hosting-Dienste, Kundendienst und Marketingma&szlig;nahmen. Wir k&ouml;nnen ausgew&auml;hlten Dritten erlauben, die Tracking-Technologie f&uuml;r die Dienste oder Anwendungen zu verwenden, wodurch sie in die Lage versetzt werden, Daten dar&uuml;ber zu sammeln, wie Sie mit den Diensten oder Anwendungen im Laufe der Zeit interagieren. Diese Informationen k&ouml;nnen unter anderem dazu verwendet werden, Daten zu analysieren und zu verfolgen, die Beliebtheit bestimmter Inhalte zu bestimmen und die Online-Aktivit&auml;ten besser zu verstehen. Sofern nicht in dieser Richtlinie beschrieben, teilen, verkaufen, vermieten oder tauschen wir Ihre Daten nicht mit Dritten f&uuml;r deren Werbezwecke.</p>
+    <p>Gesch&auml;fts&uuml;bertragungen: Wir k&ouml;nnen Ihre Informationen im Zusammenhang mit oder w&auml;hrend der Verhandlungen &uuml;ber eine Fusion, den Verkauf von Unternehmensverm&ouml;gen, die Finanzierung oder die &Uuml;bernahme des gesamten oder eines Teils unseres Gesch&auml;fts an ein anderes Unternehmen weitergeben oder &uuml;bertragen.</p>
+    <p>Drittanbieter von Werbung: Wir k&ouml;nnen Drittanbieter f&uuml;r die Anzeigenschaltung bei Ihrem Besuch der Services oder Apps einsetzen. Diese Unternehmen k&ouml;nnen Informationen &uuml;ber Ihre Besuche auf unserer/unseren Website(s) und anderen Websites, die in Web-Cookies und anderen Verfolgungstechnologien enthalten sind, verwenden, um Werbung f&uuml;r Waren und Dienstleistungen, die Sie interessieren, zu schalten.</p>
+    <p>&nbsp;</p>
+    <ol start="4">
+        <li>Wie lange bewahren wir Ihre Informationen auf?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Wir bewahren Ihre Daten so lange wie n&ouml;tig auf, um die in diesem Datenschutzhinweis genannten Zwecke zu erf&uuml;llen, es sei denn, das Gesetz schreibt etwas anderes vor.</p>
+    <p>Wir werden Ihre pers&ouml;nlichen Daten nur so lange aufbewahren, wie es f&uuml;r die in dieser Datenschutzerkl&auml;rung genannten Zwecke erforderlich ist, es sei denn, eine l&auml;ngere Aufbewahrungsfrist ist gesetzlich vorgeschrieben oder zul&auml;ssig (wie z.B. steuerliche, buchhalterische oder andere gesetzliche Anforderungen). Kein Aspekt dieser Richtlinie verlangt, dass wir Ihre pers&ouml;nlichen Daten l&auml;nger als 90 Tage aufbewahren.</p>
+    <p>&nbsp;</p>
+    <p>Wenn wir keine laufende legitime gesch&auml;ftliche Notwendigkeit haben, Ihre pers&ouml;nlichen Daten zu verarbeiten, werden wir sie entweder l&ouml;schen oder anonymisieren, oder, falls dies nicht m&ouml;glich ist (z.B. weil Ihre pers&ouml;nlichen Daten in Sicherungsarchiven gespeichert wurden), werden wir Ihre pers&ouml;nlichen Daten sicher aufbewahren und von jeder weiteren Verarbeitung isolieren, bis eine L&ouml;schung m&ouml;glich ist.</p>
+    <p>&nbsp;</p>
+    <ol start="5">
+        <li>Wie bewahren wir Ihre Informationen sicher auf?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Wir sind bestrebt, Ihre pers&ouml;nlichen Daten durch ein System organisatorischer und technischer Sicherheitsma&szlig;nahmen zu sch&uuml;tzen.</p>
+    <p>&nbsp;</p>
+    <p>Wir haben geeignete technische und organisatorische Sicherheitsma&szlig;nahmen eingef&uuml;hrt, die die Sicherheit aller von uns verarbeiteten pers&ouml;nlichen Daten sch&uuml;tzen sollen. Bitte denken Sie jedoch auch daran, dass wir nicht garantieren k&ouml;nnen, dass das Internet selbst 100% sicher ist. Obwohl wir unser Bestes tun werden, um Ihre pers&ouml;nlichen Daten zu sch&uuml;tzen, erfolgt die &Uuml;bertragung von pers&ouml;nlichen Daten zu und von unseren Diensten oder Anwendungen auf Ihr eigenes Risiko. Sie sollten nur innerhalb einer sicheren Umgebung auf die Dienste zugreifen.</p>
+    <p>&nbsp;</p>
+    <ol start="6">
+        <li>Sammeln wir Informationen von Minderj&auml;hrigen?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Wir sammeln wissentlich keine Daten von Kindern unter 18 Jahren und vermarkten sie auch nicht an diese.</p>
+    <p>&nbsp;</p>
+    <p>Wir fordern nicht wissentlich Daten von Kindern unter 18 Jahren an oder vermarkten sie nicht. Durch die Nutzung der Dienste oder Apps erkl&auml;ren Sie, dass Sie mindestens 18 Jahre alt sind oder dass Sie ein Elternteil oder ein Vormund eines solchen Minderj&auml;hrigen sind und der Nutzung der Dienste oder Apps durch einen solchen minderj&auml;hrigen Angeh&ouml;rigen zustimmen. Wenn wir erfahren, dass pers&ouml;nliche Daten von Benutzern unter 18 Jahren gesammelt wurden, werden wir das Konto deaktivieren und angemessene Ma&szlig;nahmen ergreifen, um diese Daten umgehend aus unseren Aufzeichnungen zu l&ouml;schen. Wenn Sie Kenntnis von Daten erhalten, die wir von Kindern unter 18 Jahren gesammelt haben, kontaktieren Sie uns bitte unter support@pervacio.com.</p>
+    <p>&nbsp;</p>
+    <ol start="7">
+        <li>Was sind Ihre Rechte auf Privatsph&auml;re?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Sie k&ouml;nnen Ihr Konto jederzeit &uuml;berpr&uuml;fen, &auml;ndern oder beenden.</p>
+    <p>&nbsp;</p>
+    <p>Wenn Sie im Europ&auml;ischen Wirtschaftsraum ans&auml;ssig sind und Sie glauben, dass wir Ihre pers&ouml;nlichen Daten unrechtm&auml;&szlig;ig verarbeiten, haben Sie auch das Recht, sich bei Ihrer &ouml;rtlichen Datenschutzaufsichtsbeh&ouml;rde zu beschweren. Sie finden deren Kontaktdaten hier: http://ec.europa.eu/justice/data-protection/bodies/authorities/index_en.htm.</p>
+    <p>&nbsp;</p>
+    <ol start="8">
+        <li>Bedienelemente f&uuml;r die Do-Not-Track (Nicht verfolgen) -Funktionen</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>Die meisten Webbrowser und einige mobile Betriebssysteme und mobile Anwendungen enthalten eine Do-Not-Track/Nicht verfolgen ("DNT")-Funktion oder eine Einstellung, die Sie aktivieren k&ouml;nnen, um Ihre Datenschutzeinstellung zu signalisieren, dass Daten &uuml;ber Ihre Online-Browsing-Aktivit&auml;ten nicht &uuml;berwacht und gesammelt werden sollen. Es wurde kein einheitlicher Technologiestandard f&uuml;r die Erkennung und Implementierung von DNT-Signalen festgelegt. Daher reagieren wir derzeit nicht auf DNT-Browsersignale oder andere Mechanismen, die automatisch Ihre Entscheidung mitteilen, nicht online verfolgt zu werden. Falls ein Standard f&uuml;r die Online-Verfolgung angenommen wird, den wir in Zukunft befolgen m&uuml;ssen, werden wir Sie in einer &uuml;berarbeiteten Version dieser Datenschutzerkl&auml;rung &uuml;ber diese Praxis informieren.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <ol start="9">
+        <li>Haben Einwohner Kaliforniens besondere Datenschutzrechte?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Ja, wenn Sie in Kalifornien/USA ans&auml;ssig sind, werden Ihnen besondere Rechte hinsichtlich des Zugangs zu Ihren pers&ouml;nlichen Daten gew&auml;hrt.</p>
+    <p>&nbsp;</p>
+    <p>Abschnitt 1798.83 des kalifornischen B&uuml;rgerlichen Gesetzbuches, auch bekannt als das "Shine The Light"-Gesetz, erlaubt es unseren Benutzern, die in Kalifornien ans&auml;ssig sind, einmal im Jahr und kostenlos Informationen &uuml;ber Kategorien von pers&ouml;nlichen Daten (falls vorhanden), die wir an Dritte f&uuml;r Direktmarketingzwecke weitergegeben haben, sowie die Namen und Adressen aller Dritten, mit denen wir im unmittelbar vorhergehenden Kalenderjahr pers&ouml;nliche Daten ausgetauscht haben, anzufordern und von uns zu erhalten. Wenn Sie in Kalifornien ans&auml;ssig sind und eine solche Anfrage stellen m&ouml;chten, senden Sie uns bitte Ihre Anfrage schriftlich unter Verwendung der unten angegebenen Kontaktinformationen.</p>
+    <p>&nbsp;</p>
+    <p>Wenn Sie unter 18 Jahre alt sind, Ihren Wohnsitz in Kalifornien haben und ein registriertes Konto bei den Diensten oder Apps haben, haben Sie das Recht, die Entfernung unerw&uuml;nschter Daten zu beantragen, die Sie &ouml;ffentlich in den Diensten oder Apps ver&ouml;ffentlichen. Um die Entfernung solcher Daten zu beantragen, kontaktieren Sie uns bitte &uuml;ber die unten angegebenen Kontaktinformationen und geben Sie die mit Ihrem Konto verbundene E-Mail-Adresse sowie eine Erkl&auml;rung an, dass Sie in Kalifornien wohnen. Wir werden sicherstellen, dass die Daten nicht &ouml;ffentlich in den Diensten oder Apps angezeigt werden, aber bitte beachten Sie, dass die Daten m&ouml;glicherweise nicht vollst&auml;ndig oder umfassend aus unseren Systemen entfernt werden.</p>
+    <p>&nbsp;</p>
+    <ol start="10">
+        <li>Machen wir Aktualisierungen dieser Richtlinie?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Kurzgefasst: Ja, wir werden diese Richtlinie bei Bedarf aktualisieren, um mit den einschl&auml;gigen Gesetzen konform zu bleiben.</p>
+    <p>&nbsp;</p>
+    <p>Wir k&ouml;nnen diese Datenschutzerkl&auml;rung von Zeit zu Zeit aktualisieren. Die aktualisierte Version wird durch ein aktualisiertes "&Uuml;berarbeitungsdatum" gekennzeichnet und die aktualisierte Version wird wirksam, sobald sie zug&auml;nglich ist. Wenn wir wesentliche &Auml;nderungen an diesem Datenschutzhinweis vornehmen, k&ouml;nnen wir Sie entweder durch eine gut sichtbare Mitteilung &uuml;ber solche &Auml;nderungen oder durch direkte Benachrichtigung benachrichtigen. Wir empfehlen Ihnen, diese Datenschutzerkl&auml;rung regelm&auml;&szlig;ig zu lesen, um sich dar&uuml;ber zu informieren, wie wir Ihre Daten sch&uuml;tzen.</p>
+    <p>&nbsp;</p>
+    <ol start="11">
+        <li>Wie k&ouml;nnen Sie uns bez&uuml;glich dieser Richtlinie kontaktieren?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>Wenn Sie Fragen oder Kommentare zu dieser Richtlinie haben, k&ouml;nnen Sie uns eine E-Mail an privacy@pervacio.com oder per Post an:</p>
+    <p>Pervacio Inc.</p>
+    <p>5215 N O&rsquo;Connor Blvd, 11th Floor,</p>
+    <p>Irving TX 75039</p>
+    <p>USA</p>
+    <p>&nbsp;</p>
+    <ol start="12">
+        <li>Wie k&ouml;nnen Sie die Daten, die wir von Ihnen erfassen, &uuml;berpr&uuml;fen, aktualisieren oder l&ouml;schen?</li>
+    </ol>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>Aufgrund der Gesetze einiger L&auml;nder haben Sie m&ouml;glicherweise das Recht, Zugang zu den von uns gesammelten pers&ouml;nlichen Daten zu verlangen, diese Daten zu &auml;ndern oder sie unter bestimmten Umst&auml;nden zu l&ouml;schen. Um eine &Uuml;berpr&uuml;fung, Aktualisierung oder L&ouml;schung Ihrer pers&ouml;nlichen Daten zu beantragen, senden Sie bitte eine Anfrage an privacy@pervacio.com. Wir werden auf Ihre Anfrage innerhalb von 30 Tagen antworten.</p> ]]></string>
+
+
+
+    <!--IMEI-->
+    <string name="imei_steps_heading">Bitte erfassen Sie die IMEI des Geräts, indem Sie die folgenden Schritte ausführen:</string>
+    <string name="imei_read_instructions_10_step_1">1. Dies ist Pervacio Assistant, der Sie bei der Erfassung von IMEI unterstützt</string>
+    <string name="imei_read_instructions_10_step_2">2. Drücken Sie die Start-Taste und folgen Sie dem Pervacio-Assistenten Polish</string>
+    <string name="imei_read_instructions_10_bubble_message">Wählen Sie * # 06 #. Sie sehen das IMEI-Popup. \nWarten Sie, bis der \nCountdown-Timer angezeigt wird</string>
+    <string name="imei_search_time_out">Sie haben den Geheimcode *#06# nicht eingegeben. Sie können die IMEI erneut verarbeiten, indem Sie auf die Schaltfläche Start klicken.</string>
+    <string name="permission_show_over_other_apps">Bitte aktivieren Sie die Berechtigung \"Über andere Apps anzeigen\" um die Diagnose fortzusetzen.</string>
+    <string name="permission_show_over_other_apps_xiaomi">Bitte aktivieren Sie die folgenden Berechtigungen, um die Diagnose fortzusetzen \n\n <font fgcolor='#FF8E8E93'>1. Afficher des fenêtres contextuelles lors de l\'exécution en arrière-plan</font> \n <font fgcolor='#FF8E8E93'>2. Über andere Apps anzeigen </font></string>
+
+    <!--WARNINGS -->
+    <string name="int_storage_msg">Ihr Gerätespeicher geht zur Neige. Es ist weniger als 20%. Bitte geben Sie Gerätespeicher frei, indem Sie Bild-, Duplikat-, Audio- und Videodateien löschen.</string>
+
+
+    <!-- Customer Satisfaction dialog -->
+    <string name="rate_your_experience">Bewerten Sie Ihre Erfahrung</string>
+    <string name="cust_satisfy_title">Kunde Befriedigung</string>
+    <string name="cust_satisfy_msg">Bitte bewerten Sie den Instore Experience Service, den Sie heute erhalten haben</string>
+    <string name="agent_satisfy_title">Zufriedenheit der Movistar-Agenten</string>
+    <string name="agent_satisfy_msg">Bitte übergeben Sie das Gerät an den Store Agent, um dessen Erfahrung mit dem Service zu bewerten</string>
+    <string name="reason_for_rating">Grund für die Unzufriedenheit</string>
+    <string-array name="reasons_list">
+        <item>Grund für die Unzufriedenheit</item>
+        <item>Die App wurde ein- oder mehrmals neu gestartet</item>
+        <item>Probleme beim Herunterladen der App</item>
+        <item>Schwierigkeiten bei der Durchführung der Tests</item>
+        <item>Nicht zufrieden mit der Diagnose Ergebnisse</item>
+        <item>App ist nicht einfach zu bedienen</item>
+        <item>Der Prozess dauert länger</item>
+        <item>Der Prozess hat beim ersten Versuch nicht funktioniert</item>
+    </string-array>
+
+    <!--Battery Info -->
+    <string name="battery_info">Batterieinformationen</string>
+
+    <!-- Accessory Strings -->
+    <string name="accessory_dialog_title">Für die von Ihnen ausgewählte Kategorie ist das unten aufgeführte Zubehör erforderlich.</string>
+    <string name="accessory_dialog_message">Stellen Sie sicher, dass Sie sie zur Hand haben:</string>
+
+    <string name="accessory_wall_charger">Ladegerät</string>
+    <string name="accessory_usb_cable">USB-Kabel</string>
+    <string name="accessory_wire_earphone">Kabelgebundene Kopfhörer</string>
+
+
+    <!--FINGER PRINT TEST -->
+    <string name="finger_print_test">Test des Fingerabdrucksensors</string>
+    <string name="finger_print_test_try_message">Legen Sie Ihren Finger auf den Sensor.</string>
+    <string name="finger_print_result_message"></string>
+    <string name="finger_print_test_inprogress_message"></string>
+
+
+    <string name="finger_print_too_many_attempts">Viele Versuche</string>
+    <string name="finger_print_pop_up_description">Auf dem Gerät sind keine Fingerabdrücke registriert. Melden Sie sich an und testen Sie erneut.</string>
+    <string name="enrol">Anmelden</string>
+
+    <string name="no_preview">Keine Vorschau vorhanden</string>
+
+
+</resources>

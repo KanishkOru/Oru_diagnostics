@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_gravity="right"
+    android:background="@color/main_bg_gray"
+    android:gravity="center"
+    android:id="@+id/continue_3b"
+    android:weightSum="2"
+    android:orientation="horizontal">
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+        android:id="@+id/cancel_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minWidth="64dp"
+        android:padding="@dimen/button_padding"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="@dimen/custom_btn_rt_margin"
+        android:text="@string/cancel"
+        style="?buttonTestNegativeStyle"
+        android:layout_weight="1"/>
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+        android:id="@+id/retest_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minWidth="64dp"
+        android:padding="@dimen/button_padding"
+        android:layout_marginLeft="@dimen/custom_btn_rt_margin"
+        android:layout_marginRight="@dimen/custom_btn_rt_margin"
+        android:text="@string/cancel"
+        android:visibility="gone"
+        style="?buttonTestNegativeStyle"
+        android:layout_weight="0"/>
+
+    <com.oruphones.nativediagnostic.common.CustomButton
+        android:id="@+id/accept_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="15dp"
+        android:minWidth="64dp"
+        android:layout_marginLeft="7dp"
+        android:padding="@dimen/button_padding"
+        android:text="@string/accept"
+        style="?buttonsTestPositiveStyle"
+        android:layout_weight="1"/>
+
+</LinearLayout>

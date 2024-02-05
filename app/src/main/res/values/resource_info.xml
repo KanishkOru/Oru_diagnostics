@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Ambient_light_test">
+        <item name="name">@string/ambientligt_test</item>
+        <item name="test_icon">@drawable/manual_light</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/ambient_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/ambient_message</item>
+        <item name="time_out_message">@string/ambient_test_suggestion</item>
+        <item name="time_out_image">@drawable/ambient_test_ins</item>
+    </array>
+
+    <array name="LightSensorTest">
+        <item name="name">@string/ambientligt_test</item>
+        <item name="test_icon">@drawable/manual_light</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/ambient_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/ambient_message</item>
+        <item name="result_message">@string/ambient_message</item>
+        <item name="time_out_message">@string/ambient_test_suggestion</item>
+        <item name="time_out_image">@drawable/ambient_test_ins</item>
+    </array>
+
+    <array name="AccelerometerTest">
+        <item name="name">@string/accelerometer_test</item>
+        <item name="test_icon">@drawable/manual_accelerometer</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/accelerometer_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/accelerometer_result_message</item>
+    </array>
+    <array name="ProximityTest">
+        <item name="name">@string/proximity_test</item>
+        <item name="test_icon">@drawable/manual_proximity</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/proximity_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/proximity_message</item>
+        <item name="inprogress_message"></item>
+        <item name="time_out_message">@string/proximity_test_suggestion</item>
+        <item name="time_out_image">@drawable/proximity_test_ins</item>
+    </array>
+
+    <array name="GestureTest">
+        <item name="name">@string/guesture_test</item>
+        <item name="test_icon">@drawable/manual_gesture</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/guesture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/guesture_try_message</item>
+    </array>
+    <array name="MicTest">
+        <item name="name">@string/microphone_test</item>
+        <item name="test_icon">@drawable/manual_microphone</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/microphone_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/microphone_result_message</item>
+        <item name="inprogress_message">@string/microphone_record_message</item>
+        <item name="time_out_message">@string/microphone_test_suggestion</item>
+        <item name="time_out_image">@drawable/mic_test_ins</item>
+    </array>
+    <array name="Mic2Test">
+        <item name="name">@string/microphone2_test</item>
+        <item name="test_icon">@drawable/manual_microphone</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/microphone_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/microphone_result_message</item>
+        <item name="inprogress_message">@string/microphone_record_message</item>
+        <item name="time_out_message">@string/microphone_test_suggestion</item>
+        <item name="time_out_image">@drawable/mic_test_ins</item>
+    </array>
+
+
+
+    <array name="HardKeysTest">
+        <item name="name">@string/hardkey_test</item>
+        <item name="test_icon">@drawable/manual_hardkeys</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/hardkey_try_messaage</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/key_result_message</item>
+    </array>
+
+    <array name="SoftKeysTest">
+        <item name="name">@string/softkey_test</item>
+        <item name="test_icon">@drawable/manual_softkeys</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/softkey_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/key_result_message</item>
+    </array>
+    <array name="SpeakerTest">
+        <item name="name">@string/speaker_test</item>
+        <item name="test_icon">@drawable/manual_speaker</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/speakaer_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/speaker_result_message</item>
+        <item name="inprogress_message">@string/speakaer_test_inprogress_message</item>
+        <item name="time_out_message">@string/speaker_test_suggestion</item>
+        <item name="time_out_image">@drawable/speaker_test_ins</item>
+    </array>
+
+    <array name="EarpieceTest">
+        <item name="name">@string/earpiece_test</item>
+        <item name="test_icon">@drawable/manual_receiver</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/receivertest_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/receiver_test_result_message</item>
+        <item name="inprogress_message">@string/receivertest_inprogress_message</item>
+        <item name="time_out_message">@string/receiver_test_suggestion</item>
+        <item name="time_out_image">@drawable/receiver_test_ins</item>
+    </array>
+
+    <array name="ReceiverTest">
+        <item name="name">@string/earpiece_test</item>
+        <item name="test_icon">@drawable/manual_receiver</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/receivertest_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/receiver_test_result_message</item>
+        <item name="inprogress_message">@string/receivertest_inprogress_message</item>
+        <item name="time_out_message">@string/receiver_test_suggestion</item>
+        <item name="time_out_image">@drawable/receiver_test_ins</item>
+    </array>
+
+
+    <array name="TouchTest">
+        <item name="name">@string/touch_test</item>
+        <item name="test_icon">@drawable/manual_touch</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/touch_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/touch_test_result_message</item>
+    </array>
+
+    <array name="RearCameraPictureTest">
+        <item name="name">@string/rear_camera_picture_test</item>
+        <item name="test_icon">@drawable/manual_rearcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_picture_result_message</item>
+    </array>
+    <array name="RearCameraPictureTest1">
+        <item name="name">@string/rear_camera_picture_test1</item>
+        <item name="test_icon">@drawable/manual_rearcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_picture_result_message</item>
+    </array>
+    <array name="RearCameraPictureTest2">
+        <item name="name">@string/rear_camera_picture_test2</item>
+        <item name="test_icon">@drawable/manual_rearcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_picture_result_message</item>
+    </array>
+    <array name="RearCameraPictureTest3">
+        <item name="name">@string/rear_camera_picture_test3</item>
+        <item name="test_icon">@drawable/manual_rearcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_picture_result_message</item>
+    </array>
+    <array name="RearCameraPictureTest4">
+        <item name="name">@string/rear_camera_picture_test4</item>
+        <item name="test_icon">@drawable/manual_rearcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_picture_result_message</item>
+    </array>
+    <array name="RearCameraPictureTest5">
+        <item name="name">@string/rear_camera_picture_test5</item>
+        <item name="test_icon">@drawable/manual_rearcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_picture_result_message</item>
+    </array>
+    <array name="RearCameraPictureTest6">
+        <item name="name">@string/rear_camera_picture_test6</item>
+        <item name="test_icon">@drawable/manual_rearcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_picture_result_message</item>
+    </array>
+
+
+    <array name="RearCameraVideoTest">
+        <item name="name">@string/rear_camera_video_test</item>
+        <item name="test_icon">@drawable/manual_rearvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_video_result_message</item>
+    </array>
+    <array name="RearCameraVideoTest1">
+        <item name="name">@string/rear_camera_video_test1</item>
+        <item name="test_icon">@drawable/manual_rearvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_video_result_message</item>
+    </array>
+    <array name="RearCameraVideoTest2">
+        <item name="name">@string/rear_camera_video_test2</item>
+        <item name="test_icon">@drawable/manual_rearvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_video_result_message</item>
+    </array>
+    <array name="RearCameraVideoTest3">
+        <item name="name">@string/rear_camera_video_test3</item>
+        <item name="test_icon">@drawable/manual_rearvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_video_result_message</item>
+    </array>
+    <array name="RearCameraVideoTest4">
+        <item name="name">@string/rear_camera_video_test4</item>
+        <item name="test_icon">@drawable/manual_rearvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_video_result_message</item>
+    </array>
+    <array name="RearCameraVideoTest5">
+        <item name="name">@string/rear_camera_video_test5</item>
+        <item name="test_icon">@drawable/manual_rearvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_video_result_message</item>
+    </array>
+    <array name="RearCameraVideoTest6">
+        <item name="name">@string/rear_camera_video_test6</item>
+        <item name="test_icon">@drawable/manual_rearvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/rear_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/rear_camera_video_result_message</item>
+    </array>
+
+    <array name="FrontCameraPictureTest">
+        <item name="name">@string/front_camera_picture_test</item>
+        <item name="test_icon">@drawable/manual_frontcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_picture_result_message</item>
+    </array>
+    <array name="FrontCameraPictureTest1">
+        <item name="name">@string/front_camera_picture_test1</item>
+        <item name="test_icon">@drawable/manual_frontcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_picture_result_message</item>
+    </array>
+    <array name="FrontCameraPictureTest2">
+        <item name="name">@string/front_camera_picture_test2</item>
+        <item name="test_icon">@drawable/manual_frontcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_picture_result_message</item>
+    </array>
+    <array name="FrontCameraPictureTest3">
+        <item name="name">@string/front_camera_picture_test3</item>
+        <item name="test_icon">@drawable/manual_frontcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_picture_result_message</item>
+    </array>
+    <array name="FrontCameraPictureTest4">
+        <item name="name">@string/front_camera_picture_test4</item>
+        <item name="test_icon">@drawable/manual_frontcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_picture_result_message</item>
+    </array>
+    <array name="FrontCameraPictureTest5">
+        <item name="name">@string/front_camera_picture_test5</item>
+        <item name="test_icon">@drawable/manual_frontcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_picture_result_message</item>
+    </array>
+    <array name="FrontCameraPictureTest6">
+        <item name="name">@string/front_camera_picture_test6</item>
+        <item name="test_icon">@drawable/manual_frontcamera</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_picture_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_picture_result_message</item>
+    </array>
+
+    <array name="FrontCameraVideoTest">
+        <item name="name">@string/front_camera_video_test</item>
+        <item name="test_icon">@drawable/manual_frontvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_video_result_message</item>
+    </array>
+    <array name="FrontCameraVideoTest1">
+        <item name="name">@string/front_camera_video_test1</item>
+        <item name="test_icon">@drawable/manual_frontvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_video_result_message</item>
+    </array>
+    <array name="FrontCameraVideoTest2">
+        <item name="name">@string/front_camera_video_test2</item>
+        <item name="test_icon">@drawable/manual_frontvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_video_result_message</item>
+    </array>
+    <array name="FrontCameraVideoTest3">
+        <item name="name">@string/front_camera_video_test3</item>
+        <item name="test_icon">@drawable/manual_frontvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_video_result_message</item>
+    </array>
+    <array name="FrontCameraVideoTest4">
+        <item name="name">@string/front_camera_video_test4</item>
+        <item name="test_icon">@drawable/manual_frontvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_video_result_message</item>
+    </array>
+    <array name="FrontCameraVideoTest5">
+        <item name="name">@string/front_camera_video_test5</item>
+        <item name="test_icon">@drawable/manual_frontvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_video_result_message</item>
+    </array>
+    <array name="FrontCameraVideoTest6">
+        <item name="name">@string/front_camera_video_test6</item>
+        <item name="test_icon">@drawable/manual_frontvideo</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/front_camera_video_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/front_camera_video_result_message</item>
+    </array>
+
+    <array name="CameraFlashTest">
+        <item name="name">@string/cameraflash_test</item>
+        <item name="test_icon">@drawable/manual_cameraflash</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/cameraflash_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/cameraflash_result_message</item>
+        <item name="inprogress_message">@string/camera_flash_on</item>
+    </array>
+    <array name="FrontFlashTest">
+        <item name="name">@string/cameraflash_test</item>
+        <item name="test_icon">@drawable/manual_cameraflash</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/cameraflash_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/cameraflash_result_message</item>
+        <item name="inprogress_message">@string/camera_flash_on</item>
+    </array>
+    <array name="LCDTest">
+        <item name="name">@string/display_test</item>
+        <item name="test_icon">@drawable/manual_display</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/display_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/display_test_result_message</item>
+    </array>
+
+    <array name="EarphoneTest">
+        <item name="name">@string/earphone_test</item>
+        <item name="test_icon">@drawable/manual_earphone</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/earphone_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/earphone_result_message</item>
+        <item name="inprogress_message"></item>
+        <item name="time_out_message">@string/earphone_test_suggestion</item>
+        <item name="time_out_image">@drawable/earphone_test_ins</item>
+    </array>
+
+    <array name="EarphoneTestSkipDisable">
+        <item name="name">@string/earphone_test</item>
+        <item name="test_icon">@drawable/manual_earphone</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/earphone_test_skip_disable_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/earphone_result_message</item>
+
+    </array>
+    <array name="DimmingTest">
+        <item name="name">@string/dimming_test</item>
+        <item name="test_icon">@drawable/manual_dimming</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/dimming_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/dimming_result_message</item>
+    </array>
+
+    <array name="NFCTEST">
+        <item name="name">@string/nfc_name</item>
+        <item name="test_icon">@drawable/nfc_manual</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/nfc_test_desc</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/nfc_test_tile_desc</item>
+
+    </array>
+
+    <array name="BluetoothToggleTest">
+        <item name="name">@string/bluetooth_connectivity_test</item>
+        <item name="test_icon">@drawable/bluetooth_connectivity</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/bluetooth_connectivity_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/bluetooth_connectivity_result_message</item>
+
+    </array>
+
+
+    <array name="WifiHardwaretest">
+        <item name="name">@string/nfc_name</item>
+        <item name="test_icon">@drawable/wifi</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/WifiToggleTest</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/wifi_try_msg</item>
+
+    </array>
+
+
+    <array name="Sleep_test">
+        <item name="name">@string/sleep_test</item>
+        <item name="test_icon">@drawable/logo_sprint</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/ambient_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/ambient_message</item>
+    </array>
+
+    <array name="CallTest">
+        <item name="name">@string/call_test</item>
+        <item name="test_icon">@drawable/manual_call</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/calltest_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/calltest_result_message</item>
+    </array>
+    <array name="VibrationTest">
+        <item name="name">@string/vibration_test</item>
+        <item name="test_icon">@drawable/manual_vibration</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/vibration_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/vibration_result_message</item>
+        <item name="inprogress_message">@string/str_vibrator_testrunning</item>
+    </array>
+    <array name="USBManualConnectionTest">
+        <item name="name">@string/usbconnection_test</item>
+        <item name="test_icon">@drawable/manual_usb</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/usbconnection_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/usbconnection_result_messsage</item>
+        <item name="inprogress_message"></item>
+        <item name="time_out_message">@string/usb_test_suggestion</item>
+        <item name="time_out_image">@drawable/usb_test_ins</item>
+    </array>
+
+    <array name="WallChargingTest">
+        <item name="name">@string/charging_test</item>
+        <item name="test_icon">@drawable/manual_charging</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/charging_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/charging_result_message</item>
+        <item name="inprogress_message"></item>
+        <item name="time_out_message">@string/charging_test_timeout_message</item>
+        <item name="time_out_image">@drawable/charging_test_inst</item>
+    </array>
+
+    <array name="NFCToggleTest">
+        <item name="name">@string/nfctoggle_test</item>
+        <item name="test_icon">@drawable/logo_sprint</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/ambient_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/ambient_message</item>
+    </array>
+    <array name="SPenTest">
+        <item name="name">@string/spen_test</item>
+        <item name="test_icon">@drawable/manual_spen</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/spen_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/touch_test_result_message</item>
+    </array>
+    <array name="BluetoothManualTest">
+        <item name="name">@string/bluetooth_connectivity_test</item>
+        <item name="test_icon">@drawable/manual_bluetoothconnectivity</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/bluetooth_connectivity_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/bluetooth_connectivity_result_message</item>
+        <item name="inprogress_message">@string/bluetooth_connectivity_text</item>
+    </array>
+    <array name="EarphoneJackTest">
+        <item name="name">@string/earjact_test</item>
+        <item name="test_icon">@drawable/manual_earjack</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/earjack_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/earjack_result_message</item>
+        <item name="inprogress_message"></item>
+        <item name="time_out_message">@string/earphone_jack_test_suggestion</item>
+        <item name="time_out_image">@drawable/earphone_jack_test_ins</item>
+    </array>
+    <array name="DeadPixelTest">
+        <item name="name">@string/deadpixel_test</item>
+        <item name="test_icon">@drawable/manual_display</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/deadpixel_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/deadpixel_test_result_message</item>
+    </array>
+    <array name="DiscolorationTest">
+        <item name="name">@string/discoloration_test</item>
+        <item name="test_icon">@drawable/manual_display</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/discoloration_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/discoloration_test_result_message</item>
+    </array>
+    <array name="ScreenBurnTest">
+        <item name="name">@string/screenburn_test</item>
+        <item name="test_icon">@drawable/manual_display</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/screenburn_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/screenburn_test_result_message</item>
+    </array>
+    <array name="BatteryPerformanceTest">
+        <item name="name">@string/battery_performance_name</item>
+        <item name="test_icon">@drawable/manual_display</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/battery_performance_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message"></item>
+    </array>
+
+    <array name="WiFiManualTest">
+        <item name="name">@string/wifi_connectivity_test</item>
+        <item name="test_icon">@drawable/manual_accelerometer</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/wifi_connectivity_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message"></item>
+    </array>
+
+
+    <array name="FingerPrintSensorTest">
+        <item name="name">@string/finger_print_test</item>
+        <item name="test_icon">@drawable/ic_finger_print</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/finger_print_test_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/finger_print_test_inprogress_message</item>
+        <item name="inprogress_message">@string/finger_print_test_inprogress_message</item>
+    </array>
+    <array name="GPSManualTest">
+        <item name="name">@string/gpsmanual_test</item>
+        <item name="test_icon">@drawable/manual_cameraflash</item>
+        <item name="try_image"> </item>
+        <item name="try_message">@string/gpsmanual_try_message</item>
+        <item name="result_image"> </item>
+        <item name="result_message">@string/gpsmanual_result_message</item>
+    </array>
+</resources>

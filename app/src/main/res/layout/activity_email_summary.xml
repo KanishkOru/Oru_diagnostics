@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/custom_toolbar"
+        layout="@layout/custom_shadow_toolbar" />
+
+    <ScrollView
+        android:id="@+id/scroll_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_toolbar"
+        android:layout_above="@+id/accept"
+        android:isScrollContainer="true"
+        android:fadeScrollbars="false"
+        android:background="@color/main_bg_gray">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/em_marging_top"
+            android:background="@color/main_bg_gray">
+
+            <TextView
+                android:id="@+id/pervaci_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="@string/app_created"
+                android:textAppearance="@style/textStyle_bodyHeading" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/msg_sprint"
+                android:layout_below="@id/pervaci_text"
+                android:gravity="center"
+                android:text="@string/msg_sprint_checkup"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="5dp"
+                android:textAppearance="@style/textStyle_body"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/version_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/msg_sprint"
+                android:gravity="center"
+                android:text="@string/version_number"
+                android:textAppearance="@style/textStyle_body" />
+
+            <TextView
+                android:id="@+id/build_release_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/version_number"
+                android:gravity="center"
+                android:text="@string/build_release_date"
+                android:textAppearance="@style/textStyle_body" />
+
+            <TextView
+                android:id="@+id/serverVersionNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/build_release_number"
+                android:gravity="center"
+                android:textAppearance="@style/textStyle_body" />
+
+
+            <TextView
+                android:id="@+id/rate_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/serverVersionNumber"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="@dimen/em_padding_top"
+                android:text="@string/rate_this_app"
+                android:visibility="gone"
+                android:gravity="center"
+                android:textAppearance="@style/textStyle_heading" />
+
+            <LinearLayout
+                android:id="@+id/rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate_app"
+                android:gravity="center"
+                android:visibility="gone"
+                android:padding="@dimen/em_padding">
+
+                <RatingBar
+                    android:id="@+id/rating_bar"
+                    style="?android:attr/ratingBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/em_layout_margin"
+                    android:layout_marginTop="@dimen/em_layout_margin"
+                    android:gravity="center"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/main_bg_gray"
+                    android:progressBackgroundTint="@color/gray"
+                    android:progressTint="@color/ratingbar_color"
+                    android:rating="4"
+                    android:secondaryProgressTint="@color/gray"
+                    android:stepSize="1"
+                    android:theme="@style/ratingBarStyle" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/comment_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rating"
+                android:layout_marginLeft="@dimen/em_margin_left"
+                android:visibility="gone"
+                android:text="@string/comment"
+                android:gravity="center"
+                android:textAppearance="@style/textStyle_heading" />
+
+
+            <EditText
+                android:id="@+id/structured_edittext_answer"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_below="@id/comment_app"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/em_marging_top"
+                android:background="@color/white"
+                android:fontFamily="@string/roboto_regular"
+                android:gravity="left"
+                android:hint="@string/comment_box"
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="10dp"
+                android:textColorHint="#B0B0B0"
+                android:visibility="gone"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/privacy_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/structured_edittext_answer"
+                android:layout_marginLeft="@dimen/em_margin_left"
+                android:layout_marginRight="@dimen/em_margin_left"
+                android:layout_marginTop="@dimen/em_marging_top"
+                android:fontFamily="@string/roboto_light"
+                android:textColor="@color/b_black"
+                android:clickable="true"
+                android:text="@string/read_more"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/select_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/privacy_policy"
+                android:layout_marginLeft="@dimen/em_margin_left"
+                android:layout_marginRight="@dimen/em_margin_left"
+                android:layout_marginTop="@dimen/em_marging_top"
+                android:fontFamily="@string/roboto_light"
+                android:textColor="@color/b_black"
+                android:clickable="true"
+                android:visibility="gone"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/privacy_policyee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/select_submit"
+                android:layout_marginLeft="@dimen/em_margin_left"
+                android:layout_marginRight="@dimen/em_margin_left"
+                android:layout_marginTop="@dimen/em_marging_top"
+                android:fontFamily="@string/roboto_light"
+                android:textColor="@color/b_black"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:text="@string/read_more"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/accept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+
+       <include
+            android:id="@+id/toolbar"
+            layout="@layout/continue_layout" />
+    </LinearLayout>
+
+</RelativeLayout>

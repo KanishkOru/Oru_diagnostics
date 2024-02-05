@@ -1,0 +1,47 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.7.0'
+    repositories {
+        //flatDir dirs: 'D:\\PreEmptive Solutions\\PreEmptive Protection - DashO 9.3\\app\\gradle'
+        google()
+        jcenter()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+
+    }
+    dependencies {
+        //classpath 'com.preemptive:dasho:3.3.0+'
+        //classpath 'com.preemptive.dasho:dasho-android:1.4.+'
+        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.2"
+        classpath 'com.google.gms:google-services:4.3.10'
+        // Add the Crashlytics Gradle plugin (be sure to add version
+        // 2.0.0 or later if you built your app with Android Studio 4.1).
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.3.0'
+    }
+}
+
+apply plugin: "org.sonarqube"
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        maven {
+            credentials {
+                username "mobile-partner"
+                password "C21ab7!"
+            }
+            url 'https://mobile-dev-partner-repo.route53.webrootmobile.com'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

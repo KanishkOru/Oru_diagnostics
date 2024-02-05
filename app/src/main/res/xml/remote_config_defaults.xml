@@ -1,0 +1,10 @@
+<defaultsMap>
+    <entry>
+        <key>prod_backend_url</key>
+        <value>https://prodbackend.oruphones.com/</value>
+    </entry>
+    <entry>
+        <key>dev_backend_url</key>
+        <value>https://devbackend.oruphones.com/</value>
+    </entry>
+</defaultsMap>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cust_dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp"
+    android:layout_margin="4dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/show_preview_bg">
+
+            <com.google.android.exoplayer2.ui.PlayerView
+                android:id="@+id/showPreviewVideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                app:default_artwork="@drawable/storage_music"
+                app:use_artwork="true"
+                >
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="invisible" />
+
+            </com.google.android.exoplayer2.ui.PlayerView>
+
+            <TextView
+                android:id="@+id/noPreview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:padding="16dp"
+                android:background="@color/white"
+                style="@style/textStyle_heading"
+                android:text="@string/no_preview"
+                android:visibility="gone" />
+
+
+            <ImageView
+                android:id="@+id/showPreviewImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:scaleType="fitCenter"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/showPreviewClose"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                android:src="@drawable/ic_error"
+                android:layout_margin="16dp"
+                />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
