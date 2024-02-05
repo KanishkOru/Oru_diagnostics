@@ -8,7 +8,7 @@
     <string name="additional_tests">Additional tests</string>
     <string name="diagnostics_infotext">Choose additional tests</string>
     <string name="assisted">Call Center</string>
-
+    <string name="icon_quality">30</string>
     <!-- Airplane Mode -->
     <string name="airplane_message">Please Turn Off Airplane Mode</string>
     <string name="location_text">Location is Enabled</string>
