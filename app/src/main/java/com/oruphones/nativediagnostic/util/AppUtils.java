@@ -18,8 +18,8 @@ import android.provider.Settings;
 import android.util.Base64;
 import android.widget.Toast;
 
+import com.oruphones.nativediagnostic.BuildConfig;
 import com.oruphones.nativediagnostic.PervacioApplication;
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.api.PervacioTest;
 import com.oruphones.nativediagnostic.models.AbortReasons;
 import com.oruphones.nativediagnostic.services.AudioRecordService;

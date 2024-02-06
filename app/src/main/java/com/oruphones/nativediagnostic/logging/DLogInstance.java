@@ -1,8 +1,8 @@
 package com.oruphones.nativediagnostic.logging;
 
 
+import com.oruphones.nativediagnostic.BuildConfig;
 import com.oruphones.nativediagnostic.OruApplication;
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.util.BaseUtils;
 import com.oruphones.nativediagnostic.util.DevelopmentTools.DLog;
 

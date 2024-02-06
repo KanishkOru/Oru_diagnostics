@@ -19,9 +19,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
+import com.oruphones.nativediagnostic.BuildConfig;
 import com.oruphones.nativediagnostic.OruApplication;
 import com.oruphones.nativediagnostic.Storage.StorageResolutionFileInfoPOJO;
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.api.GlobalConfig;
 import com.oruphones.nativediagnostic.R;
 import com.oruphones.nativediagnostic.util.DevelopmentTools.DLog;

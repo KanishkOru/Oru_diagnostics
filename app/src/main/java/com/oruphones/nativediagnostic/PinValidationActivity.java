@@ -33,7 +33,6 @@ import androidx.core.app.ActivityCompat;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.api.GlobalConfig;
 import com.oruphones.nativediagnostic.api.PervacioTest;
 import com.oruphones.nativediagnostic.api.ServerConfig;

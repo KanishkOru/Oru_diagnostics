@@ -38,9 +38,9 @@ import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.oruphones.nativediagnostic.BuildConfig;
 import com.oruphones.nativediagnostic.OruApplication;
 import com.oruphones.nativediagnostic.PervacioApplication;
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.models.tests.TestResult;
 import com.oruphones.nativediagnostic.R;
 import com.oruphones.nativediagnostic.util.DevelopmentTools.DLog;

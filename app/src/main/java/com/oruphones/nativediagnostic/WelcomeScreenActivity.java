@@ -29,7 +29,6 @@ import com.google.android.play.core.install.InstallStateUpdatedListener;
 import com.google.android.play.core.install.model.AppUpdateType;
 import com.google.android.play.core.install.model.InstallStatus;
 import com.google.android.play.core.install.model.UpdateAvailability;
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.api.PervacioTest;
 import com.oruphones.nativediagnostic.util.CommonUtil;
 import com.oruphones.nativediagnostic.util.DevelopmentTools.DLog;

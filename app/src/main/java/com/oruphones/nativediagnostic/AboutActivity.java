@@ -23,7 +23,6 @@ import android.widget.RatingBar;
 import android.widget.TextView;
 
 
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.api.GlobalConfig;
 import com.oruphones.nativediagnostic.util.DevelopmentTools.DLog;
 import com.oruphones.nativediagnostic.util.DeviceInfo;

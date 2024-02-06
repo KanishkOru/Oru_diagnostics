@@ -13,9 +13,9 @@ import android.util.Base64;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.google.gson.Gson;
+import com.oruphones.nativediagnostic.BuildConfig;
 import com.oruphones.nativediagnostic.OruApplication;
 import com.oruphones.nativediagnostic.QuickBatteryTestInfo;
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.api.GlobalConfig;
 import com.oruphones.nativediagnostic.api.PervacioTest;
 import com.oruphones.nativediagnostic.history.History;

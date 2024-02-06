@@ -66,7 +66,7 @@ import com.oruphones.nativediagnostic.util.DevelopmentTools.DLog;
 import com.oruphones.nativediagnostic.util.DevelopmentTools.ORUPERMISSIONCODES;
 import com.oruphones.nativediagnostic.util.TestUtil;
 import com.oruphones.nativediagnostic.util.Util;
-
+import com.oruphones.nativediagnostic.BuildConfig;
 
 import org.pervacio.onediaglib.advancedtest.cameraautomation.SemiAutoTestCameraPicture;
 import org.pervacio.onediaglib.atomicfunctions.AFUsbConnection;

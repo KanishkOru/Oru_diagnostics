@@ -13,7 +13,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.oruphones.nativediagnostic.api.BuildConfig;
 import com.oruphones.nativediagnostic.api.GlobalConfig;
 import com.oruphones.nativediagnostic.communication.CommandServer;
 import com.oruphones.nativediagnostic.logging.LogUploadWork;
