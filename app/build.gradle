@@ -61,22 +61,22 @@ android {
             manifestPlaceholders.scheme = "SSD"
             buildConfigField "String", "PRODUCT_NAME", "\"SelfServiceDiag\""
         }
-
-        d2d {
-            dimension "flav"
-            applicationId "com.mobilicis.cc"
-            versionCode 11
-            versionName "1.0.5"
-            buildConfigField "String", "PRODUCT_NAME", "\"Call-Center\""
-        }
-
-        wrd {
-            dimension "flav"
-            applicationId "com.pervacio.wrd"
-            versionCode 38
-            versionName "1.0.37.3"
-            buildConfigField "String", "PRODUCT_NAME", "\"WirelessRetailDiag\""
-        }
+//
+//        d2d {
+//            dimension "flav"
+//            applicationId "com.mobilicis.cc"
+//            versionCode 11
+//            versionName "1.0.5"
+//            buildConfigField "String", "PRODUCT_NAME", "\"Call-Center\""
+//        }
+//
+//        wrd {
+//            dimension "flav"
+//            applicationId "com.pervacio.wrd"
+//            versionCode 38
+//            versionName "1.0.37.3"
+//            buildConfigField "String", "PRODUCT_NAME", "\"WirelessRetailDiag\""
+//        }
         en {
             dimension "lang"
             /*applicationId "org.pervacio.mobilediagnostics"*/
@@ -97,18 +97,18 @@ android {
             res.srcDirs = ['src/ssd/res', 'src/ssd_common/res']
             assets.srcDirs = ['src/ssd/assets', 'src/ssd_common/assets']
         }
-
-        d2d {
-            java.srcDirs = ['src/d2d/java', 'src/ssd_common/java']
-            res.srcDirs = ['src/d2d/res', 'src/ssd_common/res']
-            assets.srcDirs = ['src/d2d/assets', 'src/ssd_common/assets']
-        }
-
-        wrd {
-            java.srcDirs = ['src/wrd/java']
-            res.srcDirs = ['src/wrd/res']
-            assets.srcDirs = ['src/wrd/assets']
-        }
+//
+//        d2d {
+//            java.srcDirs = ['src/d2d/java', 'src/ssd_common/java']
+//            res.srcDirs = ['src/d2d/res', 'src/ssd_common/res']
+//            assets.srcDirs = ['src/d2d/assets', 'src/ssd_common/assets']
+//        }
+//
+//        wrd {
+//            java.srcDirs = ['src/wrd/java']
+//            res.srcDirs = ['src/wrd/res']
+//            assets.srcDirs = ['src/wrd/assets']
+//        }
     }
 //    }
 
@@ -239,9 +239,9 @@ dependencies {
 
     implementation 'com.github.mjdev:libaums:0.5.5'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.1.+'
-    implementation ('com.amazonaws:aws-android-sdk-mobile-client:2.6.7@aar') { transitive = true }
-    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
-    implementation 'com.amazonaws:aws-android-sdk-cognito:2.6.+'
+    //implementation ('com.amazonaws:aws-android-sdk-mobile-client:2.6.7@aar') { transitive = true }
+//    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
+//    implementation 'com.amazonaws:aws-android-sdk-cognito:2.6.+'
     implementation "androidx.annotation:annotation:1.1.0"
     implementation 'com.google.android.gms:play-services-location:16.0.0'
 

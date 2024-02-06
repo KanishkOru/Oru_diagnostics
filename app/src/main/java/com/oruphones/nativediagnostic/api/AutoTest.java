@@ -1,6 +1,6 @@
 package com.oruphones.nativediagnostic.api;
 
-import static com.amazonaws.mobile.auth.core.internal.util.ThreadUtils.runOnUiThread;
+//import static com.amazonaws.mobile.auth.core.internal.util.ThreadUtils.runOnUiThread;
 import static com.oruphones.nativediagnostic.BaseActivity.context;
 import android.Manifest;
 import android.app.Activity;
@@ -1176,7 +1176,8 @@ public class AutoTest implements TestName, TestResult, TestListener, ISensorEven
             case MICROPHONE2TEST:
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S_V2) {
                     if (isBluetoothConnected()) {
-                        runOnUiThread(new Runnable() {
+
+                        activity.runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
                                 Toast.makeText(activity, "Turn off the Bluetooth or Disconnect the Connected Device", Toast.LENGTH_SHORT).show();

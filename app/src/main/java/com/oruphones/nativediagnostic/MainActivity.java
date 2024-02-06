@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
       //  HashMap<String, Boolean> argumentsRunDiagnostics = (HashMap<String, Boolean>) call.arguments;
         DiagBtn.setOnClickListener(view -> {
             GlobalConfig.getInstance().setVerification(false);
+            GlobalConfig.getInstance().setBuyerVerification(false);
             startNewActivity();
 ////            HashMap<String, Boolean> argumentsRunDiagnostics = (HashMap<String, Boolean>) call.arguments;
 //            GlobalConfig.getInstance().setVerification(argumentsRunDiagnostics.get("isVerification"));
@@ -52,8 +53,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         Verfybtn.setOnClickListener(view -> {
-            GlobalConfig.getInstance().setVerification(false);
+            GlobalConfig.getInstance().setVerification(true);
             GlobalConfig.getInstance().setBuyerVerification(false);
+            GlobalConfig globalConfigRunDiagnostics = GlobalConfig.getInstance();
+            if (globalConfigRunDiagnostics != null) {
+                Object isFinalVerifyValue = false;
+                if (isFinalVerifyValue != null) {
+                    globalConfigRunDiagnostics.setFinalVerify(Boolean.FALSE.equals(isFinalVerifyValue));
+                } else {
+                    // Handle the case when "isFinalVerify" value is null
+                }
+            } else {
+                // Handle the case when GlobalConfig.getInstance() returns null
+            }
             startNewActivity();
 //            GlobalConfig globalConfigRunDiagnostics = GlobalConfig.getInstance();
 //            if (globalConfigRunDiagnostics != null) {
